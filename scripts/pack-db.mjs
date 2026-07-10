@@ -27,6 +27,19 @@ if (dirty?.value === "1") {
   process.exit(1);
 }
 
+// The deploy reads this JSON, not the .db — a runtime-path .db is not reliably
+// traced into the Vercel lambda, but a JSON import always is.
+const snapRow = d.prepare("SELECT payload,published_at FROM snapshots WHERE id=1").get();
+const snapshot = {
+  products: JSON.parse(snapRow.payload),
+  published_at: snapRow.published_at,
+  changelog: d.prepare("SELECT * FROM changelog ORDER BY id DESC LIMIT 50").all(),
+};
+const JSON_PATH = path.join(process.cwd(), "data", "published.json");
+fs.writeFileSync(JSON_PATH, JSON.stringify(snapshot, null, 1));
+const jsonItems = snapshot.products.reduce((n, p) => n + p.items.length, 0);
+console.log(`✓ published.json — ${jsonItems} items, ${snapshot.changelog.length} changelog`);
+
 d.pragma("wal_checkpoint(TRUNCATE)");
 d.pragma("journal_mode = DELETE"); // no WAL sidecars in the shipped file
 d.close();

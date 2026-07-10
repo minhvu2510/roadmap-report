@@ -1,5 +1,7 @@
 import { db, getLive, getPublished, publish as publishSnapshot, ItemRow, ProductWithItems } from "./db";
 import { STATUSES, Status, CHART_START, DAY } from "./constants";
+import { READ_ONLY } from "./env";
+import { SNAPSHOT } from "./snapshot";
 
 function now() {
   return new Date().toISOString();
@@ -12,6 +14,15 @@ export function roadmapForRole(role: "admin" | "customer"): {
   published_at: string | null;
   dirty: boolean;
 } {
+  // Read-only deploys never touch SQLite — they serve the bundled JSON snapshot.
+  // (READ_ONLY also forces every session to "customer", so admin can't get here.)
+  if (READ_ONLY) {
+    return {
+      products: SNAPSHOT.products.map((p) => ({ ...p, items: p.items.filter((it) => !it.internal) })),
+      published_at: SNAPSHOT.published_at,
+      dirty: false,
+    };
+  }
   if (role === "admin") {
     return { products: getLive(), published_at: publishedAt(), dirty: isDirty() };
   }
@@ -51,6 +62,7 @@ export function getItem(id: string): ItemRow | undefined {
 // ---- changelog / history ----------------------------------------------
 
 export function listChangelog(limit = 50) {
+  if (READ_ONLY) return SNAPSHOT.changelog.slice(0, limit);
   return db()
     .prepare("SELECT * FROM changelog ORDER BY id DESC LIMIT ?")
     .all(limit);

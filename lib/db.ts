@@ -18,6 +18,14 @@ export function db(): Database.Database {
     return _db;
   }
   if (!fs.existsSync(DB_DIR)) fs.mkdirSync(DB_DIR, { recursive: true });
+  // Refuse to silently recreate a missing DB: better-sqlite3 happily creates an
+  // empty file, and seedIfEmpty() would then overwrite the real roadmap with
+  // demo seed data. If the file is gone, that is a mistake worth shouting about.
+  if (!fs.existsSync(DB_PATH) && process.env.ROADMAP_SEED !== "1") {
+    throw new Error(
+      `Không thấy ${DB_PATH}. Nếu thực sự muốn tạo DB mới từ seed, chạy lại với ROADMAP_SEED=1.`
+    );
+  }
   const d = new Database(DB_PATH);
   d.pragma("journal_mode = WAL");
   migrate(d);

@@ -1,0 +1,12 @@
+node_modules/
+.next/
+tsconfig.tsbuildinfo
+.DS_Store
+.env*.local
+
+# WAL sidecars are local-only; `npm run db:pack` folds them into roadmap.db.
+data/*.db-wal
+data/*.db-shm
+
+# NOTE: data/roadmap.db is intentionally NOT ignored — it is the data that
+# ships with the deploy. Run `npm run db:pack` before committing it.

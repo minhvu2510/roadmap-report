@@ -67,6 +67,38 @@ interface RoadmapData {
   changelog: Changelog[];
 }
 
+// Ghi chú theo sản phẩm — hiển thị ở panel "Ghi chú" (thay cho Nhật ký thay đổi).
+const PRODUCT_NOTES: { product_id: string; date: string; date_ja: string; text: string; text_ja: string }[] = [
+  {
+    product_id: "mosa",
+    date: "20/07 – 24/07/2026",
+    date_ja: "2026/07/20 – 07/24",
+    text: "Admin và Superadmin: từ 20/07 lên nghiệp vụ và làm rõ đề bài, chốt phạm vi MVP trước 24/07.",
+    text_ja: "管理画面・スーパー管理画面：07/20 から業務要件を整理し要件を明確化、07/24 までに MVP スコープを確定。",
+  },
+  {
+    product_id: "mcb",
+    date: "Từ 20/07/2026",
+    date_ja: "2026/07/20 〜",
+    text: "Đội nghiên cứu bắt đầu nghiên cứu trước tính năng tạo video để auto trình chiếu slide; báo cáo kết quả khả thi trong tháng 8.",
+    text_ja: "研究チームが 07/20 よりスライド自動プレゼン動画の生成機能を先行調査、8月中に実現可能性を報告。",
+  },
+  {
+    product_id: "mrag",
+    date: "26/07/2026",
+    date_ja: "2026/07/26",
+    text: "Chốt 3 hạng mục Use Case tự động + quản lý và đồng bộ Google Drive vào 26/07; sau đó demo nội bộ.",
+    text_ja: "ユースケース自動判定・Google Drive 連携管理・リアルタイム同期の3項目を 07/26 に完了予定、その後社内デモ。",
+  },
+  {
+    product_id: "smartbi",
+    date: "31/07/2026",
+    date_ja: "2026/07/31",
+    text: "Chờ khách hàng cung cấp bộ dữ liệu mẫu trước 31/07 để bắt đầu giai đoạn tiếp theo.",
+    text_ja: "次フェーズ開始のため、07/31 までに顧客からサンプルデータの提供を待っている状態。",
+  },
+];
+
 const T = {
   vi: {
     kicker: "Engineering Roadmap · T7 2026 – T12 2028",
@@ -88,6 +120,7 @@ const T = {
     draftBanner: "Bản dự kiến — ngày có thể thay đổi, không phải cam kết hợp đồng.",
     latest: "Cập nhật mới nhất",
     changelog: "Nhật ký thay đổi",
+    notes: "Ghi chú",
     noUpdates: "Chưa có cập nhật.",
     filterLabel: "Lọc trạng thái:",
     addItem: "+ Thêm hạng mục",
@@ -138,6 +171,7 @@ const T = {
     draftBanner: "予定案 — 日付は変更される可能性があり、契約上の確約ではありません。",
     latest: "最新の更新",
     changelog: "変更履歴",
+    notes: "備考",
     noUpdates: "更新はまだありません。",
     filterLabel: "状態フィルタ:",
     addItem: "+ 項目を追加",
@@ -1191,23 +1225,24 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
         </div>
         <div className="panel">
           <h3>
-            {t.changelog} <span className="cnt">{parsedLog.length}</span>
+            {t.notes} <span className="cnt">{PRODUCT_NOTES.length}</span>
           </h3>
           <div className="feed">
-            {parsedLog.length === 0 && <div className="empty">{t.noUpdates}</div>}
-            {parsedLog.slice(0, 30).map((c) => (
-              <div className="fitem" key={c.id}>
-                <span className={"k " + c.kind}>{t.kindLabel(c.kind)}</span>
-                <div className="body">
-                  <div className="nm">{itemName(c.item_id)}</div>
-                  <div className="dt">
-                    {logLine(c)} · {fmtDate(c.created_at)}
-                    {c.editor ? " · " + c.editor : ""}
+            {PRODUCT_NOTES.length === 0 && <div className="empty">{t.noUpdates}</div>}
+            {PRODUCT_NOTES.map((n) => {
+              const p = data.products.find((x) => x.id === n.product_id);
+              return (
+                <div className="fitem" key={n.product_id}>
+                  <span className="k note" style={p ? { background: p.color } : undefined}>
+                    {p ? (lang === "ja" ? p.name_ja : p.name) : n.product_id}
+                  </span>
+                  <div className="body">
+                    <div className="nm">{lang === "ja" ? n.text_ja : n.text}</div>
+                    <div className="dt">{lang === "ja" ? n.date_ja : n.date}</div>
                   </div>
-                  {c.reason && <div className="rs">“{c.reason}”</div>}
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

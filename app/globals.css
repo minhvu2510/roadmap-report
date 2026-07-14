@@ -3,12 +3,13 @@
   --line:#e3e6ee;--line-strong:#cfd4e0;--accent:#4b44d6;--today:#e0413f;
   --shadow:0 1px 2px rgba(20,23,32,.04), 0 12px 40px -12px rgba(20,23,32,.18);
   --c-mrag:#4f6bed;--c-mosa:#7c5cf0;--c-mcb:#e08a2b;--c-smartbi:#d8578a;
-  --label-w:250px;--row-h:44px;--bar-h:24px;
+  --label-w:300px;--row-h:44px;--bar-h:24px;
   --st-not_started:#878da0;--st-in_progress:#4f6bed;--st-done:#2fae66;--st-delayed:#e0413f;--st-paused:#e0a72b;
 }
 *{box-sizing:border-box} html,body{margin:0}
 body{background:radial-gradient(1200px 600px at 15% -10%, #f2f3f8 0%, transparent 60%),var(--canvas);color:var(--ink-1);font-family:"Inter","Noto Sans JP",system-ui,-apple-system,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.4;padding:14px 22px 40px;min-height:100vh}
-.wrap{max-width:1360px;margin:0 auto}
+/* Full-width: dùng hết bề ngang màn hình (14" trở lên), chặn trên ở 2200px cho màn siêu rộng. */
+.wrap{max-width:2200px;margin:0 auto}
 a{color:inherit}
 header.page{margin:0 0 10px;display:flex;flex-wrap:wrap;gap:8px 32px;align-items:center;justify-content:space-between}
 .titles h1{font-family:"Space Grotesk","Noto Sans JP",sans-serif;font-weight:600;font-size:22px;letter-spacing:-.02em;margin:0}
@@ -64,8 +65,9 @@ header.page{margin:0 0 10px;display:flex;flex-wrap:wrap;gap:8px 32px;align-items
 .grouphead .gname{font-family:"Space Grotesk","Noto Sans JP",sans-serif;font-weight:600;font-size:12.5px;letter-spacing:.01em;display:flex;align-items:center;gap:9px}
 .grouphead .gname .sw{width:9px;height:9px;border-radius:3px}
 .grouphead .gmeta{font-family:"JetBrains Mono","Noto Sans JP",monospace;font-size:10.5px;color:var(--ink-3);margin-left:12px}
-.phasehead{display:flex;align-items:center;height:25px;position:sticky;left:0;z-index:21;background:var(--paper);border-bottom:1px solid var(--line);padding-left:26px}
-.phasehead .pname{font-family:"JetBrains Mono","Noto Sans JP",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);display:flex;align-items:center;gap:8px}
+/* Dải header của task lớn: nền màu để tách khối rõ giữa các nhóm. */
+.phasehead{display:flex;align-items:center;height:28px;position:sticky;left:0;z-index:21;background:#eef0f6;border-top:1px solid var(--line-strong);border-bottom:1px solid var(--line-strong);padding-left:26px}
+.phasehead .pname{font-family:"JetBrains Mono","Noto Sans JP",monospace;font-size:10px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2);font-weight:600;display:flex;align-items:center;gap:8px}
 .phasehead .pdot{width:6px;height:6px;border-radius:2px;flex:none;opacity:.7}
 .row{display:flex;height:var(--row-h);border-bottom:1px solid var(--line)}
 .row:hover .rlabel{background:#f7f8fb}
@@ -176,7 +178,7 @@ footer.foot .sep{opacity:.5}
 .dsub.cancelled .tname{text-decoration:line-through;color:var(--ink-3)}
 .tcode{font-family:"JetBrains Mono",monospace;font-size:10.5px;font-weight:600;color:var(--accent);background:rgba(75,68,214,.08);padding:2px 7px;border-radius:5px;white-space:nowrap;flex:none}
 .tcode.big{font-size:11.5px;padding:3px 8px}
-.phasehead .pcode{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:600;color:var(--ink-2);background:var(--canvas);border:1px solid var(--line);padding:1px 5px;border-radius:4px;margin-right:7px}
+.phasehead .pcode{font-family:"JetBrains Mono",monospace;font-size:10px;font-weight:600;color:var(--ink-2);background:var(--paper);border:1px solid var(--line-strong);padding:1px 5px;border-radius:4px;margin-right:7px}
 .tname{font-size:12.5px;font-weight:500;color:var(--ink-1);flex:1;min-width:140px}
 .tdate{font-family:"JetBrains Mono",monospace;font-size:10.5px;color:var(--ink-3);white-space:nowrap}
 .tst{font-size:10px;font-weight:600;padding:3px 8px;border-radius:999px;white-space:nowrap;display:inline-block;flex:none}

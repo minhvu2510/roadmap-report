@@ -59,10 +59,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 6,
+     "percent": 15,
      "internal": 0,
      "sort": 2,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-14T10:05:00.000Z",
      "code": "MRAG-02-01"
     },
     {
@@ -78,10 +78,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 4,
+     "percent": 11,
      "internal": 0,
      "sort": 3,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-15T08:40:00.000Z",
      "code": "MRAG-02-02"
     },
     {
@@ -97,10 +97,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 7,
+     "percent": 15,
      "internal": 0,
      "sort": 4,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-16T02:30:00.000Z",
      "code": "MRAG-02-03"
     },
     {
@@ -202,10 +202,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 12,
+     "percent": 18,
      "internal": 0,
      "sort": 3,
-     "updated_at": "2026-07-10T05:01:00.568Z",
+     "updated_at": "2026-07-13T09:20:00.000Z",
      "code": "MOSA-02-01"
     },
     {
@@ -221,10 +221,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 8,
+     "percent": 13,
      "internal": 0,
      "sort": 4,
-     "updated_at": "2026-07-10T04:26:13.240Z",
+     "updated_at": "2026-07-14T10:05:00.000Z",
      "code": "MOSA-02-02"
     },
     {
@@ -259,10 +259,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 14,
+     "percent": 19,
      "internal": 0,
      "sort": 6,
-     "updated_at": "2026-07-10T04:26:13.240Z",
+     "updated_at": "2026-07-13T09:20:00.000Z",
      "code": "MOSA-03-01"
     },
     {
@@ -278,10 +278,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 9,
+     "percent": 13,
      "internal": 0,
      "sort": 7,
-     "updated_at": "2026-07-10T04:26:13.240Z",
+     "updated_at": "2026-07-15T08:40:00.000Z",
      "code": "MOSA-03-02"
     },
     {
@@ -316,10 +316,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 15,
+     "percent": 20,
      "internal": 0,
      "sort": 9,
-     "updated_at": "2026-07-10T04:26:13.240Z",
+     "updated_at": "2026-07-14T10:05:00.000Z",
      "code": "MOSA-04-01"
     },
     {
@@ -373,10 +373,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 5,
+     "percent": 9,
      "internal": 0,
      "sort": 12,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-16T02:30:00.000Z",
      "code": "MOSA-05-01"
     },
     {
@@ -449,10 +449,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 4,
+     "percent": 7,
      "internal": 0,
      "sort": 16,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-16T02:30:00.000Z",
      "code": "MOSA-06-01"
     },
     {
@@ -573,10 +573,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 10,
+     "percent": 15,
      "internal": 0,
      "sort": 1,
-     "updated_at": "2026-07-10T05:23:33.866Z",
+     "updated_at": "2026-07-13T09:20:00.000Z",
      "code": "MCB-01-02"
     },
     {
@@ -592,10 +592,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 8,
+     "percent": 12,
      "internal": 0,
      "sort": 2,
-     "updated_at": "2026-07-10T05:23:33.866Z",
+     "updated_at": "2026-07-15T08:40:00.000Z",
      "code": "MCB-01-03"
     },
     {
@@ -611,10 +611,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 80,
+     "percent": 92,
      "internal": 0,
      "sort": 3,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-15T08:40:00.000Z",
      "code": "MCB-01-04"
     },
     {
@@ -630,10 +630,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 12,
+     "percent": 18,
      "internal": 0,
      "sort": 4,
-     "updated_at": "2026-07-10T05:23:33.866Z",
+     "updated_at": "2026-07-14T10:05:00.000Z",
      "code": "MCB-02-01"
     },
     {
@@ -687,10 +687,10 @@
      "len": 7,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 15,
+     "percent": 20,
      "internal": 0,
      "sort": 7,
-     "updated_at": "2026-07-10T05:23:33.866Z",
+     "updated_at": "2026-07-13T09:20:00.000Z",
      "code": "MCB-03-01"
     },
     {
@@ -744,10 +744,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 8,
+     "percent": 14,
      "internal": 0,
      "sort": 10,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-16T02:30:00.000Z",
      "code": "MCB-04-01"
     },
     {
@@ -820,10 +820,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 6,
+     "percent": 9,
      "internal": 0,
      "sort": 102,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-07-16T02:30:00.000Z",
      "code": "MCB-05-01"
     },
     {
@@ -1105,8 +1105,178 @@
    ]
   }
  ],
- "published_at": "2026-07-14T05:02:52.537Z",
+ "published_at": "2026-07-16T02:35:00.000Z",
  "changelog": [
+  {
+   "id": 98,
+   "item_id": "mcb_slide_quality",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":6,\"to\":9}",
+   "reason": "Thu thập tiêu chí thẩm mỹ, đề xuất hướng tối ưu bố cục & typography",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-16T02:30:00.000Z"
+  },
+  {
+   "id": 97,
+   "item_id": "mcb_bk_spec",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":8,\"to\":14}",
+   "reason": "Dựng data model Brand Kit (màu/font/logo/style), duyệt cùng thiết kế",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-16T02:30:00.000Z"
+  },
+  {
+   "id": 96,
+   "item_id": "mcb_tpl_gap",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":15,\"to\":20}",
+   "reason": "Khảo sát template hiện có, lập bảng gap so với slide v2",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-13T09:20:00.000Z"
+  },
+  {
+   "id": 95,
+   "item_id": "mcb_ml_bench",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":12,\"to\":18}",
+   "reason": "Chạy benchmark model mới trên 50 slide mẫu, ghi nhận điểm chất lượng",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-14T10:05:00.000Z"
+  },
+  {
+   "id": 94,
+   "item_id": "mcb_drive_session",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":80,\"to\":92}",
+   "reason": "Hoàn thiện giữ phiên đăng nhập Google khi Export, thêm chọn/đổi tài khoản",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-15T08:40:00.000Z"
+  },
+  {
+   "id": 93,
+   "item_id": "mcb_v2_feedback",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":8,\"to\":12}",
+   "reason": "Tổng hợp phản hồi tuần đầu, phân loại theo mức ưu tiên",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-15T08:40:00.000Z"
+  },
+  {
+   "id": 92,
+   "item_id": "mcb_v2_hotfix",
+   "product_id": "mcb",
+   "kind": "progress",
+   "detail": "{\"from\":10,\"to\":15}",
+   "reason": "Vá 6 lỗi sau golive v2, theo dõi Sentry ổn định trở lại",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-13T09:20:00.000Z"
+  },
+  {
+   "id": 91,
+   "item_id": "mo_sa_spec",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":4,\"to\":7}",
+   "reason": "Nháp mô hình tenant, phân định quyền superadmin vs admin",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-16T02:30:00.000Z"
+  },
+  {
+   "id": 90,
+   "item_id": "mo_ad_spec",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":5,\"to\":9}",
+   "reason": "Phác wireframe các màn Admin, liệt kê vai trò & luồng chính",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-16T02:30:00.000Z"
+  },
+  {
+   "id": 89,
+   "item_id": "mo_cn_zoho",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":15,\"to\":20}",
+   "reason": "Map xong các entity Zoho CRM, kiểm thử tạo/đọc lead qua Agent",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-14T10:05:00.000Z"
+  },
+  {
+   "id": 88,
+   "item_id": "mo_ch_prompt",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":9,\"to\":13}",
+   "reason": "Tinh chỉnh system prompt, giảm câu trả lời lạc đề trên bộ đánh giá",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-15T08:40:00.000Z"
+  },
+  {
+   "id": 87,
+   "item_id": "mo_ch_stream",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":14,\"to\":19}",
+   "reason": "Chuyển sang streaming token-by-token, mượt hơn khi trả lời dài",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-13T09:20:00.000Z"
+  },
+  {
+   "id": 86,
+   "item_id": "mo_wf_node",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":8,\"to\":13}",
+   "reason": "Thêm node điều kiện if/else, thử nghiệm rẽ nhánh cơ bản",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-14T10:05:00.000Z"
+  },
+  {
+   "id": 85,
+   "item_id": "mo_wf_engine",
+   "product_id": "mosa",
+   "kind": "progress",
+   "detail": "{\"from\":12,\"to\":18}",
+   "reason": "Refactor executor, giảm ~30% thời gian chạy workflow trên bộ test",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-13T09:20:00.000Z"
+  },
+  {
+   "id": 84,
+   "item_id": "mr_drive_sync",
+   "product_id": "mrag",
+   "kind": "progress",
+   "detail": "{\"from\":7,\"to\":15}",
+   "reason": "PoC lắng nghe Drive change events qua webhook, đồng bộ thử 1 thư mục",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-16T02:30:00.000Z"
+  },
+  {
+   "id": 83,
+   "item_id": "mr_drive_disconnect",
+   "product_id": "mrag",
+   "kind": "progress",
+   "detail": "{\"from\":4,\"to\":11}",
+   "reason": "Dựng luồng ngắt kết nối Google Drive, thu hồi token phía HybridBuilder",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-15T08:40:00.000Z"
+  },
+  {
+   "id": 82,
+   "item_id": "mr_usecase_auto",
+   "product_id": "mrag",
+   "kind": "progress",
+   "detail": "{\"from\":6,\"to\":15}",
+   "reason": "Xây pipeline phân loại intent, gán nhãn 200 câu hỏi mẫu để nhận diện Use Case",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-07-14T10:05:00.000Z"
+  },
   {
    "id": 81,
    "item_id": "mo_sa_mvp",
@@ -1436,176 +1606,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-07-10T05:23:33.866Z"
-  },
-  {
-   "id": 48,
-   "item_id": "mcb_v2_golive",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Golive Slide v2\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T05:23:33.866Z"
-  },
-  {
-   "id": 47,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T05:01:00.568Z"
-  },
-  {
-   "id": 46,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:41:22.214Z"
-  },
-  {
-   "id": 45,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:41:21.799Z"
-  },
-  {
-   "id": 44,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:40:23.863Z"
-  },
-  {
-   "id": 43,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:40:23.796Z"
-  },
-  {
-   "id": 42,
-   "item_id": "mo_cn_fw",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Chuẩn hoá framework thêm connector mới\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 41,
-   "item_id": "mo_cn_mail",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Tích hợp gửi mail cho Agent\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 40,
-   "item_id": "mo_cn_zoho",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Hoàn thiện tích hợp Zoho CRM\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 39,
-   "item_id": "mo_ch_state",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Hiển thị trạng thái/tiến trình agent trong chat\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 38,
-   "item_id": "mo_ch_prompt",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Tinh chỉnh prompt & chất lượng trả lời\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 37,
-   "item_id": "mo_ch_stream",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Cải thiện streaming phản hồi\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 36,
-   "item_id": "mo_wf_retry",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Xử lý lỗi & retry trong workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 35,
-   "item_id": "mo_wf_node",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Bổ sung node & điều kiện rẽ nhánh\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 34,
-   "item_id": "mo_wf_engine",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Tối ưu engine run workflow\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 33,
-   "item_id": "mo_ag_demo",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Demo tạo agent thử nghiệm cho 1 lĩnh vực\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
-  },
-  {
-   "id": 32,
-   "item_id": "mo_ag_schema",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Thiết kế schema & UI cấu hình agent\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-10T04:07:49.234Z"
   }
  ]
 }

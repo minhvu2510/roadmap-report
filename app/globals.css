@@ -197,7 +197,7 @@ footer.foot .sep{opacity:.5}
 .feed .empty{color:var(--ink-3);font-size:12.5px;font-style:italic}
 .fitem{display:flex;gap:10px;font-size:12.5px;line-height:1.45}
 .fitem .k{flex:none;font-family:"JetBrains Mono",monospace;font-size:9.5px;font-weight:600;padding:2px 6px;border-radius:5px;height:fit-content;color:#fff}
-.fitem .k.status{background:#4f6bed}.fitem .k.reschedule{background:#e0a72b}.fitem .k.create{background:#2fae66}.fitem .k.delete{background:#e0413f}.fitem .k.edit{background:#878da0}.fitem .k.undo{background:#7c5cf0}
+.fitem .k.status{background:#4f6bed}.fitem .k.reschedule{background:#e0a72b}.fitem .k.create{background:#2fae66}.fitem .k.delete{background:#e0413f}.fitem .k.edit{background:#878da0}.fitem .k.undo{background:#7c5cf0}.fitem .k.progress{background:#2f9eae}
 .fitem .k.note{background:#878da0;text-transform:none;letter-spacing:0}
 .fitem .body{min-width:0}
 .fitem .body .nm{font-weight:500}

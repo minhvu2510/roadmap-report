@@ -149,6 +149,7 @@ const T = {
         delete: "Xoá",
         edit: "Sửa",
         undo: "Hoàn tác",
+        progress: "Tiến độ",
       } as any)[k] || k,
   },
   ja: {
@@ -200,6 +201,7 @@ const T = {
         delete: "削除",
         edit: "編集",
         undo: "取消",
+        progress: "進捗",
       } as any)[k] || k,
   },
 };
@@ -981,6 +983,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
       return `${off2date(c.d.from.start)} → ${off2date(c.d.to.start)}`;
     if (c.kind === "status" && c.d)
       return `${STATUS_LABEL[c.d.from as Status]?.[lang] || c.d.from} → ${STATUS_LABEL[c.d.to as Status]?.[lang] || c.d.to}`;
+    if (c.kind === "progress" && c.d) return `${c.d.from}% → ${c.d.to}%`;
     if (c.kind === "create") return t.kindLabel("create");
     if (c.kind === "delete") return t.kindLabel("delete");
     if (c.kind === "undo") return t.kindLabel("undo");

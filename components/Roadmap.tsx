@@ -78,10 +78,10 @@ const PRODUCT_NOTES: { product_id: string; date: string; date_ja: string; text: 
   },
   {
     product_id: "mcb",
-    date: "Từ 20/07/2026",
-    date_ja: "2026/07/20 〜",
-    text: "Đội nghiên cứu bắt đầu nghiên cứu trước tính năng tạo video để auto trình chiếu slide; báo cáo kết quả khả thi trong tháng 8.",
-    text_ja: "研究チームが 07/20 よりスライド自動プレゼン動画の生成機能を先行調査、8月中に実現可能性を報告。",
+    date: "18/07/2026",
+    date_ja: "2026/07/18",
+    text: "Đóng nhóm task template (MCB-03) do giới hạn công nghệ hiện tại; tập trung chuyên sâu vào Brand Kit — đã hoàn thành ~80%, đang test trên staging.",
+    text_ja: "現行技術の制約によりテンプレート系タスク（MCB-03）を一旦クローズ。Brand Kit に注力し、約80%完了・ステージング検証中。",
   },
   {
     product_id: "mrag",

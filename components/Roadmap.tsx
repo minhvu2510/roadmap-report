@@ -68,30 +68,96 @@ interface RoadmapData {
 }
 
 // Ghi chú theo sản phẩm — hiển thị ở panel "Ghi chú" (thay cho Nhật ký thay đổi).
-const PRODUCT_NOTES: { product_id: string; date: string; date_ja: string; text: string; text_ja: string }[] = [
+// kind: "done" = đầu việc lớn đã làm · "plan" = dự định · "info" = ghi chú chung.
+type NoteKind = "done" | "plan" | "info";
+const PRODUCT_NOTES: {
+  product_id: string;
+  date: string;
+  date_ja: string;
+  text: string;
+  text_ja: string;
+  kind?: NoteKind;
+}[] = [
+  // ── Mosa: đầu việc lớn đã làm ──
   {
     product_id: "mosa",
+    kind: "done",
+    date: "Tuần 14–18/07/2026",
+    date_ja: "2026/07/14–18 週",
+    text: "Đã hoàn thiện & đưa vào dùng: engine chạy workflow (song song + cache), streaming phản hồi, tích hợp Zoho CRM (đồng bộ 2 chiều), và khảo sát lĩnh vực + bộ agent template.",
+    text_ja: "完了・稼働開始：ワークフローエンジン（並列実行＋キャッシュ）、応答ストリーミング、Zoho CRM連携（双方向同期）、分野調査とエージェントテンプレート。",
+  },
+  {
+    product_id: "mosa",
+    kind: "done",
+    date: "Đang tiến triển tốt",
+    date_ja: "順調に進行中",
+    text: "Các tính năng nâng cao đang ở mức cao: Sandbox chạy code an toàn (50%), Skills (48%), Document Canvas – sửa Google Sheet/Docs (45%), Memories – cá nhân hoá (35%).",
+    text_ja: "高度機能が高進捗：安全なコード実行Sandbox（50%）、Skills（48%）、Document Canvas（Google Sheet/Docs編集・45%）、Memories（パーソナライズ・35%）。",
+  },
+  // ── Mosa: dự định ──
+  {
+    product_id: "mosa",
+    kind: "plan",
+    date: "Tuần tới",
+    date_ja: "来週",
+    text: "Đóng gói API Memories + hiển thị danh sách & nạp ngữ cảnh vào hội thoại; đồng bộ 2 chiều cho Document Canvas; kiểm thử E2E Workflows & Connectors kèm hiển thị trạng thái từng bước; khởi động bộ quy chuẩn Plugins.",
+    text_ja: "Memories API のパッケージ化＋一覧表示と会話への文脈注入、Document Canvas の双方向同期、Workflows・Connectors の E2E テスト（各ステップ状態表示付き）、Plugins 標準仕様の着手。",
+  },
+  {
+    product_id: "mosa",
+    kind: "plan",
     date: "20/07 – 24/07/2026",
     date_ja: "2026/07/20 – 07/24",
     text: "Admin và Superadmin: từ 20/07 lên nghiệp vụ và làm rõ đề bài, chốt phạm vi MVP trước 24/07.",
     text_ja: "管理画面・スーパー管理画面：07/20 から業務要件を整理し要件を明確化、07/24 までに MVP スコープを確定。",
   },
+  // ── MCB ──
   {
     product_id: "mcb",
+    kind: "done",
+    date: "Tuần này",
+    date_ja: "今週",
+    text: "Đã hoàn thành: hỗ trợ đa ngôn ngữ (giống MRAG) và Audit Log.",
+    text_ja: "完了：多言語対応（MRAGと同様）と監査ログ（Audit Log）。",
+  },
+  {
+    product_id: "mcb",
+    kind: "plan",
+    date: "Dự kiến hoàn thành trước Thứ 6 (24/07)",
+    date_ja: "07/24（金）までに完了予定",
+    text: "Hoàn thiện Brand Kit (cá nhân hoá nhận diện thương hiệu khi tạo slide); khảo sát đánh giá like/dislike sau khi tạo slide; gộp \"Quick Create\" và \"Generate presentation from files\" thành 1 luồng tạo slide.",
+    text_ja: "Brand Kit（スライド作成時のブランド識別のパーソナライズ）の仕上げ、生成後の like/dislike 評価アンケート、「Quick Create」と「ファイルからのプレゼン生成」の1フローへの統合。",
+  },
+  {
+    product_id: "mcb",
+    kind: "info",
     date: "18/07/2026",
     date_ja: "2026/07/18",
-    text: "Đóng nhóm task template (MCB-03) do giới hạn công nghệ hiện tại; tập trung chuyên sâu vào Brand Kit — đã hoàn thành ~80%, đang test trên staging.",
-    text_ja: "現行技術の制約によりテンプレート系タスク（MCB-03）を一旦クローズ。Brand Kit に注力し、約80%完了・ステージング検証中。",
+    text: "Đóng nhóm task template (MCB-03) do giới hạn công nghệ hiện tại; tập trung chuyên sâu vào Brand Kit.",
+    text_ja: "現行技術の制約によりテンプレート系タスク（MCB-03）を一旦クローズ。Brand Kit に注力。",
+  },
+  // ── MRAG ──
+  {
+    product_id: "mrag",
+    kind: "done",
+    date: "Tuần này",
+    date_ja: "今週",
+    text: "Đã hoàn thành: Sentry cho Widget Backend (Production); Landing Page responsive iPad/iPhone; nâng cấp luồng xoá File Manager (xác nhận HB→UC), đổi Access Type trên Hybrid Builder, re-import Google Drive thủ công; phân cấp AI model theo company (gỡ Gemini 3.5 Flash ở Musashino) & nâng cấp prompt hệ thống sửa lỗi format; xử lý hotfix/bug phát sinh.",
+    text_ja: "完了：Widget Backend への Sentry 導入（本番）、Landing Page の iPad/iPhone レスポンシブ対応、File Manager 削除フロー強化（HB→UC 確認）・Hybrid Builder でのアクセスタイプ変更・Google Drive 手動再インポート、会社別 AI モデル階層化（Musashino から Gemini 3.5 Flash 撤去）とシステムプロンプト改善、ホットフィックス・バグ対応。",
   },
   {
     product_id: "mrag",
+    kind: "plan",
     date: "26/07/2026",
     date_ja: "2026/07/26",
     text: "Chốt 3 hạng mục Use Case tự động + quản lý và đồng bộ Google Drive vào 26/07; sau đó demo nội bộ.",
     text_ja: "ユースケース自動判定・Google Drive 連携管理・リアルタイム同期の3項目を 07/26 に完了予定、その後社内デモ。",
   },
+  // ── SmartBI ──
   {
     product_id: "smartbi",
+    kind: "plan",
     date: "31/07/2026",
     date_ja: "2026/07/31",
     text: "Chờ khách hàng cung cấp bộ dữ liệu mẫu trước 31/07 để bắt đầu giai đoạn tiếp theo.",
@@ -121,6 +187,8 @@ const T = {
     latest: "Cập nhật mới nhất",
     changelog: "Nhật ký thay đổi",
     notes: "Ghi chú",
+    notesAll: "Tổng thể",
+    noteKind: { done: "Đã làm", plan: "Dự định", info: "Ghi chú" } as Record<string, string>,
     noUpdates: "Chưa có cập nhật.",
     filterLabel: "Lọc trạng thái:",
     addItem: "+ Thêm hạng mục",
@@ -173,6 +241,8 @@ const T = {
     latest: "最新の更新",
     changelog: "変更履歴",
     notes: "備考",
+    notesAll: "全体",
+    noteKind: { done: "完了", plan: "予定", info: "備考" } as Record<string, string>,
     noUpdates: "更新はまだありません。",
     filterLabel: "状態フィルタ:",
     addItem: "+ 項目を追加",
@@ -222,6 +292,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
   const [reasonText, setReasonText] = useState("");
   const [zoom, setZoom] = useState<null | { productId: string; qKey: string }>(null);
   const [busy, setBusy] = useState(false);
+  const [noteFilter, setNoteFilter] = useState<string>("all"); // "all" = tổng thể (show all)
 
   const trackRef = useRef<HTMLDivElement>(null);
   const tipRef = useRef<HTMLDivElement>(null);
@@ -1227,26 +1298,56 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
           </div>
         </div>
         <div className="panel">
-          <h3>
-            {t.notes} <span className="cnt">{PRODUCT_NOTES.length}</span>
-          </h3>
-          <div className="feed">
-            {PRODUCT_NOTES.length === 0 && <div className="empty">{t.noUpdates}</div>}
-            {PRODUCT_NOTES.map((n) => {
-              const p = data.products.find((x) => x.id === n.product_id);
-              return (
-                <div className="fitem" key={n.product_id}>
-                  <span className="k note" style={p ? { background: p.color } : undefined}>
-                    {p ? (lang === "ja" ? p.name_ja : p.name) : n.product_id}
-                  </span>
-                  <div className="body">
-                    <div className="nm">{lang === "ja" ? n.text_ja : n.text}</div>
-                    <div className="dt">{lang === "ja" ? n.date_ja : n.date}</div>
-                  </div>
+          {(() => {
+            const shown = PRODUCT_NOTES.filter((n) => noteFilter === "all" || n.product_id === noteFilter);
+            return (
+              <>
+                <h3>
+                  {t.notes} <span className="cnt">{shown.length}</span>
+                </h3>
+                {/* tách ghi chú theo dự án — mặc định Tổng thể (show all) */}
+                <div className="note-tabs">
+                  <button
+                    className={"note-tab" + (noteFilter === "all" ? " on" : "")}
+                    onClick={() => setNoteFilter("all")}
+                  >
+                    {t.notesAll}
+                  </button>
+                  {data.products.map((p) => (
+                    <button
+                      key={p.id}
+                      className={"note-tab" + (noteFilter === p.id ? " on" : "")}
+                      style={noteFilter === p.id ? { background: p.color, borderColor: p.color, color: "#fff" } : undefined}
+                      onClick={() => setNoteFilter(p.id)}
+                    >
+                      {lang === "ja" ? p.name_ja : p.name}
+                    </button>
+                  ))}
                 </div>
-              );
-            })}
-          </div>
+                <div className="feed">
+                  {shown.length === 0 && <div className="empty">{t.noUpdates}</div>}
+                  {shown.map((n, i) => {
+                    const p = data.products.find((x) => x.id === n.product_id);
+                    const k = n.kind || "info";
+                    return (
+                      <div className="fitem" key={n.product_id + "-" + i}>
+                        <span className="k note" style={p ? { background: p.color } : undefined}>
+                          {p ? (lang === "ja" ? p.name_ja : p.name) : n.product_id}
+                        </span>
+                        <div className="body">
+                          <div className="nm">
+                            <span className={"note-kind " + k}>{t.noteKind[k]}</span>
+                            {lang === "ja" ? n.text_ja : n.text}
+                          </div>
+                          <div className="dt">{lang === "ja" ? n.date_ja : n.date}</div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            );
+          })()}
         </div>
       </div>
 

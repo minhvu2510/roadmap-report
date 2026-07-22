@@ -203,6 +203,13 @@ footer.foot .sep{opacity:.5}
 .fitem .body .nm{font-weight:500}
 .fitem .body .dt{font-family:"JetBrains Mono",monospace;font-size:10px;color:var(--ink-3);margin-top:1px}
 .fitem .body .rs{color:var(--ink-2);font-style:italic;margin-top:1px}
+/* notes: tách theo dự án (chips) + nhãn loại (đã làm / dự định) */
+.note-tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.note-tab{font-family:"Inter","Noto Sans JP",sans-serif;font-size:11.5px;font-weight:500;color:var(--ink-2);background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:4px 10px;cursor:pointer;transition:.16s}
+.note-tab:hover{border-color:var(--line-strong);color:var(--ink-1)}
+.note-tab.on{background:var(--ink-1);border-color:var(--ink-1);color:#fff}
+.note-kind{display:inline-block;font-family:"JetBrains Mono",monospace;font-size:9px;font-weight:700;letter-spacing:.3px;padding:1px 6px;border-radius:5px;margin-right:6px;vertical-align:middle;color:#fff}
+.note-kind.done{background:#2fae66}.note-kind.plan{background:#4f6bed}.note-kind.info{background:#878da0}
 
 /* ---- filters ---- */
 .filters{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 8px;align-items:center}

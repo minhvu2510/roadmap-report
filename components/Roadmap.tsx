@@ -116,26 +116,42 @@ const PRODUCT_NOTES: {
   {
     product_id: "mcb",
     kind: "done",
-    date: "Tuần này",
-    date_ja: "今週",
-    text: "Đã hoàn thành: hỗ trợ đa ngôn ngữ (giống MRAG) và Audit Log.",
-    text_ja: "完了：多言語対応（MRAGと同様）と監査ログ（Audit Log）。",
+    date: "Đã golive thành công",
+    date_ja: "Go-live 完了",
+    text: "Tạo slide theo hướng graphic đã golive thành công.",
+    text_ja: "グラフィック志向のスライド生成は正常に Go-live 済み。",
   },
   {
     product_id: "mcb",
     kind: "plan",
-    date: "Dự kiến hoàn thành trước Thứ 6 (24/07)",
-    date_ja: "07/24（金）までに完了予定",
-    text: "Hoàn thiện Brand Kit (cá nhân hoá nhận diện thương hiệu khi tạo slide); khảo sát đánh giá like/dislike sau khi tạo slide; gộp \"Quick Create\" và \"Generate presentation from files\" thành 1 luồng tạo slide.",
-    text_ja: "Brand Kit（スライド作成時のブランド識別のパーソナライズ）の仕上げ、生成後の like/dislike 評価アンケート、「Quick Create」と「ファイルからのプレゼン生成」の1フローへの統合。",
+    date: "MCB-09 · Kế hoạch tiếp theo",
+    date_ja: "MCB-09 · 次期計画",
+    text: "Luồng admin/superadmin quản lý user trả phí/free: quyền & phân loại user 22%, giới hạn lượt tạo/sửa slide theo gói 18%, màn quản lý user/gói/usage 12%.",
+    text_ja: "有料/無料ユーザー管理：権限設計とユーザー分類 22%、プラン別のスライド作成・編集回数制限 18%、ユーザー/プラン/利用状況の管理画面 12%。",
+  },
+  {
+    product_id: "mcb",
+    kind: "plan",
+    date: "MCB-10 · 03/08 – 14/08",
+    date_ja: "MCB-10 · 08/03 – 08/14",
+    text: "Tạo poster và catalog: luồng tạo poster từ prompt/tài liệu 23%, catalog nhiều trang 16%, template xuất poster/catalog và QA output 11%.",
+    text_ja: "ポスター・カタログ生成：プロンプト/資料からのポスター生成 23%、複数ページのカタログ生成 16%、出力テンプレートとQA 11%。",
+  },
+  {
+    product_id: "mcb",
+    kind: "plan",
+    date: "MCB-11 · 01/08 – 14/08",
+    date_ja: "MCB-11 · 08/01 – 08/14",
+    text: "Tạo video theo hướng HTML chuyển động: storyboard & engine HTML motion 27%, preview video 19%, xuất video và tối ưu hiệu ứng 13%.",
+    text_ja: "HTMLモーション動画生成：ストーリーボードとHTMLモーションエンジン 27%、動画プレビュー 19%、動画出力とエフェクト最適化 13%。",
   },
   {
     product_id: "mcb",
     kind: "info",
-    date: "18/07/2026",
-    date_ja: "2026/07/18",
-    text: "Đóng nhóm task template (MCB-03) do giới hạn công nghệ hiện tại; tập trung chuyên sâu vào Brand Kit.",
-    text_ja: "現行技術の制約によりテンプレート系タスク（MCB-03）を一旦クローズ。Brand Kit に注力。",
+    date: "Đã huỷ · MCB-03 Nghiên cứu luồng template với v2",
+    date_ja: "中止 · MCB-03 v2 テンプレートフロー調査",
+    text: "Nhóm hạng mục này đã được huỷ và gỡ khỏi timeline vì đánh giá không khả thi với kiến trúc Slide v2 hiện tại. Gồm 3 hạng mục: (1) Khảo sát template hiện có & gap với v2 — đã làm 20% rồi dừng; (2) Thiết kế luồng áp template vào slide v2; (3) Prototype 1 template end-to-end. Nguồn lực được chuyển sang Brand Kit và hướng sinh slide theo graphic. Ghi chú này giữ lại để khách hàng tra cứu, không còn nằm trong kế hoạch triển khai.",
+    text_ja: "本グループは現行の Slide v2 アーキテクチャでは実現可能性がないと判断し、中止のうえタイムラインから除外。対象3項目：(1) 既存テンプレートの棚卸しと v2 とのギャップ調査（20% 実施後に停止）、(2) v2 スライドへのテンプレート適用フロー設計、(3) テンプレート1件の E2E プロトタイプ。リソースは Brand Kit とグラフィック志向のスライド生成へ振り替え。本記録は参照用に残し、実施計画には含まない。",
   },
   // ── MRAG ──
   {
@@ -277,6 +293,7 @@ const T = {
 };
 
 const timelineW = CHART_DAYS * DAY_PX;
+const DEFAULT_STATUS_FILTER: Status[] = ["in_progress", "delayed"];
 
 export default function Roadmap({ role, email }: { role: "admin" | "customer"; email: string }) {
   const router = useRouter();
@@ -284,7 +301,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
   const [view, setView] = useState<string>("overall");
   const [data, setData] = useState<RoadmapData | null>(null);
   const [hidden, setHidden] = useState<Set<string>>(new Set());
-  const [statusFilter, setStatusFilter] = useState<Set<Status>>(new Set(STATUSES));
+  const [statusFilter, setStatusFilter] = useState<Set<Status>>(new Set(DEFAULT_STATUS_FILTER));
   // expanded phase cards in the detail list (collapsed by default)
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
   const [modal, setModal] = useState<null | { mode: "create" | "edit"; item?: Item; productId: string }>(null);
@@ -551,10 +568,13 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
       hoverTip(el, () => ({ t: "◆ " + nm(it), d: `<b>${fmt(it.start)}</b>` }));
     }
 
+    function showOnTimeline(it: Item) {
+      return statusFilter.has(it.status);
+    }
     function solSpan(p: Product) {
       let mn = Infinity,
         mx = -Infinity;
-      p.items.forEach((it) => {
+      p.items.filter(showOnTimeline).forEach((it) => {
         mn = Math.min(mn, it.start);
         mx = Math.max(mx, it.start + it.len);
       });
@@ -565,7 +585,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
       return { start: mn, len: mx - mn };
     }
     function passFilter(it: Item) {
-      return statusFilter.has(it.status);
+      return showOnTimeline(it);
     }
 
     // ---- overall ----
@@ -632,6 +652,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
       }
       products.forEach((p) => {
         if (hidden.has(p.id)) return;
+        if (!p.items.some(showOnTimeline)) return;
         const span = solSpan(p);
         const row = document.createElement("div");
         row.className = "row";
@@ -653,7 +674,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
         hoverTip(bar, () => ({ t: sName(p), d: tipDates(span.start, span.len) }));
         lane.appendChild(bar);
         p.items
-          .filter((it) => it.milestone)
+          .filter((it) => it.milestone && showOnTimeline(it))
           .forEach((it) => {
             const ms = document.createElement("div");
             ms.className = "ms readonly";
@@ -959,7 +980,12 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
       : `01/${pad(CHART_START.getMonth() + 1)}/${CHART_START.getFullYear()} → ${pad(endDisp.getDate())}/${pad(
           endDisp.getMonth() + 1
         )}/${endDisp.getFullYear()} · ${MONTHS.length} tháng`;
-  const parsedLog = data.changelog.map((c) => ({ ...c, d: c.detail ? JSON.parse(c.detail) : null }));
+  // Hạng mục nội bộ/đã ẩn không có trong data.products của khách -> lọc luôn khỏi feed,
+  // tránh hiện id thô thay cho tên hạng mục.
+  const visibleItemIds = new Set(data.products.flatMap((p) => p.items.map((it) => it.id)));
+  const parsedLog = data.changelog
+    .filter((c) => visibleItemIds.has(c.item_id))
+    .map((c) => ({ ...c, d: c.detail ? JSON.parse(c.detail) : null }));
   const fmtDate = (iso: string) => {
     const d = new Date(iso);
     return `${String(d.getDate()).padStart(2, "0")}/${String(d.getMonth() + 1).padStart(2, "0")} ${String(

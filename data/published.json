@@ -1408,11 +1408,11 @@
      "start": 31,
      "len": 13,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "paused",
      "percent": 27,
      "internal": 0,
      "sort": 115,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:43:48.069Z",
      "code": "MCB-11-01"
     },
     {
@@ -1427,11 +1427,11 @@
      "start": 31,
      "len": 13,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "paused",
      "percent": 19,
      "internal": 0,
      "sort": 116,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:43:48.069Z",
      "code": "MCB-11-02"
     },
     {
@@ -1446,11 +1446,11 @@
      "start": 31,
      "len": 13,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "paused",
      "percent": 13,
      "internal": 0,
      "sort": 117,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:43:48.069Z",
      "code": "MCB-11-03"
     }
    ]
@@ -1637,8 +1637,38 @@
    ]
   }
  ],
- "published_at": "2026-08-13T10:39:03.619Z",
+ "published_at": "2026-08-13T10:43:58.490Z",
  "changelog": [
+  {
+   "id": 235,
+   "item_id": "mcb_video_export",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"paused\"}",
+   "reason": "Chi phí cao",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:43:48.069Z"
+  },
+  {
+   "id": 234,
+   "item_id": "mcb_video_preview",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"paused\"}",
+   "reason": "Chi phí cao",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:43:48.069Z"
+  },
+  {
+   "id": 233,
+   "item_id": "mcb_video_storyboard",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"paused\"}",
+   "reason": "Chi phí cao",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:43:48.069Z"
+  },
   {
    "id": 232,
    "item_id": "mcb_slide_quality",
@@ -2106,36 +2136,6 @@
    "kind": "status",
    "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
    "reason": "Thêm chức năng thay đổi Access Type ngay trên màn danh sách Hybrid Builder → điều chỉnh quyền truy cập nhanh tại list.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 185,
-   "item_id": "mr_fm_access",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Đổi Access Type trên màn danh sách Hybrid Builder\"}",
-   "reason": "Thêm chức năng thay đổi Access Type ngay trên màn danh sách Hybrid Builder → điều chỉnh quyền truy cập nhanh tại list.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 184,
-   "item_id": "mr_fm_delete",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Thêm bước xác nhận xóa theo luồng HB → UC → khi chọn \"Có\", hệ thống xóa toàn bộ HB và UC liên quan.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 183,
-   "item_id": "mr_fm_delete",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Nâng cấp luồng xóa File Manager (xác nhận HB → UC)\"}",
-   "reason": "Thêm bước xác nhận xóa theo luồng HB → UC → khi chọn \"Có\", hệ thống xóa toàn bộ HB và UC liên quan.",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-07-22T11:35:00.000Z"
   }

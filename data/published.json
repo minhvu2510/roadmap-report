@@ -1295,10 +1295,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 22,
+     "percent": 30,
      "internal": 0,
      "sort": 109,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T11:12:57.450Z",
      "code": "MCB-09-01"
     },
     {
@@ -1314,10 +1314,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 18,
+     "percent": 30,
      "internal": 0,
      "sort": 110,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T11:12:57.450Z",
      "code": "MCB-09-02"
     },
     {
@@ -1333,10 +1333,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 12,
+     "percent": 30,
      "internal": 0,
      "sort": 111,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T11:12:57.450Z",
      "code": "MCB-09-03"
     },
     {
@@ -1846,8 +1846,38 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:12:14.695Z",
+ "published_at": "2026-08-13T11:13:06.256Z",
  "changelog": [
+  {
+   "id": 281,
+   "item_id": "mcb_paid_free_usage",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Màn quản lý user, gói sử dụng và usage\",\"percent\":{\"from\":12,\"to\":30}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:12:57.450Z"
+  },
+  {
+   "id": 280,
+   "item_id": "mcb_paid_free_limits",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Giới hạn lượt tạo slide và sửa slide theo gói\",\"percent\":{\"from\":18,\"to\":30}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:12:57.450Z"
+  },
+  {
+   "id": 279,
+   "item_id": "mcb_paid_free_roles",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Thiết kế quyền admin/superadmin và phân loại user trả phí/free\",\"percent\":{\"from\":22,\"to\":30}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:12:57.450Z"
+  },
   {
    "id": 278,
    "item_id": "mcb_profile_competitor",
@@ -2317,36 +2347,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T10:36:45.824Z"
-  },
-  {
-   "id": 231,
-   "item_id": "mcb_video_export",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Xuất video và tối ưu hiệu ứng\"}",
-   "reason": "Xuất video từ HTML motion, tối ưu animation để chuyển động mượt và kiểm tra chất lượng file đầu ra.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 230,
-   "item_id": "mcb_video_preview",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Preview video từ HTML chuyển động\"}",
-   "reason": "Dựng preview trong trình duyệt, đồng bộ timeline chuyển động và kiểm soát thời lượng từng scene.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 229,
-   "item_id": "mcb_video_storyboard",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Storyboard và engine HTML motion\"}",
-   "reason": "Thiết kế storyboard, scene và animation primitive để dựng video bằng HTML/CSS chuyển động.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
   }
  ]
 }

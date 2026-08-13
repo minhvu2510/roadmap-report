@@ -1629,10 +1629,10 @@
      "product_id": "mcb",
      "phase": "Tối ưu hoá chiến dịch truyền thông xã hội",
      "phase_ja": "SNSキャンペーン最適化",
-     "name": "Sinh biến thể A/B testing",
-     "name_ja": "A/Bテスト用バリエーションの生成",
-     "note": "Tạo nhiều biến thể nội dung và hình ảnh để chạy A/B testing, so sánh và chọn phương án hiệu quả nhất.",
-     "note_ja": "複数のコンテンツ・画像バリエーションを生成し、A/Bテストで最も効果的な案を選べます。",
+     "name": "So sánh nhiều phương án nội dung trước khi chạy chiến dịch",
+     "name_ja": "キャンペーン実施前に複数の内容案を比較",
+     "note": "Trước khi chạy chiến dịch, hệ thống tạo sẵn nhiều phương án hình ảnh và câu chữ để chạy thử song song (A/B testing), giúp chọn được phương án thu hút khách hàng nhất.",
+     "note_ja": "キャンペーン開始前に、画像や文言の異なる複数案を並行して配信（A/Bテスト）し、最も反応の良い案を選べます。",
      "start": 224,
      "len": 14,
      "milestone": 0,
@@ -1640,7 +1640,7 @@
      "percent": 0,
      "internal": 0,
      "sort": 127,
-     "updated_at": "2026-08-13T11:01:05.288Z",
+     "updated_at": "2026-08-13T11:03:55.831Z",
      "code": "MCB-14-03"
     },
     {
@@ -1846,8 +1846,28 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:01:08.767Z",
+ "published_at": "2026-08-13T11:04:00.037Z",
  "changelog": [
+  {
+   "id": 271,
+   "item_id": "mcb_social_ab_testing",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"So sánh nhiều phương án nội dung trước khi chạy chiến dịch\",\"from\":\"Tạo nhiều phiên bản nội dung để chọn bản hiệu quả nhất\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:03:55.831Z"
+  },
+  {
+   "id": 270,
+   "item_id": "mcb_social_ab_testing",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Tạo nhiều phiên bản nội dung để chọn bản hiệu quả nhất\",\"from\":\"Sinh biến thể A/B testing\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:02:53.995Z"
+  },
   {
    "id": 269,
    "item_id": "mcb_social_multi_assets",
@@ -2327,26 +2347,6 @@
    "reason": "Đã golive thành công",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 221,
-   "item_id": "mcb_graphic_slide",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Đã golive thành công",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 220,
-   "item_id": "mcb_v2_feedback",
-   "product_id": "mcb",
-   "kind": "progress",
-   "detail": "{\"from\":12,\"to\":100}",
-   "reason": "Đã hoàn thiện",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:03:13.498Z"
   }
  ]
 }

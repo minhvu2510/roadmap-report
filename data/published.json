@@ -1452,6 +1452,63 @@
      "sort": 117,
      "updated_at": "2026-08-13T10:43:48.069Z",
      "code": "MCB-11-03"
+    },
+    {
+     "id": "mcb_profile_from_url",
+     "product_id": "mcb",
+     "phase": "Tạo Company Profile",
+     "phase_ja": "会社プロフィール生成",
+     "name": "Tạo hồ sơ công ty tự động từ website",
+     "name_ja": "ウェブサイトから会社プロフィールを自動生成",
+     "note": "Chỉ cần đưa đường dẫn website, hệ thống tự đọc thông tin công ty, sản phẩm và hình ảnh rồi dựng thành hồ sơ hoàn chỉnh.",
+     "note_ja": "ウェブサイトのURLを入力するだけで、会社情報・製品・画像を自動的に読み取り、完成したプロフィールを作成します。",
+     "start": 42,
+     "len": 28,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 3,
+     "internal": 0,
+     "sort": 118,
+     "updated_at": "2026-08-13T10:54:12.811Z",
+     "code": "MCB-12-01"
+    },
+    {
+     "id": "mcb_profile_from_content",
+     "product_id": "mcb",
+     "phase": "Tạo Company Profile",
+     "phase_ja": "会社プロフィール生成",
+     "name": "Tạo hồ sơ từ nội dung và hình ảnh tự cung cấp",
+     "name_ja": "提供いただいた内容と画像からプロフィールを作成",
+     "note": "Tải lên nội dung sẵn có và hình ảnh của công ty, hệ thống biên soạn và trình bày thành hồ sơ chuyên nghiệp.",
+     "note_ja": "お手持ちの原稿と画像をアップロードすると、体裁の整った会社プロフィールに編集します。",
+     "start": 70,
+     "len": 21,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 3,
+     "internal": 0,
+     "sort": 119,
+     "updated_at": "2026-08-13T10:54:12.811Z",
+     "code": "MCB-12-02"
+    },
+    {
+     "id": "mcb_profile_competitor",
+     "product_id": "mcb",
+     "phase": "Tạo Company Profile",
+     "phase_ja": "会社プロフィール生成",
+     "name": "So sánh với đối thủ cạnh tranh trong hồ sơ",
+     "name_ja": "プロフィール内での競合比較",
+     "note": "Thêm phần so sánh với các đối thủ cùng lĩnh vực để làm nổi bật lợi thế của công ty trong hồ sơ.",
+     "note_ja": "同業他社との比較セクションを追加し、自社の強みを際立たせます。",
+     "start": 91,
+     "len": 21,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 3,
+     "internal": 0,
+     "sort": 120,
+     "updated_at": "2026-08-13T10:54:12.811Z",
+     "code": "MCB-12-03"
     }
    ]
   },
@@ -1637,8 +1694,208 @@
    ]
   }
  ],
- "published_at": "2026-08-13T10:43:58.490Z",
+ "published_at": "2026-08-13T10:54:17.169Z",
  "changelog": [
+  {
+   "id": 255,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":3}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:54:12.811Z"
+  },
+  {
+   "id": 254,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":3}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:54:12.811Z"
+  },
+  {
+   "id": 253,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":3}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:54:12.811Z"
+  },
+  {
+   "id": 252,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":84,\"len\":14},\"to\":{\"start\":91,\"len\":21}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 251,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":49,\"len\":14},\"to\":{\"start\":70,\"len\":21}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 250,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":49,\"len\":14},\"to\":{\"start\":42,\"len\":28}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 249,
+   "item_id": "mcb_profile_engine",
+   "product_id": "mcb",
+   "kind": "delete",
+   "detail": "{\"name\":\"Engine sinh hồ sơ công ty từ dữ liệu đầu vào\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 248,
+   "item_id": "mcb_profile_export_qa",
+   "product_id": "mcb",
+   "kind": "delete",
+   "detail": "{\"name\":\"Xuất hồ sơ và QA output\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 247,
+   "item_id": "mcb_profile_spec",
+   "product_id": "mcb",
+   "kind": "delete",
+   "detail": "{\"name\":\"Đặc tả cấu trúc hồ sơ công ty & data model\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:52:53.011Z"
+  },
+  {
+   "id": 246,
+   "item_id": "mcb_profile_export_qa",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xuất hồ sơ và QA output\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 245,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":84,\"len\":14}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 244,
+   "item_id": "mcb_profile_engine",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Engine sinh hồ sơ công ty từ dữ liệu đầu vào\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 243,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":49,\"len\":14}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 242,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":49,\"len\":14}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 241,
+   "item_id": "mcb_profile_spec",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Đặc tả cấu trúc hồ sơ công ty & data model\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:51:04.391Z"
+  },
+  {
+   "id": 240,
+   "item_id": "mcb_profile_vertex_ai",
+   "product_id": "mcb",
+   "kind": "delete",
+   "detail": "{\"name\":\"Sử dụng công nghệ Vertex AI để thu thập dữ liệu\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:49:12.297Z"
+  },
+  {
+   "id": 239,
+   "item_id": "mcb_profile_vertex_ai",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Sử dụng công nghệ Vertex AI để thu thập dữ liệu\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:48:27.092Z"
+  },
+  {
+   "id": 238,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Khả năng so sánh đối thủ cạnh tranh\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:48:27.092Z"
+  },
+  {
+   "id": 237,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Biên soạn hồ sơ từ nội dung và hình ảnh cung cấp\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:48:27.092Z"
+  },
+  {
+   "id": 236,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Tạo hồ sơ tự động từ URL website (crawl data)\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:48:27.092Z"
+  },
   {
    "id": 235,
    "item_id": "mcb_video_export",
@@ -1938,206 +2195,6 @@
    "reason": "Đã hoàn thành 100% — ẩn khỏi danh sách hiển thị.",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 205,
-   "item_id": "mcb_bk_qa",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Brand Kit hoàn thành 100% (đặc tả, UI quản lý, áp vào luồng AI sinh slide, QA).",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 204,
-   "item_id": "mcb_bk_apply",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Brand Kit hoàn thành 100% (đặc tả, UI quản lý, áp vào luồng AI sinh slide, QA).",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 203,
-   "item_id": "mcb_bk_ui",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Brand Kit hoàn thành 100% (đặc tả, UI quản lý, áp vào luồng AI sinh slide, QA).",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 202,
-   "item_id": "mcb_bk_spec",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Đặc tả & data model Brand Kit\"}",
-   "reason": "Brand Kit hoàn thành 100% (đặc tả, UI quản lý, áp vào luồng AI sinh slide, QA).",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 201,
-   "item_id": "mcb_tpl_proto",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Prototype 1 template end-to-end\"}",
-   "reason": "Đã huỷ (không tiếp tục): luồng template với Slide v2 được đánh giá không khả thi nên bỏ khỏi danh sách hạng mục, chỉ giữ lại làm ghi chú.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 200,
-   "item_id": "mcb_tpl_flow",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Thiết kế luồng áp template vào slide v2\"}",
-   "reason": "Đã huỷ (không tiếp tục): luồng template với Slide v2 được đánh giá không khả thi nên bỏ khỏi danh sách hạng mục, chỉ giữ lại làm ghi chú.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.382Z"
-  },
-  {
-   "id": 199,
-   "item_id": "mcb_tpl_gap",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Khảo sát template hiện có & gap với v2\"}",
-   "reason": "Đã huỷ (không tiếp tục): luồng template với Slide v2 được đánh giá không khả thi nên bỏ khỏi danh sách hạng mục, chỉ giữ lại làm ghi chú.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.382Z"
-  },
-  {
-   "id": 198,
-   "item_id": "mcb_ml_pick",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Ghi chú: phải dùng model bên ngoài (ngoài Vertex AI) vì Vertex AI không cung cấp đủ độ đa dạng về nội dung và style slide.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.382Z"
-  },
-  {
-   "id": 197,
-   "item_id": "mcb_ml_style",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Ghi chú: phải dùng model bên ngoài (ngoài Vertex AI) vì Vertex AI không cung cấp đủ độ đa dạng về nội dung và style slide.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.382Z"
-  },
-  {
-   "id": 196,
-   "item_id": "mcb_ml_bench",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Ghi chú: phải dùng model bên ngoài (ngoài Vertex AI) vì Vertex AI không cung cấp đủ độ đa dạng về nội dung và style slide.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.382Z"
-  },
-  {
-   "id": 195,
-   "item_id": "mcb_drive_session",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Hoàn thành cải thiện trải nghiệm Export Google Drive (lưu phiên đăng nhập + chuyển tài khoản).",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.381Z"
-  },
-  {
-   "id": 194,
-   "item_id": "mr_hotfix",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Xử lý các yêu cầu hotfix, bug và nội dung phát sinh → duy trì hệ thống ổn định.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 193,
-   "item_id": "mr_hotfix",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Xử lý hotfix, bug & nội dung phát sinh\"}",
-   "reason": "Xử lý các yêu cầu hotfix, bug và nội dung phát sinh → duy trì hệ thống ổn định.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 192,
-   "item_id": "mr_ai_prompt",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Nâng cấp prompt hệ thống xử lý case dấu '#' bị chèn vào đầu dòng/đầu chuỗi và sai format output → output trả về đúng định dạng yêu cầu.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 191,
-   "item_id": "mr_ai_prompt",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Nâng cấp prompt hệ thống (sửa lỗi dấu '#' & sai format)\"}",
-   "reason": "Nâng cấp prompt hệ thống xử lý case dấu '#' bị chèn vào đầu dòng/đầu chuỗi và sai format output → output trả về đúng định dạng yêu cầu.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 190,
-   "item_id": "mr_ai_tier",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Nâng cấp nghiệp vụ phân cấp AI model theo company → gỡ bỏ được model Gemini 3.5 Flash khỏi môi trường Musashino.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 189,
-   "item_id": "mr_ai_tier",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Phân cấp AI model theo company\"}",
-   "reason": "Nâng cấp nghiệp vụ phân cấp AI model theo company → gỡ bỏ được model Gemini 3.5 Flash khỏi môi trường Musashino.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 188,
-   "item_id": "mr_fm_reimport",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Hoàn thành giải pháp & phát triển re-import Drive thủ công → người dùng chủ động import lại file Drive khi cần.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 187,
-   "item_id": "mr_fm_reimport",
-   "product_id": "mrag",
-   "kind": "create",
-   "detail": "{\"name\":\"Re-import Google Drive thủ công\"}",
-   "reason": "Hoàn thành giải pháp & phát triển re-import Drive thủ công → người dùng chủ động import lại file Drive khi cần.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 186,
-   "item_id": "mr_fm_access",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Thêm chức năng thay đổi Access Type ngay trên màn danh sách Hybrid Builder → điều chỉnh quyền truy cập nhanh tại list.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
   }
  ]
 }

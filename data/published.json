@@ -1181,10 +1181,10 @@
      "len": 14,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 9,
+     "percent": 90,
      "internal": 0,
      "sort": 102,
-     "updated_at": "2026-07-16T02:30:00.000Z",
+     "updated_at": "2026-08-13T10:36:45.824Z",
      "code": "MCB-05-01"
     },
     {
@@ -1637,8 +1637,18 @@
    ]
   }
  ],
- "published_at": "2026-08-06T04:13:28.659Z",
+ "published_at": "2026-08-13T10:39:03.619Z",
  "changelog": [
+  {
+   "id": 232,
+   "item_id": "mcb_slide_quality",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Tiếp tục nâng cao chất lượng Slide\",\"percent\":{\"from\":9,\"to\":90}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:36:45.824Z"
+  },
   {
    "id": 231,
    "item_id": "mcb_video_export",
@@ -2126,16 +2136,6 @@
    "kind": "create",
    "detail": "{\"name\":\"Nâng cấp luồng xóa File Manager (xác nhận HB → UC)\"}",
    "reason": "Thêm bước xác nhận xóa theo luồng HB → UC → khi chọn \"Có\", hệ thống xóa toàn bộ HB và UC liên quan.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-22T11:35:00.000Z"
-  },
-  {
-   "id": 182,
-   "item_id": "mr_fm_spec",
-   "product_id": "mrag",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Tổng hợp đặc tả tính năng xóa của File Manager và trao đổi giải pháp nâng cấp → chốt được phương án cho luồng xóa.",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-07-22T11:35:00.000Z"
   }

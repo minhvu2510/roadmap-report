@@ -1520,13 +1520,13 @@
      "note": "Tải lên video hướng dẫn, file Word/PDF hoặc mô tả quy trình bằng lời, hệ thống tự đọc và bóc tách nội dung để dựng tài liệu.",
      "note_ja": "操作動画、Word/PDFファイル、または業務手順の説明を取り込み、内容を自動で抽出して資料化します。",
      "start": 119,
-     "len": 21,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 121,
-     "updated_at": "2026-08-13T10:59:40.100Z",
+     "updated_at": "2026-08-13T11:20:22.241Z",
      "code": "MCB-13-01"
     },
     {
@@ -1538,14 +1538,14 @@
      "name_ja": "運用マニュアルと標準業務手順書（SOP）の作成",
      "note": "Từ nội dung đã bóc tách, hệ thống dựng sổ tay vận hành và quy trình chuẩn SOP theo bố cục thống nhất.",
      "note_ja": "抽出した内容から、統一された構成で運用マニュアルとSOPを作成します。",
-     "start": 140,
-     "len": 21,
+     "start": 119,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 122,
-     "updated_at": "2026-08-13T10:59:40.100Z",
+     "updated_at": "2026-08-13T11:20:22.241Z",
      "code": "MCB-13-02"
     },
     {
@@ -1557,14 +1557,14 @@
      "name_ja": "ステップ別オンボーディング資料の作成",
      "note": "Sinh tài liệu onboarding cho nhân sự mới, chia theo từng bước dễ theo dõi và thực hành.",
      "note_ja": "新入社員向けのオンボーディング資料を、ステップごとに分かりやすく生成します。",
-     "start": 161,
-     "len": 14,
+     "start": 119,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 123,
-     "updated_at": "2026-08-13T10:59:40.100Z",
+     "updated_at": "2026-08-13T11:20:22.241Z",
      "code": "MCB-13-03"
     },
     {
@@ -1576,14 +1576,14 @@
      "name_ja": "研修用スライドの作成",
      "note": "Chuyển nội dung tài liệu thành bộ slide đào tạo trình bày chuyên nghiệp, dùng được ngay cho buổi training.",
      "note_ja": "資料の内容を、研修でそのまま使える体裁の整ったスライドに仕上げます。",
-     "start": 175,
-     "len": 14,
+     "start": 119,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 124,
-     "updated_at": "2026-08-13T10:59:40.100Z",
+     "updated_at": "2026-08-13T11:20:22.241Z",
      "code": "MCB-13-04"
     },
     {
@@ -1672,13 +1672,13 @@
      "note": "Từ bộ slide hoặc catalog đã có, hệ thống tự dựng bố cục landing page với đầy đủ các phần nội dung.",
      "note_ja": "既存のスライドやカタログから、ランディングページのレイアウトを自動生成します。",
      "start": 47,
-     "len": 28,
+     "len": 35,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 129,
-     "updated_at": "2026-08-13T11:14:33.798Z",
+     "updated_at": "2026-08-13T11:19:53.185Z",
      "code": "MCB-15-01"
     },
     {
@@ -1691,13 +1691,13 @@
      "note": "Chèn form đăng ký và nút kêu gọi hành động (CTA) vào trang để thu thập thông tin khách hàng tiềm năng ngay trên landing page.",
      "note_ja": "申込フォームとCTAボタンをページに設置し、見込み客の情報をその場で収集します。",
      "start": 47,
-     "len": 28,
+     "len": 35,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 130,
-     "updated_at": "2026-08-13T11:14:33.798Z",
+     "updated_at": "2026-08-13T11:19:53.185Z",
      "code": "MCB-15-02"
     },
     {
@@ -1710,13 +1710,13 @@
      "note": "Trang tự co giãn theo từng loại màn hình, giữ nguyên bố cục và trải nghiệm người xem.",
      "note_ja": "画面サイズに合わせて自動調整し、レイアウトと使い勝手を保ちます。",
      "start": 47,
-     "len": 28,
+     "len": 35,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 131,
-     "updated_at": "2026-08-13T11:14:33.798Z",
+     "updated_at": "2026-08-13T11:19:53.185Z",
      "code": "MCB-15-03"
     },
     {
@@ -1729,13 +1729,13 @@
      "note": "Trỏ landing page về tên miền riêng của công ty và theo dõi lượt truy cập, tỷ lệ khách để lại thông tin.",
      "note_ja": "自社の独自ドメインに接続し、アクセス数や申込率を計測します。",
      "start": 47,
-     "len": 28,
+     "len": 35,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 132,
-     "updated_at": "2026-08-13T11:14:33.798Z",
+     "updated_at": "2026-08-13T11:19:53.185Z",
      "code": "MCB-15-04"
     },
     {
@@ -1748,13 +1748,13 @@
      "note": "Tải trang về dưới dạng HTML để tự triển khai, hoặc đăng tải trực tiếp chỉ với một thao tác.",
      "note_ja": "HTMLとして書き出して自社で運用するか、ワンクリックでそのまま公開できます。",
      "start": 47,
-     "len": 28,
+     "len": 35,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 133,
-     "updated_at": "2026-08-13T11:14:33.798Z",
+     "updated_at": "2026-08-13T11:19:53.185Z",
      "code": "MCB-15-05"
     }
    ]
@@ -1941,8 +1941,98 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:18:16.184Z",
+ "published_at": "2026-08-13T11:20:31.677Z",
  "changelog": [
+  {
+   "id": 299,
+   "item_id": "mcb_doc_training_slide",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":175,\"len\":14},\"to\":{\"start\":119,\"len\":28}}",
+   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:20:22.241Z"
+  },
+  {
+   "id": 298,
+   "item_id": "mcb_doc_onboarding",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":161,\"len\":14},\"to\":{\"start\":119,\"len\":28}}",
+   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:20:22.241Z"
+  },
+  {
+   "id": 297,
+   "item_id": "mcb_doc_manual_sop",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":140,\"len\":21},\"to\":{\"start\":119,\"len\":28}}",
+   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:20:22.241Z"
+  },
+  {
+   "id": 296,
+   "item_id": "mcb_doc_ingest",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":119,\"len\":21},\"to\":{\"start\":119,\"len\":28}}",
+   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:20:22.241Z"
+  },
+  {
+   "id": 295,
+   "item_id": "mcb_lp_export_publish",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
+   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:19:53.185Z"
+  },
+  {
+   "id": 294,
+   "item_id": "mcb_lp_domain_tracking",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
+   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:19:53.185Z"
+  },
+  {
+   "id": 293,
+   "item_id": "mcb_lp_responsive",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
+   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:19:53.185Z"
+  },
+  {
+   "id": 292,
+   "item_id": "mcb_lp_form_cta",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
+   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:19:53.185Z"
+  },
+  {
+   "id": 291,
+   "item_id": "mcb_lp_structure",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
+   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:19:53.185Z"
+  },
   {
    "id": 290,
    "item_id": "mcb_social_multi_assets",
@@ -2352,96 +2442,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 249,
-   "item_id": "mcb_profile_engine",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Engine sinh hồ sơ công ty từ dữ liệu đầu vào\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 248,
-   "item_id": "mcb_profile_export_qa",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Xuất hồ sơ và QA output\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 247,
-   "item_id": "mcb_profile_spec",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Đặc tả cấu trúc hồ sơ công ty & data model\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 246,
-   "item_id": "mcb_profile_export_qa",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Xuất hồ sơ và QA output\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
-  },
-  {
-   "id": 245,
-   "item_id": "mcb_profile_competitor",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":84,\"len\":14}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
-  },
-  {
-   "id": 244,
-   "item_id": "mcb_profile_engine",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Engine sinh hồ sơ công ty từ dữ liệu đầu vào\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
-  },
-  {
-   "id": 243,
-   "item_id": "mcb_profile_from_content",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":49,\"len\":14}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
-  },
-  {
-   "id": 242,
-   "item_id": "mcb_profile_from_url",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":42,\"len\":14},\"to\":{\"start\":49,\"len\":14}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
-  },
-  {
-   "id": 241,
-   "item_id": "mcb_profile_spec",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Đặc tả cấu trúc hồ sơ công ty & data model\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:51:04.391Z"
   }
  ]
 }

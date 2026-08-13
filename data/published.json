@@ -1352,10 +1352,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 23,
+     "percent": 85,
      "internal": 0,
      "sort": 112,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:56:40.626Z",
      "code": "MCB-10-01"
     },
     {
@@ -1371,10 +1371,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 16,
+     "percent": 85,
      "internal": 0,
      "sort": 113,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:56:40.626Z",
      "code": "MCB-10-02"
     },
     {
@@ -1390,10 +1390,10 @@
      "len": 11,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 11,
+     "percent": 85,
      "internal": 0,
      "sort": 114,
-     "updated_at": "2026-08-06T04:13:16.313Z",
+     "updated_at": "2026-08-13T10:56:40.626Z",
      "code": "MCB-10-03"
     },
     {
@@ -1462,14 +1462,14 @@
      "name_ja": "ウェブサイトから会社プロフィールを自動生成",
      "note": "Chỉ cần đưa đường dẫn website, hệ thống tự đọc thông tin công ty, sản phẩm và hình ảnh rồi dựng thành hồ sơ hoàn chỉnh.",
      "note_ja": "ウェブサイトのURLを入力するだけで、会社情報・製品・画像を自動的に読み取り、完成したプロフィールを作成します。",
-     "start": 42,
+     "start": 47,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 3,
      "internal": 0,
      "sort": 118,
-     "updated_at": "2026-08-13T10:54:12.811Z",
+     "updated_at": "2026-08-13T10:57:33.826Z",
      "code": "MCB-12-01"
     },
     {
@@ -1481,14 +1481,14 @@
      "name_ja": "提供いただいた内容と画像からプロフィールを作成",
      "note": "Tải lên nội dung sẵn có và hình ảnh của công ty, hệ thống biên soạn và trình bày thành hồ sơ chuyên nghiệp.",
      "note_ja": "お手持ちの原稿と画像をアップロードすると、体裁の整った会社プロフィールに編集します。",
-     "start": 70,
+     "start": 75,
      "len": 21,
      "milestone": 0,
      "status": "in_progress",
      "percent": 3,
      "internal": 0,
      "sort": 119,
-     "updated_at": "2026-08-13T10:54:12.811Z",
+     "updated_at": "2026-08-13T10:57:33.826Z",
      "code": "MCB-12-02"
     },
     {
@@ -1500,14 +1500,14 @@
      "name_ja": "プロフィール内での競合比較",
      "note": "Thêm phần so sánh với các đối thủ cùng lĩnh vực để làm nổi bật lợi thế của công ty trong hồ sơ.",
      "note_ja": "同業他社との比較セクションを追加し、自社の強みを際立たせます。",
-     "start": 91,
+     "start": 96,
      "len": 21,
      "milestone": 0,
      "status": "in_progress",
      "percent": 3,
      "internal": 0,
      "sort": 120,
-     "updated_at": "2026-08-13T10:54:12.811Z",
+     "updated_at": "2026-08-13T10:57:33.826Z",
      "code": "MCB-12-03"
     }
    ]
@@ -1694,8 +1694,68 @@
    ]
   }
  ],
- "published_at": "2026-08-13T10:54:17.169Z",
+ "published_at": "2026-08-13T10:57:37.404Z",
  "changelog": [
+  {
+   "id": 261,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":91,\"len\":21},\"to\":{\"start\":96,\"len\":21}}",
+   "reason": "MCB-12 bắt đầu từ 17/08/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:57:33.826Z"
+  },
+  {
+   "id": 260,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":70,\"len\":21},\"to\":{\"start\":75,\"len\":21}}",
+   "reason": "MCB-12 bắt đầu từ 17/08/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:57:33.826Z"
+  },
+  {
+   "id": 259,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":42,\"len\":28},\"to\":{\"start\":47,\"len\":28}}",
+   "reason": "MCB-12 bắt đầu từ 17/08/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:57:33.826Z"
+  },
+  {
+   "id": 258,
+   "item_id": "mcb_poster_catalog_export",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Template xuất poster/catalog và QA output\",\"percent\":{\"from\":11,\"to\":85}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:56:40.626Z"
+  },
+  {
+   "id": 257,
+   "item_id": "mcb_catalog_pages",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Luồng tạo catalog nhiều trang\",\"percent\":{\"from\":16,\"to\":85}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:56:40.626Z"
+  },
+  {
+   "id": 256,
+   "item_id": "mcb_poster_prompt",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Luồng tạo poster từ prompt/tài liệu\",\"percent\":{\"from\":23,\"to\":85}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T10:56:40.626Z"
+  },
   {
    "id": 255,
    "item_id": "mcb_profile_competitor",
@@ -2135,66 +2195,6 @@
    "reason": "Đã hoàn thiện",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-06T03:58:28.000Z"
-  },
-  {
-   "id": 211,
-   "item_id": "mo_ag_schema",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Đã hoàn thiện",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T03:58:28.000Z"
-  },
-  {
-   "id": 210,
-   "item_id": "mcb_graphic_slide",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo slide theo hướng graphic\"}",
-   "reason": "Tính năng mới: tạo slide theo hướng graphic, tiến độ 50%, đã lên staging.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.384Z"
-  },
-  {
-   "id": 209,
-   "item_id": "mcb_unify",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Hoàn thành gộp \"Quick Create\" và \"Generate presentation from files\" thành 1 luồng.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 208,
-   "item_id": "mcb_feedback",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Hoàn thành khảo sát đánh giá (like/dislike) sau khi tạo slide.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 207,
-   "item_id": "mcb_audit",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Audit Log\"}",
-   "reason": "Đã hoàn thành 100% — ẩn khỏi danh sách hiển thị.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
-  },
-  {
-   "id": 206,
-   "item_id": "mcb_i18n",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Hỗ trợ đa ngôn ngữ (giống MRAG)\"}",
-   "reason": "Đã hoàn thành 100% — ẩn khỏi danh sách hiển thị.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-07-27T05:09:06.383Z"
   }
  ]
 }

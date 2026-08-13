@@ -1595,14 +1595,14 @@
      "name_ja": "各SNS向けの画像・キャプション・ハッシュタグ生成",
      "note": "Sinh ảnh đăng bài, caption chuẩn SEO và hashtag phù hợp cho Instagram, LinkedIn, X và Facebook, đúng định dạng từng nền tảng.",
      "note_ja": "Instagram・LinkedIn・X・Facebook向けに、各プラットフォームの形式に合わせた投稿画像、SEOに強いキャプション、最適なハッシュタグを生成します。",
-     "start": 189,
+     "start": 119,
      "len": 21,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 125,
-     "updated_at": "2026-08-13T11:01:05.288Z",
+     "updated_at": "2026-08-13T11:07:37.623Z",
      "code": "MCB-14-01"
     },
     {
@@ -1614,14 +1614,14 @@
      "name_ja": "カルーセルと広告バナーのデザイン",
      "note": "Dựng carousel nhiều slide và banner quảng cáo theo bộ nhận diện thương hiệu, dùng được ngay cho các chiến dịch chạy ads.",
      "note_ja": "複数スライドのカルーセルと広告バナーを、ブランドに沿った体裁で作成し、広告配信にそのまま使えます。",
-     "start": 210,
+     "start": 140,
      "len": 14,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 126,
-     "updated_at": "2026-08-13T11:01:05.288Z",
+     "updated_at": "2026-08-13T11:07:37.623Z",
      "code": "MCB-14-02"
     },
     {
@@ -1633,14 +1633,14 @@
      "name_ja": "キャンペーン実施前に複数の内容案を比較",
      "note": "Trước khi chạy chiến dịch, hệ thống tạo sẵn nhiều phương án hình ảnh và câu chữ để chạy thử song song (A/B testing), giúp chọn được phương án thu hút khách hàng nhất.",
      "note_ja": "キャンペーン開始前に、画像や文言の異なる複数案を並行して配信（A/Bテスト）し、最も反応の良い案を選べます。",
-     "start": 224,
+     "start": 154,
      "len": 14,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 127,
-     "updated_at": "2026-08-13T11:03:55.831Z",
+     "updated_at": "2026-08-13T11:07:37.623Z",
      "code": "MCB-14-03"
     },
     {
@@ -1652,14 +1652,14 @@
      "name_ja": "1つの原稿から一貫した10〜30点のアセットを生成",
      "note": "Chỉ cần một nội dung gốc, hệ thống sinh 10–30 asset đồng bộ: ảnh đăng bài, carousel, caption, hashtag, banner, video ngắn và email marketing.",
      "note_ja": "原稿を1つ用意するだけで、投稿画像・カルーセル・キャプション・ハッシュタグ・バナー・ショート動画・メール施策まで、10〜30点を一貫したトーンで生成します。",
-     "start": 238,
+     "start": 168,
      "len": 21,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 128,
-     "updated_at": "2026-08-13T11:01:05.288Z",
+     "updated_at": "2026-08-13T11:07:37.623Z",
      "code": "MCB-14-04"
     }
    ]
@@ -1846,8 +1846,48 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:04:00.037Z",
+ "published_at": "2026-08-13T11:09:27.042Z",
  "changelog": [
+  {
+   "id": 275,
+   "item_id": "mcb_social_multi_assets",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":238,\"len\":21},\"to\":{\"start\":168,\"len\":21}}",
+   "reason": "MCB-14 chạy song song với MCB-13",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:07:37.623Z"
+  },
+  {
+   "id": 274,
+   "item_id": "mcb_social_ab_testing",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":224,\"len\":14},\"to\":{\"start\":154,\"len\":14}}",
+   "reason": "MCB-14 chạy song song với MCB-13",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:07:37.623Z"
+  },
+  {
+   "id": 273,
+   "item_id": "mcb_social_carousel_banner",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":210,\"len\":14},\"to\":{\"start\":140,\"len\":14}}",
+   "reason": "MCB-14 chạy song song với MCB-13",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:07:37.623Z"
+  },
+  {
+   "id": 272,
+   "item_id": "mcb_social_post_assets",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":189,\"len\":21},\"to\":{\"start\":119,\"len\":21}}",
+   "reason": "MCB-14 chạy song song với MCB-13",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:07:37.623Z"
+  },
   {
    "id": 271,
    "item_id": "mcb_social_ab_testing",
@@ -2305,46 +2345,6 @@
    "kind": "create",
    "detail": "{\"name\":\"Luồng tạo poster từ prompt/tài liệu\"}",
    "reason": "Cho phép nhập prompt hoặc tài liệu đầu vào để sinh poster theo bố cục graphic.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 225,
-   "item_id": "mcb_paid_free_usage",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Màn quản lý user, gói sử dụng và usage\"}",
-   "reason": "Xây màn danh sách user, bộ lọc gói free/trả phí, số lượt đã dùng và thao tác điều chỉnh giới hạn.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 224,
-   "item_id": "mcb_paid_free_limits",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Giới hạn lượt tạo slide và sửa slide theo gói\"}",
-   "reason": "Thiết lập quota tạo slide/sửa slide cho user free và user trả phí, có cảnh báo khi gần chạm giới hạn.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 223,
-   "item_id": "mcb_paid_free_roles",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Thiết kế quyền admin/superadmin và phân loại user trả phí/free\"}",
-   "reason": "Xác định quyền thao tác của admin/superadmin, trạng thái user free/trả phí và dữ liệu cần hiển thị trong màn quản lý.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 222,
-   "item_id": "mcb_graphic_slide",
-   "product_id": "mcb",
-   "kind": "progress",
-   "detail": "{\"from\":50,\"to\":100}",
-   "reason": "Đã golive thành công",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-06T04:10:44.809Z"
   }

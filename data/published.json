@@ -1469,7 +1469,7 @@
      "percent": 3,
      "internal": 0,
      "sort": 118,
-     "updated_at": "2026-08-13T10:57:33.826Z",
+     "updated_at": "2026-08-13T11:11:36.503Z",
      "code": "MCB-12-01"
     },
     {
@@ -1481,14 +1481,14 @@
      "name_ja": "提供いただいた内容と画像からプロフィールを作成",
      "note": "Tải lên nội dung sẵn có và hình ảnh của công ty, hệ thống biên soạn và trình bày thành hồ sơ chuyên nghiệp.",
      "note_ja": "お手持ちの原稿と画像をアップロードすると、体裁の整った会社プロフィールに編集します。",
-     "start": 75,
-     "len": 21,
+     "start": 47,
+     "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 3,
      "internal": 0,
      "sort": 119,
-     "updated_at": "2026-08-13T10:57:33.826Z",
+     "updated_at": "2026-08-13T11:11:36.503Z",
      "code": "MCB-12-02"
     },
     {
@@ -1500,14 +1500,14 @@
      "name_ja": "プロフィール内での競合比較",
      "note": "Thêm phần so sánh với các đối thủ cùng lĩnh vực để làm nổi bật lợi thế của công ty trong hồ sơ.",
      "note_ja": "同業他社との比較セクションを追加し、自社の強みを際立たせます。",
-     "start": 96,
-     "len": 21,
+     "start": 47,
+     "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 3,
      "internal": 0,
      "sort": 120,
-     "updated_at": "2026-08-13T10:57:33.826Z",
+     "updated_at": "2026-08-13T11:11:36.503Z",
      "code": "MCB-12-03"
     },
     {
@@ -1846,8 +1846,38 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:09:27.042Z",
+ "published_at": "2026-08-13T11:12:14.695Z",
  "changelog": [
+  {
+   "id": 278,
+   "item_id": "mcb_profile_competitor",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":21},\"to\":{\"start\":47,\"len\":28}}",
+   "reason": "MCB-12 bắt đầu 17/08/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:11:36.503Z"
+  },
+  {
+   "id": 277,
+   "item_id": "mcb_profile_from_content",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":75,\"len\":21},\"to\":{\"start\":47,\"len\":28}}",
+   "reason": "MCB-12 bắt đầu 17/08/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:11:36.503Z"
+  },
+  {
+   "id": 276,
+   "item_id": "mcb_profile_from_url",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":28}}",
+   "reason": "MCB-12 bắt đầu 17/08/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:11:36.503Z"
+  },
   {
    "id": 275,
    "item_id": "mcb_social_multi_assets",
@@ -2315,36 +2345,6 @@
    "kind": "create",
    "detail": "{\"name\":\"Storyboard và engine HTML motion\"}",
    "reason": "Thiết kế storyboard, scene và animation primitive để dựng video bằng HTML/CSS chuyển động.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 228,
-   "item_id": "mcb_poster_catalog_export",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Template xuất poster/catalog và QA output\"}",
-   "reason": "Chuẩn hoá template xuất file, kiểm tra kích thước, hình ảnh, typography và chất lượng output.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 227,
-   "item_id": "mcb_catalog_pages",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Luồng tạo catalog nhiều trang\"}",
-   "reason": "Sinh catalog nhiều trang từ danh sách sản phẩm/nội dung, giữ nhất quán layout và nhận diện thương hiệu.",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-06T04:10:44.809Z"
-  },
-  {
-   "id": 226,
-   "item_id": "mcb_poster_prompt",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Luồng tạo poster từ prompt/tài liệu\"}",
-   "reason": "Cho phép nhập prompt hoặc tài liệu đầu vào để sinh poster theo bố cục graphic.",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-06T04:10:44.809Z"
   }

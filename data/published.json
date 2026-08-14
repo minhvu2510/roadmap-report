@@ -1292,13 +1292,13 @@
      "note": "Xác định quyền thao tác của admin/superadmin, trạng thái user free/trả phí và dữ liệu cần hiển thị trong màn quản lý.",
      "note_ja": "管理者/スーパー管理者の操作権限、無料/有料ユーザーの状態、管理画面に表示するデータを定義する。",
      "start": 33,
-     "len": 11,
+     "len": 18,
      "milestone": 0,
      "status": "in_progress",
      "percent": 30,
      "internal": 0,
      "sort": 109,
-     "updated_at": "2026-08-13T11:12:57.450Z",
+     "updated_at": "2026-08-14T00:45:31.032Z",
      "code": "MCB-09-01"
     },
     {
@@ -1311,13 +1311,13 @@
      "note": "Thiết lập quota tạo slide/sửa slide cho user free và user trả phí, có cảnh báo khi gần chạm giới hạn.",
      "note_ja": "無料ユーザーと有料ユーザー向けに、スライド作成/編集のクォータを設定し、上限に近づいた際の警告を用意する。",
      "start": 33,
-     "len": 11,
+     "len": 18,
      "milestone": 0,
      "status": "in_progress",
      "percent": 30,
      "internal": 0,
      "sort": 110,
-     "updated_at": "2026-08-13T11:12:57.450Z",
+     "updated_at": "2026-08-14T00:45:31.034Z",
      "code": "MCB-09-02"
     },
     {
@@ -1330,13 +1330,13 @@
      "note": "Xây màn danh sách user, bộ lọc gói free/trả phí, số lượt đã dùng và thao tác điều chỉnh giới hạn.",
      "note_ja": "ユーザー一覧、無料/有料プランのフィルター、利用済み回数、上限調整操作を備えた管理画面を作成する。",
      "start": 33,
-     "len": 11,
+     "len": 18,
      "milestone": 0,
      "status": "in_progress",
      "percent": 30,
      "internal": 0,
      "sort": 111,
-     "updated_at": "2026-08-13T11:12:57.450Z",
+     "updated_at": "2026-08-14T00:45:31.034Z",
      "code": "MCB-09-03"
     },
     {
@@ -1941,8 +1941,38 @@
    ]
   }
  ],
- "published_at": "2026-08-13T11:20:31.677Z",
+ "published_at": "2026-08-14T00:45:31.037Z",
  "changelog": [
+  {
+   "id": 302,
+   "item_id": "mcb_paid_free_usage",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":33,\"len\":11},\"to\":{\"start\":33,\"len\":18}}",
+   "reason": "MCB-09 kết thúc 21/08",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-14T00:45:31.034Z"
+  },
+  {
+   "id": 301,
+   "item_id": "mcb_paid_free_limits",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":33,\"len\":11},\"to\":{\"start\":33,\"len\":18}}",
+   "reason": "MCB-09 kết thúc 21/08",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-14T00:45:31.034Z"
+  },
+  {
+   "id": 300,
+   "item_id": "mcb_paid_free_roles",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":33,\"len\":11},\"to\":{\"start\":33,\"len\":18}}",
+   "reason": "MCB-09 kết thúc 21/08",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-14T00:45:31.032Z"
+  },
   {
    "id": 299,
    "item_id": "mcb_doc_training_slide",
@@ -2412,36 +2442,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T10:54:12.811Z"
-  },
-  {
-   "id": 252,
-   "item_id": "mcb_profile_competitor",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":84,\"len\":14},\"to\":{\"start\":91,\"len\":21}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 251,
-   "item_id": "mcb_profile_from_content",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":49,\"len\":14},\"to\":{\"start\":70,\"len\":21}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
-  },
-  {
-   "id": 250,
-   "item_id": "mcb_profile_from_url",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":49,\"len\":14},\"to\":{\"start\":42,\"len\":28}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:52:53.011Z"
   }
  ]
 }

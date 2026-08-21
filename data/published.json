@@ -1294,11 +1294,11 @@
      "start": 33,
      "len": 18,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 109,
-     "updated_at": "2026-08-21T02:52:37.664Z",
+     "updated_at": "2026-08-21T02:55:27.975Z",
      "code": "MCB-09-01"
     },
     {
@@ -1313,11 +1313,11 @@
      "start": 33,
      "len": 18,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 110,
-     "updated_at": "2026-08-21T02:52:37.665Z",
+     "updated_at": "2026-08-21T02:55:27.977Z",
      "code": "MCB-09-02"
     },
     {
@@ -1332,11 +1332,11 @@
      "start": 33,
      "len": 18,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 111,
-     "updated_at": "2026-08-21T02:52:37.665Z",
+     "updated_at": "2026-08-21T02:55:27.977Z",
      "code": "MCB-09-03"
     },
     {
@@ -1351,11 +1351,11 @@
      "start": 33,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 112,
-     "updated_at": "2026-08-21T02:52:37.665Z",
+     "updated_at": "2026-08-21T02:55:27.977Z",
      "code": "MCB-10-01"
     },
     {
@@ -1370,11 +1370,11 @@
      "start": 33,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 113,
-     "updated_at": "2026-08-21T02:52:37.665Z",
+     "updated_at": "2026-08-21T02:55:27.977Z",
      "code": "MCB-10-02"
     },
     {
@@ -1389,11 +1389,11 @@
      "start": 33,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
+     "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 114,
-     "updated_at": "2026-08-21T02:52:37.665Z",
+     "updated_at": "2026-08-21T02:55:27.977Z",
      "code": "MCB-10-03"
     },
     {
@@ -1941,8 +1941,68 @@
    ]
   }
  ],
- "published_at": "2026-08-21T02:52:37.668Z",
+ "published_at": "2026-08-21T02:55:27.980Z",
  "changelog": [
+  {
+   "id": 314,
+   "item_id": "mcb_poster_catalog_export",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.977Z"
+  },
+  {
+   "id": 313,
+   "item_id": "mcb_catalog_pages",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.977Z"
+  },
+  {
+   "id": 312,
+   "item_id": "mcb_poster_prompt",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.977Z"
+  },
+  {
+   "id": 311,
+   "item_id": "mcb_paid_free_usage",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.977Z"
+  },
+  {
+   "id": 310,
+   "item_id": "mcb_paid_free_limits",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.977Z"
+  },
+  {
+   "id": 309,
+   "item_id": "mcb_paid_free_roles",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-21T02:55:27.975Z"
+  },
   {
    "id": 308,
    "item_id": "mcb_poster_catalog_export",
@@ -2382,66 +2442,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T10:59:40.100Z"
-  },
-  {
-   "id": 264,
-   "item_id": "mcb_doc_onboarding",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo tài liệu onboarding hướng dẫn từng bước\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:59:40.100Z"
-  },
-  {
-   "id": 263,
-   "item_id": "mcb_doc_manual_sop",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo sổ tay vận hành và quy trình chuẩn (SOP)\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:59:40.100Z"
-  },
-  {
-   "id": 262,
-   "item_id": "mcb_doc_ingest",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Chuyển đổi từ video, Word, PDF và mô tả quy trình\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:59:40.100Z"
-  },
-  {
-   "id": 261,
-   "item_id": "mcb_profile_competitor",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":91,\"len\":21},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "MCB-12 bắt đầu từ 17/08/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:57:33.826Z"
-  },
-  {
-   "id": 260,
-   "item_id": "mcb_profile_from_content",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":70,\"len\":21},\"to\":{\"start\":75,\"len\":21}}",
-   "reason": "MCB-12 bắt đầu từ 17/08/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:57:33.826Z"
-  },
-  {
-   "id": 259,
-   "item_id": "mcb_profile_from_url",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":42,\"len\":28},\"to\":{\"start\":47,\"len\":28}}",
-   "reason": "MCB-12 bắt đầu từ 17/08/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T10:57:33.826Z"
   }
  ]
 }

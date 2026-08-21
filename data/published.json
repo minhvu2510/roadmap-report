@@ -1963,22 +1963,12 @@
  "published_at": "2026-08-21T03:00:52.973Z",
  "changelog": [
   {
-   "id": 316,
-   "item_id": "mcb_mrag_poster_catalog",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tạo kèm poster và catalog khi tạo MCB từ MRAG\",\"code\":{\"from\":\"MCB-10-04\",\"to\":\"MCB-16-01\"},\"phase\":{\"from\":\"Tạo poster và catalog\",\"to\":\"Tích hợp MRAG → MCB\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T03:00:52.972Z"
-  },
-  {
    "id": 315,
    "item_id": "mcb_mrag_poster_catalog",
    "product_id": "mcb",
    "kind": "create",
    "detail": "{\"name\":\"Tạo kèm poster và catalog khi tạo MCB từ MRAG\"}",
-   "reason": "Bổ sung chức năng cho phép tạo cả poster và catalog khi tiến hành tạo MCB từ MRAG.",
+   "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-21T02:59:40.368Z"
   },
@@ -2458,6 +2448,16 @@
    "product_id": "mcb",
    "kind": "create",
    "detail": "{\"name\":\"Thiết kế carousel và banner quảng cáo\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-08-13T11:01:05.288Z"
+  },
+  {
+   "id": 266,
+   "item_id": "mcb_social_post_assets",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Tạo ảnh, caption và hashtag cho nhiều nền tảng\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T11:01:05.288Z"

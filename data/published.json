@@ -1864,11 +1864,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-09-10T02:47:43.363Z",
+     "updated_at": "2026-09-10T02:49:40.845Z",
      "code": "MCB-19-01"
     },
     {
@@ -1883,11 +1883,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-09-10T02:47:43.363Z",
+     "updated_at": "2026-09-10T02:49:40.846Z",
      "code": "MCB-19-02"
     },
     {
@@ -1902,11 +1902,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-09-10T02:47:43.363Z",
+     "updated_at": "2026-09-10T02:49:40.846Z",
      "code": "MCB-19-03"
     },
     {
@@ -1921,11 +1921,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 143,
-     "updated_at": "2026-09-10T02:47:43.363Z",
+     "updated_at": "2026-09-10T02:49:40.846Z",
      "code": "MCB-19-04"
     },
     {
@@ -1940,11 +1940,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 144,
-     "updated_at": "2026-09-10T02:47:43.363Z",
+     "updated_at": "2026-09-10T02:49:40.846Z",
      "code": "MCB-19-05"
     }
    ]
@@ -2131,8 +2131,58 @@
    ]
   }
  ],
- "published_at": "2026-09-10T02:48:13.765Z",
+ "published_at": "2026-09-10T02:49:40.849Z",
  "changelog": [
+  {
+   "id": 352,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 351,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 350,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 349,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 348,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.845Z"
+  },
   {
    "id": 347,
    "item_id": "mcb_story_visual_consistency",
@@ -2582,56 +2632,6 @@
    "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T11:20:22.241Z"
-  },
-  {
-   "id": 297,
-   "item_id": "mcb_doc_manual_sop",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":140,\"len\":21},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:20:22.241Z"
-  },
-  {
-   "id": 296,
-   "item_id": "mcb_doc_ingest",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":119,\"len\":21},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:20:22.241Z"
-  },
-  {
-   "id": 295,
-   "item_id": "mcb_lp_export_publish",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
-   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:19:53.185Z"
-  },
-  {
-   "id": 294,
-   "item_id": "mcb_lp_domain_tracking",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
-   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:19:53.185Z"
-  },
-  {
-   "id": 293,
-   "item_id": "mcb_lp_responsive",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
-   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:19:53.185Z"
   }
  ]
 }

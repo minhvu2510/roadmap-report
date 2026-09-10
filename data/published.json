@@ -1794,6 +1794,63 @@
      "sort": 135,
      "updated_at": "2026-09-10T02:36:38.446Z",
      "code": "MCB-17-02"
+    },
+    {
+     "id": "mcb_story_character_profile",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Story Studio – tạo chuỗi nội dung giữ nguyên tuyến nhân vật",
+     "phase_ja": "Story Studio 機能の構築 – キャラクター設定を保ったコンテンツシリーズ生成",
+     "name": "Thiết lập hồ sơ nhân vật dùng lại cho cả chuỗi",
+     "name_ja": "シリーズ全体で使い回すキャラクタープロファイルの設定",
+     "note": "Khai báo một lần tên, ngoại hình, tính cách và giọng điệu của nhân vật; hồ sơ này được dùng lại cho mọi nội dung trong chuỗi.",
+     "note_ja": "キャラクターの名前・外見・性格・口調を一度登録し、シリーズ内のすべてのコンテンツで再利用します。",
+     "start": 71,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 137,
+     "updated_at": "2026-09-10T02:42:51.596Z",
+     "code": "MCB-18-01"
+    },
+    {
+     "id": "mcb_story_series_generate",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Story Studio – tạo chuỗi nội dung giữ nguyên tuyến nhân vật",
+     "phase_ja": "Story Studio 機能の構築 – キャラクター設定を保ったコンテンツシリーズ生成",
+     "name": "Sinh chuỗi nội dung nhiều phần theo mạch truyện",
+     "name_ja": "ストーリーの流れに沿った複数話コンテンツの生成",
+     "note": "Từ một ý tưởng ban đầu, hệ thống tạo nhiều phần nối tiếp nhau với mạch truyện liền lạc, không phải viết lại bối cảnh cho từng phần.",
+     "note_ja": "最初のアイデアから、話がつながった複数話を生成します。各話ごとに設定を書き直す必要はありません。",
+     "start": 71,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 138,
+     "updated_at": "2026-09-10T02:42:51.596Z",
+     "code": "MCB-18-02"
+    },
+    {
+     "id": "mcb_story_visual_consistency",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Story Studio – tạo chuỗi nội dung giữ nguyên tuyến nhân vật",
+     "phase_ja": "Story Studio 機能の構築 – キャラクター設定を保ったコンテンツシリーズ生成",
+     "name": "Giữ nhất quán hình ảnh nhân vật giữa các phần",
+     "name_ja": "各話にわたるキャラクター画像の一貫性維持",
+     "note": "Nhân vật xuất hiện đồng nhất về ngoại hình và phong cách ở mọi ảnh, slide hay poster trong cùng một chuỗi nội dung.",
+     "note_ja": "同じシリーズ内の画像・スライド・ポスターにおいて、キャラクターの外見とスタイルを統一して表示します。",
+     "start": 71,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 139,
+     "updated_at": "2026-09-10T02:42:51.597Z",
+     "code": "MCB-18-03"
     }
    ]
   },
@@ -1979,8 +2036,38 @@
    ]
   }
  ],
- "published_at": "2026-09-10T02:39:13.985Z",
+ "published_at": "2026-09-10T02:42:51.597Z",
  "changelog": [
+  {
+   "id": 333,
+   "item_id": "mcb_story_visual_consistency",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Giữ nhất quán hình ảnh nhân vật giữa các phần\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:42:20.627Z"
+  },
+  {
+   "id": 332,
+   "item_id": "mcb_story_series_generate",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Sinh chuỗi nội dung nhiều phần theo mạch truyện\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:42:20.627Z"
+  },
+  {
+   "id": 331,
+   "item_id": "mcb_story_character_profile",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Thiết lập hồ sơ nhân vật dùng lại cho cả chuỗi\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:42:20.625Z"
+  },
   {
    "id": 329,
    "item_id": "mc_aislide",
@@ -2450,36 +2537,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T11:14:33.798Z"
-  },
-  {
-   "id": 281,
-   "item_id": "mcb_paid_free_usage",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Màn quản lý user, gói sử dụng và usage\",\"percent\":{\"from\":12,\"to\":30}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:12:57.450Z"
-  },
-  {
-   "id": 280,
-   "item_id": "mcb_paid_free_limits",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Giới hạn lượt tạo slide và sửa slide theo gói\",\"percent\":{\"from\":18,\"to\":30}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:12:57.450Z"
-  },
-  {
-   "id": 279,
-   "item_id": "mcb_paid_free_roles",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Thiết kế quyền admin/superadmin và phân loại user trả phí/free\",\"percent\":{\"from\":22,\"to\":30}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:12:57.450Z"
   }
  ]
 }

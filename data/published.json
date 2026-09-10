@@ -1253,14 +1253,14 @@
      "name_ja": "バージョン履歴",
      "note": "Nền cho collaboration sau này",
      "note_ja": "今後のコラボレーションの土台",
-     "start": 252,
-     "len": 42,
+     "start": 68,
+     "len": 3,
      "milestone": 0,
      "status": "done",
      "percent": 100,
      "internal": 0,
      "sort": 107,
-     "updated_at": "2026-09-10T02:50:38.275Z",
+     "updated_at": "2026-09-10T02:53:04.682Z",
      "code": "MCB-05-05"
     },
     {
@@ -2131,8 +2131,18 @@
    ]
   }
  ],
- "published_at": "2026-09-10T02:50:38.280Z",
+ "published_at": "2026-09-10T02:53:04.686Z",
  "changelog": [
+  {
+   "id": 354,
+   "item_id": "mc_version",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":252,\"len\":42},\"to\":{\"start\":68,\"len\":3}}",
+   "reason": "Đưa về thời gian làm thực tế 07/09 – 10/09",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:53:04.682Z"
+  },
   {
    "id": 353,
    "item_id": "mc_version",
@@ -2622,16 +2632,6 @@
    "reason": "MCB-09 kết thúc 21/08",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-14T00:45:31.032Z"
-  },
-  {
-   "id": 299,
-   "item_id": "mcb_doc_training_slide",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":175,\"len\":14},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-13: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:20:22.241Z"
   }
  ]
 }

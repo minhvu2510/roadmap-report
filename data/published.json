@@ -1807,11 +1807,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 137,
-     "updated_at": "2026-09-10T02:45:00.368Z",
+     "updated_at": "2026-09-10T02:48:13.763Z",
      "code": "MCB-18-01"
     },
     {
@@ -1826,11 +1826,11 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 138,
-     "updated_at": "2026-09-10T02:45:00.369Z",
+     "updated_at": "2026-09-10T02:48:13.764Z",
      "code": "MCB-18-02"
     },
     {
@@ -1845,22 +1845,22 @@
      "start": 71,
      "len": 28,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 139,
-     "updated_at": "2026-09-10T02:45:00.369Z",
+     "updated_at": "2026-09-10T02:48:13.764Z",
      "code": "MCB-18-03"
     },
     {
-     "id": "mcb_credit_define",
+     "id": "mcb_credit_base_company",
      "product_id": "mcb",
      "phase": "Xây dựng cơ chế hạn mức Credit cho Paid Plan",
      "phase_ja": "有料プラン向けクレジット上限の仕組み構築",
-     "name": "Định nghĩa credit và mức tiêu hao cho từng thao tác",
-     "name_ja": "クレジットの定義と操作ごとの消費量設定",
-     "note": "Quy định một thao tác tốn bao nhiêu credit (tạo slide, tạo poster/catalog, tạo video, chỉnh sửa lại…) và cấu hình được khi cần điều chỉnh.",
-     "note_ja": "スライド作成、ポスター・カタログ作成、動画生成、再編集など、操作ごとの消費クレジット数を定義し、後から調整できるようにします。",
+     "name": "Xây dựng nguồn hạn mức Base Credits ở màn Company",
+     "name_ja": "Company画面でのベースクレジット枠の構築",
+     "note": "Thiết lập nguồn credit gốc (Base Credits) cho từng công ty ngay tại màn Company: cấp phát, điều chỉnh và theo dõi hạn mức.",
+     "note_ja": "会社ごとのベースクレジットをCompany画面で設定し、付与・調整・残量の管理を行えるようにします。",
      "start": 71,
      "len": 28,
      "milestone": 0,
@@ -1868,18 +1868,18 @@
      "percent": 0,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-09-10T02:44:44.939Z",
+     "updated_at": "2026-09-10T02:47:43.363Z",
      "code": "MCB-19-01"
     },
     {
-     "id": "mcb_credit_allocate",
+     "id": "mcb_credit_consume_create",
      "product_id": "mcb",
      "phase": "Xây dựng cơ chế hạn mức Credit cho Paid Plan",
      "phase_ja": "有料プラン向けクレジット上限の仕組み構築",
-     "name": "Cấp phát và theo dõi hạn mức credit theo gói trả phí",
-     "name_ja": "有料プランごとのクレジット付与と残高管理",
-     "note": "Mỗi gói trả phí được cấp một lượng credit theo chu kỳ; hệ thống trừ dần theo thực tế sử dụng và làm mới khi sang chu kỳ mới.",
-     "note_ja": "有料プランごとに周期単位でクレジットを付与し、利用に応じて消費・周期ごとにリセットします。",
+     "name": "Phát triển cơ chế tiêu hao và chặn thao tác AI trong luồng Create",
+     "name_ja": "Createフローにおけるクレジット消費とAI操作の制御",
+     "note": "Mỗi thao tác AI trong luồng Create trừ credit tương ứng; khi hết hạn mức, hệ thống chặn thao tác và báo rõ cho người dùng.",
+     "note_ja": "CreateフローのAI操作ごとにクレジットを消費し、残量がなくなった場合は操作をブロックして利用者に明示します。",
      "start": 71,
      "len": 28,
      "milestone": 0,
@@ -1887,18 +1887,18 @@
      "percent": 0,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-09-10T02:44:44.940Z",
+     "updated_at": "2026-09-10T02:47:43.363Z",
      "code": "MCB-19-02"
     },
     {
-     "id": "mcb_credit_limit_ui",
+     "id": "mcb_credit_admin_screens",
      "product_id": "mcb",
      "phase": "Xây dựng cơ chế hạn mức Credit cho Paid Plan",
      "phase_ja": "有料プラン向けクレジット上限の仕組み構築",
-     "name": "Cảnh báo khi sắp hết credit và màn hình xem số dư, lịch sử tiêu dùng",
-     "name_ja": "残量警告と、残高・利用履歴の確認画面",
-     "note": "Người dùng xem được số credit còn lại và lịch sử tiêu dùng; hệ thống cảnh báo khi sắp hết và chặn thao tác khi đã hết hạn mức.",
-     "note_ja": "残りクレジットと利用履歴を確認でき、残量が少なくなると警告し、上限に達した操作は実行できないようにします。",
+     "name": "Xây dựng nhóm màn Credit Management cho quản trị viên công ty",
+     "name_ja": "会社管理者向けCredit Management画面群の構築",
+     "note": "Nhóm màn quản lý credit dành cho quản trị viên công ty: xem hạn mức, phân bổ cho thành viên và theo dõi mức tiêu hao.",
+     "note_ja": "会社管理者向けに、クレジット残量の確認、メンバーへの配分、消費状況の把握を行う画面群を用意します。",
      "start": 71,
      "len": 28,
      "milestone": 0,
@@ -1906,8 +1906,46 @@
      "percent": 0,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-09-10T02:44:44.940Z",
+     "updated_at": "2026-09-10T02:47:43.363Z",
      "code": "MCB-19-03"
+    },
+    {
+     "id": "mcb_credit_request_approval",
+     "product_id": "mcb",
+     "phase": "Xây dựng cơ chế hạn mức Credit cho Paid Plan",
+     "phase_ja": "有料プラン向けクレジット上限の仕組み構築",
+     "name": "Xử lý luồng yêu cầu cấp thêm credit và phê duyệt của super admin",
+     "name_ja": "追加クレジット申請とスーパー管理者による承認フロー",
+     "note": "Công ty gửi yêu cầu cấp thêm credit; super admin xem xét, phê duyệt hoặc từ chối, hạn mức được cập nhật theo kết quả.",
+     "note_ja": "会社側が追加クレジットを申請し、スーパー管理者が承認・却下を行い、結果に応じて上限を更新します。",
+     "start": 71,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 143,
+     "updated_at": "2026-09-10T02:47:43.363Z",
+     "code": "MCB-19-04"
+    },
+    {
+     "id": "mcb_credit_superadmin_logs",
+     "product_id": "mcb",
+     "phase": "Xây dựng cơ chế hạn mức Credit cho Paid Plan",
+     "phase_ja": "有料プラン向けクレジット上限の仕組み構築",
+     "name": "Xây dựng nhóm màn Credit Management cho super admin và nhật ký sử dụng",
+     "name_ja": "スーパー管理者向けCredit Management画面群と利用ログ",
+     "note": "Nhóm màn quản lý credit toàn hệ thống cho super admin, kèm nhật ký sử dụng chi tiết theo từng công ty và từng thao tác.",
+     "note_ja": "全社横断でクレジットを管理するスーパー管理者向け画面群と、会社別・操作別の詳細な利用ログを提供します。",
+     "start": 71,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 144,
+     "updated_at": "2026-09-10T02:47:43.363Z",
+     "code": "MCB-19-05"
     }
    ]
   },
@@ -2093,8 +2131,88 @@
    ]
   }
  ],
- "published_at": "2026-09-10T02:45:00.370Z",
+ "published_at": "2026-09-10T02:48:13.765Z",
  "changelog": [
+  {
+   "id": 347,
+   "item_id": "mcb_story_visual_consistency",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:48:13.764Z"
+  },
+  {
+   "id": 346,
+   "item_id": "mcb_story_series_generate",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:48:13.764Z"
+  },
+  {
+   "id": 345,
+   "item_id": "mcb_story_character_profile",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:48:13.763Z"
+  },
+  {
+   "id": 344,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho super admin và nhật ký sử dụng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:47:43.363Z"
+  },
+  {
+   "id": 343,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xử lý luồng yêu cầu cấp thêm credit và phê duyệt của super admin\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:47:43.363Z"
+  },
+  {
+   "id": 342,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho quản trị viên công ty\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:47:43.363Z"
+  },
+  {
+   "id": 341,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Phát triển cơ chế tiêu hao và chặn thao tác AI trong luồng Create\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:47:43.363Z"
+  },
+  {
+   "id": 340,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng nguồn hạn mức Base Credits ở màn Company\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:47:43.363Z"
+  },
   {
    "id": 339,
    "item_id": "mcb_story_visual_consistency",
@@ -2124,36 +2242,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-09-10T02:45:00.368Z"
-  },
-  {
-   "id": 336,
-   "item_id": "mcb_credit_limit_ui",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Cảnh báo khi sắp hết credit và màn hình xem số dư, lịch sử tiêu dùng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-10T02:44:44.940Z"
-  },
-  {
-   "id": 335,
-   "item_id": "mcb_credit_allocate",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Cấp phát và theo dõi hạn mức credit theo gói trả phí\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-10T02:44:44.940Z"
-  },
-  {
-   "id": 334,
-   "item_id": "mcb_credit_define",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Định nghĩa credit và mức tiêu hao cho từng thao tác\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-10T02:44:44.939Z"
   },
   {
    "id": 333,
@@ -2544,56 +2632,6 @@
    "reason": "MCB-15 Landing Page kéo dài 5 tuần",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-13T11:19:53.185Z"
-  },
-  {
-   "id": 292,
-   "item_id": "mcb_lp_form_cta",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
-   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:19:53.185Z"
-  },
-  {
-   "id": 291,
-   "item_id": "mcb_lp_structure",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":47,\"len\":28},\"to\":{\"start\":47,\"len\":35}}",
-   "reason": "MCB-15 Landing Page kéo dài 5 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:19:53.185Z"
-  },
-  {
-   "id": 290,
-   "item_id": "mcb_social_multi_assets",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":168,\"len\":21},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-14: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:18:05.858Z"
-  },
-  {
-   "id": 289,
-   "item_id": "mcb_social_ab_testing",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":154,\"len\":14},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-14: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:18:05.858Z"
-  },
-  {
-   "id": 288,
-   "item_id": "mcb_social_carousel_banner",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":140,\"len\":14},\"to\":{\"start\":119,\"len\":28}}",
-   "reason": "MCB-14: 4 hạng mục chạy song song trong 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-13T11:18:05.858Z"
   }
  ]
 }

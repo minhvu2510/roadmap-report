@@ -1946,6 +1946,101 @@
      "sort": 144,
      "updated_at": "2026-09-10T02:49:40.846Z",
      "code": "MCB-19-05"
+    },
+    {
+     "id": "mcb_vm_source_input",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Create Video Marketing",
+     "phase_ja": "動画マーケティング作成機能の構築",
+     "name": "Xây dựng luồng chọn nguồn và nhập nội dung",
+     "name_ja": "ソース選択とコンテンツ入力フローの構築",
+     "note": "Cho phép chọn nguồn nội dung đầu vào và nhập nội dung cần đưa vào video.",
+     "note_ja": "動画に使う入力ソースを選び、内容を入力できるようにします。",
+     "start": 89,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 145,
+     "updated_at": "2026-09-28T03:59:55.964Z",
+     "code": "MCB-20-01"
+    },
+    {
+     "id": "mcb_vm_config",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Create Video Marketing",
+     "phase_ja": "動画マーケティング作成機能の構築",
+     "name": "Xây dựng luồng cấu hình video trước khi tạo",
+     "name_ja": "生成前の動画設定フローの構築",
+     "note": "Thiết lập các thông số của video trước khi tạo: mục tiêu, thời lượng, tỉ lệ khung hình, văn phong và ngôn ngữ.",
+     "note_ja": "生成前に、目的・尺・アスペクト比・トーン・言語などの設定を行います。",
+     "start": 89,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 146,
+     "updated_at": "2026-09-28T03:59:55.966Z",
+     "code": "MCB-20-02"
+    },
+    {
+     "id": "mcb_vm_media_setup",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Create Video Marketing",
+     "phase_ja": "動画マーケティング作成機能の構築",
+     "name": "Xây dựng luồng thiết lập media (ảnh nền, giọng đọc, nhạc, caption, watermark)",
+     "name_ja": "メディア設定フロー（背景画像・ナレーション・BGM・字幕・ウォーターマーク）の構築",
+     "note": "Thiết lập phần media cho video: ảnh nền, giọng đọc, nhạc nền, caption và watermark.",
+     "note_ja": "背景画像、ナレーション音声、BGM、字幕、ウォーターマークなどのメディア設定を行います。",
+     "start": 89,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 147,
+     "updated_at": "2026-09-28T03:59:55.966Z",
+     "code": "MCB-20-03"
+    },
+    {
+     "id": "mcb_vm_script_outline",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Create Video Marketing",
+     "phase_ja": "動画マーケティング作成機能の構築",
+     "name": "Phát triển luồng sinh và duyệt script outline",
+     "name_ja": "スクリプトアウトラインの生成・確認フローの開発",
+     "note": "Hệ thống sinh script outline cho video; người dùng xem, sửa và duyệt trước khi render.",
+     "note_ja": "動画のスクリプトアウトラインを生成し、確認・修正・承認してからレンダリングに進みます。",
+     "start": 89,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 148,
+     "updated_at": "2026-09-28T03:59:55.966Z",
+     "code": "MCB-20-04"
+    },
+    {
+     "id": "mcb_vm_render_output",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Create Video Marketing",
+     "phase_ja": "動画マーケティング作成機能の構築",
+     "name": "Phát triển luồng render video và xử lý kết quả",
+     "name_ja": "動画レンダリングと成果物処理フローの開発",
+     "note": "Render video từ nội dung đã duyệt, theo dõi tiến trình và xử lý kết quả: xem trước, tải về, làm lại khi lỗi.",
+     "note_ja": "承認済みの内容から動画をレンダリングし、進行状況の確認、プレビュー・ダウンロード・失敗時の再実行に対応します。",
+     "start": 89,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 149,
+     "updated_at": "2026-09-28T03:59:55.967Z",
+     "code": "MCB-20-05"
     }
    ]
   },
@@ -2131,8 +2226,108 @@
    ]
   }
  ],
- "published_at": "2026-09-28T03:50:40.827Z",
+ "published_at": "2026-09-28T03:59:55.967Z",
  "changelog": [
+  {
+   "id": 368,
+   "item_id": "mcb_vm_render_output",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
+   "reason": "Kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:59:55.967Z"
+  },
+  {
+   "id": 367,
+   "item_id": "mcb_vm_script_outline",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
+   "reason": "Kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:59:55.967Z"
+  },
+  {
+   "id": 366,
+   "item_id": "mcb_vm_media_setup",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
+   "reason": "Kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:59:55.966Z"
+  },
+  {
+   "id": 365,
+   "item_id": "mcb_vm_config",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
+   "reason": "Kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:59:55.966Z"
+  },
+  {
+   "id": 364,
+   "item_id": "mcb_vm_source_input",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
+   "reason": "Kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:59:55.964Z"
+  },
+  {
+   "id": 363,
+   "item_id": "mcb_vm_render_output",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Phát triển luồng render video và xử lý kết quả\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:58:10.352Z"
+  },
+  {
+   "id": 362,
+   "item_id": "mcb_vm_script_outline",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Phát triển luồng sinh và duyệt script outline\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:58:10.352Z"
+  },
+  {
+   "id": 361,
+   "item_id": "mcb_vm_media_setup",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng luồng thiết lập media (ảnh nền, giọng đọc, nhạc, caption, watermark)\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:58:10.352Z"
+  },
+  {
+   "id": 360,
+   "item_id": "mcb_vm_config",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng luồng cấu hình video trước khi tạo\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:58:10.352Z"
+  },
+  {
+   "id": 359,
+   "item_id": "mcb_vm_source_input",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xây dựng luồng chọn nguồn và nhập nội dung\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:58:10.350Z"
+  },
   {
    "id": 358,
    "item_id": "mcb_story_visual_consistency",
@@ -2532,106 +2727,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-21T02:55:27.977Z"
-  },
-  {
-   "id": 313,
-   "item_id": "mcb_catalog_pages",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:55:27.977Z"
-  },
-  {
-   "id": 312,
-   "item_id": "mcb_poster_prompt",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:55:27.977Z"
-  },
-  {
-   "id": 311,
-   "item_id": "mcb_paid_free_usage",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:55:27.977Z"
-  },
-  {
-   "id": 310,
-   "item_id": "mcb_paid_free_limits",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:55:27.977Z"
-  },
-  {
-   "id": 309,
-   "item_id": "mcb_paid_free_roles",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:55:27.975Z"
-  },
-  {
-   "id": 308,
-   "item_id": "mcb_poster_catalog_export",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Template xuất poster/catalog và QA output\",\"percent\":{\"from\":85,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.665Z"
-  },
-  {
-   "id": 307,
-   "item_id": "mcb_catalog_pages",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Luồng tạo catalog nhiều trang\",\"percent\":{\"from\":85,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.665Z"
-  },
-  {
-   "id": 306,
-   "item_id": "mcb_poster_prompt",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Luồng tạo poster từ prompt/tài liệu\",\"percent\":{\"from\":85,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.665Z"
-  },
-  {
-   "id": 305,
-   "item_id": "mcb_paid_free_usage",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Màn quản lý user, gói sử dụng và usage\",\"percent\":{\"from\":30,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.665Z"
-  },
-  {
-   "id": 304,
-   "item_id": "mcb_paid_free_limits",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Giới hạn lượt tạo slide và sửa slide theo gói\",\"percent\":{\"from\":30,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.665Z"
   }
  ]
 }

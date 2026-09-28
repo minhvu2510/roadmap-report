@@ -1808,10 +1808,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 5,
+     "percent": 50,
      "internal": 0,
      "sort": 137,
-     "updated_at": "2026-09-10T02:48:13.763Z",
+     "updated_at": "2026-09-28T03:50:40.823Z",
      "code": "MCB-18-01"
     },
     {
@@ -1827,10 +1827,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 5,
+     "percent": 50,
      "internal": 0,
      "sort": 138,
-     "updated_at": "2026-09-10T02:48:13.764Z",
+     "updated_at": "2026-09-28T03:50:40.825Z",
      "code": "MCB-18-02"
     },
     {
@@ -1846,10 +1846,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 5,
+     "percent": 50,
      "internal": 0,
      "sort": 139,
-     "updated_at": "2026-09-10T02:48:13.764Z",
+     "updated_at": "2026-09-28T03:50:40.825Z",
      "code": "MCB-18-03"
     },
     {
@@ -2131,8 +2131,38 @@
    ]
   }
  ],
- "published_at": "2026-09-10T02:55:18.359Z",
+ "published_at": "2026-09-28T03:50:40.827Z",
  "changelog": [
+  {
+   "id": 358,
+   "item_id": "mcb_story_visual_consistency",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Giữ nhất quán hình ảnh nhân vật giữa các phần\",\"percent\":{\"from\":5,\"to\":50}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:50:40.825Z"
+  },
+  {
+   "id": 357,
+   "item_id": "mcb_story_series_generate",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Sinh chuỗi nội dung nhiều phần theo mạch truyện\",\"percent\":{\"from\":5,\"to\":50}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:50:40.825Z"
+  },
+  {
+   "id": 356,
+   "item_id": "mcb_story_character_profile",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Thiết lập hồ sơ nhân vật dùng lại cho cả chuỗi\",\"percent\":{\"from\":5,\"to\":50}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-28T03:50:40.823Z"
+  },
   {
    "id": 355,
    "item_id": "mc_aislide",
@@ -2602,36 +2632,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-08-21T02:52:37.665Z"
-  },
-  {
-   "id": 303,
-   "item_id": "mcb_paid_free_roles",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Thiết kế quyền admin/superadmin và phân loại user trả phí/free\",\"percent\":{\"from\":30,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-21T02:52:37.664Z"
-  },
-  {
-   "id": 302,
-   "item_id": "mcb_paid_free_usage",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":33,\"len\":11},\"to\":{\"start\":33,\"len\":18}}",
-   "reason": "MCB-09 kết thúc 21/08",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-14T00:45:31.034Z"
-  },
-  {
-   "id": 301,
-   "item_id": "mcb_paid_free_limits",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":33,\"len\":11},\"to\":{\"start\":33,\"len\":18}}",
-   "reason": "MCB-09 kết thúc 21/08",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-08-14T00:45:31.034Z"
   }
  ]
 }

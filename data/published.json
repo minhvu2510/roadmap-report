@@ -1785,14 +1785,14 @@
      "name_ja": "ソース選択とコンテンツ入力フローの構築",
      "note": "Cho phép chọn nguồn nội dung đầu vào và nhập nội dung cần đưa vào video.",
      "note_ja": "動画に使う入力ソースを選び、内容を入力できるようにします。",
-     "start": 89,
+     "start": 96,
      "len": 42,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 145,
-     "updated_at": "2026-09-28T03:59:55.964Z",
+     "updated_at": "2026-10-01T08:52:09.666Z",
      "code": "MCB-20-01"
     },
     {
@@ -1804,14 +1804,14 @@
      "name_ja": "生成前の動画設定フローの構築",
      "note": "Thiết lập các thông số của video trước khi tạo: mục tiêu, thời lượng, tỉ lệ khung hình, văn phong và ngôn ngữ.",
      "note_ja": "生成前に、目的・尺・アスペクト比・トーン・言語などの設定を行います。",
-     "start": 89,
+     "start": 96,
      "len": 42,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 146,
-     "updated_at": "2026-09-28T03:59:55.966Z",
+     "updated_at": "2026-10-01T08:52:09.667Z",
      "code": "MCB-20-02"
     },
     {
@@ -1823,14 +1823,14 @@
      "name_ja": "メディア設定フロー（背景画像・ナレーション・BGM・字幕・ウォーターマーク）の構築",
      "note": "Thiết lập phần media cho video: ảnh nền, giọng đọc, nhạc nền, caption và watermark.",
      "note_ja": "背景画像、ナレーション音声、BGM、字幕、ウォーターマークなどのメディア設定を行います。",
-     "start": 89,
+     "start": 96,
      "len": 42,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 147,
-     "updated_at": "2026-09-28T03:59:55.966Z",
+     "updated_at": "2026-10-01T08:52:09.668Z",
      "code": "MCB-20-03"
     },
     {
@@ -1842,14 +1842,14 @@
      "name_ja": "スクリプトアウトラインの生成・確認フローの開発",
      "note": "Hệ thống sinh script outline cho video; người dùng xem, sửa và duyệt trước khi render.",
      "note_ja": "動画のスクリプトアウトラインを生成し、確認・修正・承認してからレンダリングに進みます。",
-     "start": 89,
+     "start": 96,
      "len": 42,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 148,
-     "updated_at": "2026-09-28T03:59:55.966Z",
+     "updated_at": "2026-10-01T08:52:09.668Z",
      "code": "MCB-20-04"
     },
     {
@@ -1861,14 +1861,14 @@
      "name_ja": "動画レンダリングと成果物処理フローの開発",
      "note": "Render video từ nội dung đã duyệt, theo dõi tiến trình và xử lý kết quả: xem trước, tải về, làm lại khi lỗi.",
      "note_ja": "承認済みの内容から動画をレンダリングし、進行状況の確認、プレビュー・ダウンロード・失敗時の再実行に対応します。",
-     "start": 89,
+     "start": 96,
      "len": 42,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 149,
-     "updated_at": "2026-09-28T03:59:55.967Z",
+     "updated_at": "2026-10-01T08:52:09.668Z",
      "code": "MCB-20-05"
     },
     {
@@ -2264,97 +2264,57 @@
    ]
   }
  ],
- "published_at": "2026-10-01T08:47:39.110Z",
+ "published_at": "2026-10-01T08:52:09.668Z",
  "changelog": [
   {
-   "id": 399,
-   "item_id": "mcb_lp_export_publish",
+   "id": 404,
+   "item_id": "mcb_vm_render_output",
    "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Tải trang về dạng HTML hoặc đăng tải trực tiếp\"}",
-   "reason": null,
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":42},\"to\":{\"start\":96,\"len\":42}}",
+   "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:47:39.110Z"
+   "created_at": "2026-10-01T08:52:09.668Z"
   },
   {
-   "id": 398,
-   "item_id": "mcb_lp_domain_tracking",
+   "id": 403,
+   "item_id": "mcb_vm_script_outline",
    "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Gắn tên miền riêng và theo dõi hiệu quả trang\"}",
-   "reason": null,
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":42},\"to\":{\"start\":96,\"len\":42}}",
+   "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:47:39.110Z"
+   "created_at": "2026-10-01T08:52:09.668Z"
   },
   {
-   "id": 397,
-   "item_id": "mcb_lp_responsive",
+   "id": 402,
+   "item_id": "mcb_vm_media_setup",
    "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Hiển thị đẹp trên máy tính, máy tính bảng và điện thoại\"}",
-   "reason": null,
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":42},\"to\":{\"start\":96,\"len\":42}}",
+   "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:47:39.109Z"
+   "created_at": "2026-10-01T08:52:09.668Z"
   },
   {
-   "id": 396,
-   "item_id": "mcb_lp_form_cta",
+   "id": 401,
+   "item_id": "mcb_vm_config",
    "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Gắn form đăng ký và nút kêu gọi hành động\"}",
-   "reason": null,
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":42},\"to\":{\"start\":96,\"len\":42}}",
+   "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:47:39.109Z"
+   "created_at": "2026-10-01T08:52:09.668Z"
   },
   {
-   "id": 395,
-   "item_id": "mcb_lp_structure",
+   "id": 400,
+   "item_id": "mcb_vm_source_input",
    "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Tự động dựng trang từ slide hoặc catalog sẵn có\"}",
-   "reason": null,
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":89,\"len\":42},\"to\":{\"start\":96,\"len\":42}}",
+   "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:47:39.108Z"
-  },
-  {
-   "id": 394,
-   "item_id": "mc_billing",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Quota & Billing\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:46:47.536Z"
-  },
-  {
-   "id": 393,
-   "item_id": "mcb_video_export",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Xuất video và tối ưu hiệu ứng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:46:47.536Z"
-  },
-  {
-   "id": 392,
-   "item_id": "mcb_video_preview",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Preview video từ HTML chuyển động\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:46:47.536Z"
-  },
-  {
-   "id": 391,
-   "item_id": "mcb_video_storyboard",
-   "product_id": "mcb",
-   "kind": "delete",
-   "detail": "{\"name\":\"Storyboard và engine HTML motion\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:46:47.534Z"
+   "created_at": "2026-10-01T08:52:09.666Z"
   },
   {
    "id": 390,
@@ -2765,6 +2725,46 @@
    "reason": "Đang lên giải pháp",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 349,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.846Z"
+  },
+  {
+   "id": 348,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đang lên giải pháp",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:49:40.845Z"
+  },
+  {
+   "id": 347,
+   "item_id": "mcb_story_visual_consistency",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:48:13.764Z"
+  },
+  {
+   "id": 346,
+   "item_id": "mcb_story_series_generate",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-09-10T02:48:13.764Z"
   }
  ]
 }

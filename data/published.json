@@ -1538,14 +1538,14 @@
      "name_ja": "Company画面でのベースクレジット枠の構築",
      "note": "Thiết lập nguồn credit gốc (Base Credits) cho từng công ty ngay tại màn Company: cấp phát, điều chỉnh và theo dõi hạn mức.",
      "note_ja": "会社ごとのベースクレジットをCompany画面で設定し、付与・調整・残量の管理を行えるようにします。",
-     "start": 71,
+     "start": 82,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-09-10T02:49:40.845Z",
+     "updated_at": "2026-10-01T09:10:25.628Z",
      "code": "MCB-19-01"
     },
     {
@@ -1557,14 +1557,14 @@
      "name_ja": "Createフローにおけるクレジット消費とAI操作の制御",
      "note": "Mỗi thao tác AI trong luồng Create trừ credit tương ứng; khi hết hạn mức, hệ thống chặn thao tác và báo rõ cho người dùng.",
      "note_ja": "CreateフローのAI操作ごとにクレジットを消費し、残量がなくなった場合は操作をブロックして利用者に明示します。",
-     "start": 71,
+     "start": 82,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-09-10T02:49:40.846Z",
+     "updated_at": "2026-10-01T09:10:25.628Z",
      "code": "MCB-19-02"
     },
     {
@@ -1576,14 +1576,14 @@
      "name_ja": "会社管理者向けCredit Management画面群の構築",
      "note": "Nhóm màn quản lý credit dành cho quản trị viên công ty: xem hạn mức, phân bổ cho thành viên và theo dõi mức tiêu hao.",
      "note_ja": "会社管理者向けに、クレジット残量の確認、メンバーへの配分、消費状況の把握を行う画面群を用意します。",
-     "start": 71,
+     "start": 82,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-09-10T02:49:40.846Z",
+     "updated_at": "2026-10-01T09:10:25.628Z",
      "code": "MCB-19-03"
     },
     {
@@ -1595,14 +1595,14 @@
      "name_ja": "追加クレジット申請とスーパー管理者による承認フロー",
      "note": "Công ty gửi yêu cầu cấp thêm credit; super admin xem xét, phê duyệt hoặc từ chối, hạn mức được cập nhật theo kết quả.",
      "note_ja": "会社側が追加クレジットを申請し、スーパー管理者が承認・却下を行い、結果に応じて上限を更新します。",
-     "start": 71,
+     "start": 82,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 143,
-     "updated_at": "2026-09-10T02:49:40.846Z",
+     "updated_at": "2026-10-01T09:10:25.628Z",
      "code": "MCB-19-04"
     },
     {
@@ -1614,14 +1614,14 @@
      "name_ja": "スーパー管理者向けCredit Management画面群と利用ログ",
      "note": "Nhóm màn quản lý credit toàn hệ thống cho super admin, kèm nhật ký sử dụng chi tiết theo từng công ty và từng thao tác.",
      "note_ja": "全社横断でクレジットを管理するスーパー管理者向け画面群と、会社別・操作別の詳細な利用ログを提供します。",
-     "start": 71,
+     "start": 82,
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 144,
-     "updated_at": "2026-09-10T02:49:40.846Z",
+     "updated_at": "2026-10-01T09:10:25.628Z",
      "code": "MCB-19-05"
     },
     {
@@ -2207,8 +2207,58 @@
    ]
   }
  ],
- "published_at": "2026-10-01T09:05:59.398Z",
+ "published_at": "2026-10-01T09:10:53.231Z",
  "changelog": [
+  {
+   "id": 427,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":71,\"len\":28},\"to\":{\"start\":82,\"len\":28}}",
+   "reason": "MCB-19 bắt đầu 21/09/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:10:25.628Z"
+  },
+  {
+   "id": 426,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":71,\"len\":28},\"to\":{\"start\":82,\"len\":28}}",
+   "reason": "MCB-19 bắt đầu 21/09/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:10:25.628Z"
+  },
+  {
+   "id": 425,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":71,\"len\":28},\"to\":{\"start\":82,\"len\":28}}",
+   "reason": "MCB-19 bắt đầu 21/09/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:10:25.628Z"
+  },
+  {
+   "id": 424,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":71,\"len\":28},\"to\":{\"start\":82,\"len\":28}}",
+   "reason": "MCB-19 bắt đầu 21/09/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:10:25.628Z"
+  },
+  {
+   "id": 423,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":71,\"len\":28},\"to\":{\"start\":82,\"len\":28}}",
+   "reason": "MCB-19 bắt đầu 21/09/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:10:25.628Z"
+  },
   {
    "id": 422,
    "item_id": "mcb_story_visual_consistency",
@@ -2658,56 +2708,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-01T08:42:50.750Z"
-  },
-  {
-   "id": 368,
-   "item_id": "mcb_vm_render_output",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
-   "reason": "Kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-28T03:59:55.967Z"
-  },
-  {
-   "id": 367,
-   "item_id": "mcb_vm_script_outline",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
-   "reason": "Kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-28T03:59:55.967Z"
-  },
-  {
-   "id": 366,
-   "item_id": "mcb_vm_media_setup",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
-   "reason": "Kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-28T03:59:55.966Z"
-  },
-  {
-   "id": 365,
-   "item_id": "mcb_vm_config",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
-   "reason": "Kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-28T03:59:55.966Z"
-  },
-  {
-   "id": 364,
-   "item_id": "mcb_vm_source_input",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":89,\"len\":28},\"to\":{\"start\":89,\"len\":42}}",
-   "reason": "Kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-09-28T03:59:55.964Z"
   }
  ]
 }

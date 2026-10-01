@@ -1542,10 +1542,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 0,
+     "percent": 5,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-10-01T09:10:25.628Z",
+     "updated_at": "2026-10-01T09:41:16.483Z",
      "code": "MCB-19-01"
     },
     {
@@ -1561,10 +1561,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 0,
+     "percent": 5,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-10-01T09:10:25.628Z",
+     "updated_at": "2026-10-01T09:41:16.483Z",
      "code": "MCB-19-02"
     },
     {
@@ -1580,10 +1580,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 0,
+     "percent": 5,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-10-01T09:10:25.628Z",
+     "updated_at": "2026-10-01T09:41:16.483Z",
      "code": "MCB-19-03"
     },
     {
@@ -1599,10 +1599,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 0,
+     "percent": 5,
      "internal": 0,
      "sort": 143,
-     "updated_at": "2026-10-01T09:10:25.628Z",
+     "updated_at": "2026-10-01T09:41:16.483Z",
      "code": "MCB-19-04"
     },
     {
@@ -1618,10 +1618,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 0,
+     "percent": 5,
      "internal": 0,
      "sort": 144,
-     "updated_at": "2026-10-01T09:10:25.628Z",
+     "updated_at": "2026-10-01T09:41:16.483Z",
      "code": "MCB-19-05"
     },
     {
@@ -2207,8 +2207,58 @@
    ]
   }
  ],
- "published_at": "2026-10-01T09:10:53.231Z",
+ "published_at": "2026-10-01T09:41:21.213Z",
  "changelog": [
+  {
+   "id": 432,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho super admin và nhật ký sử dụng\",\"percent\":{\"from\":0,\"to\":5}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:41:16.483Z"
+  },
+  {
+   "id": 431,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xử lý luồng yêu cầu cấp thêm credit và phê duyệt của super admin\",\"percent\":{\"from\":0,\"to\":5}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:41:16.483Z"
+  },
+  {
+   "id": 430,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho quản trị viên công ty\",\"percent\":{\"from\":0,\"to\":5}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:41:16.483Z"
+  },
+  {
+   "id": 429,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Phát triển cơ chế tiêu hao và chặn thao tác AI trong luồng Create\",\"percent\":{\"from\":0,\"to\":5}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:41:16.483Z"
+  },
+  {
+   "id": 428,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng nguồn hạn mức Base Credits ở màn Company\",\"percent\":{\"from\":0,\"to\":5}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-01T09:41:16.483Z"
+  },
   {
    "id": 427,
    "item_id": "mcb_credit_superadmin_logs",
@@ -2658,56 +2708,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-01T08:42:50.752Z"
-  },
-  {
-   "id": 373,
-   "item_id": "mcb_auth_trust_device",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Ghi nhớ thiết bị tin cậy và bỏ qua 2FA trong thời hạn\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.752Z"
-  },
-  {
-   "id": 372,
-   "item_id": "mcb_auth_recovery_codes",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Mã khôi phục và luồng lấy lại tài khoản khi mất thiết bị 2FA\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.752Z"
-  },
-  {
-   "id": 371,
-   "item_id": "mcb_auth_2fa_otp",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Bật/tắt xác thực hai lớp (2FA) bằng mã OTP\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.752Z"
-  },
-  {
-   "id": 370,
-   "item_id": "mcb_auth_google_link",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Liên kết tài khoản Google với tài khoản email sẵn có\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.752Z"
-  },
-  {
-   "id": 369,
-   "item_id": "mcb_auth_google_login",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Đăng nhập và đăng ký bằng tài khoản Google\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.750Z"
   }
  ]
 }

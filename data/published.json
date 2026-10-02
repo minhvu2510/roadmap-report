@@ -1731,11 +1731,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 150,
-     "updated_at": "2026-10-01T08:44:55.861Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-01"
     },
     {
@@ -1750,11 +1750,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 151,
-     "updated_at": "2026-10-01T08:44:55.863Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-02"
     },
     {
@@ -1769,11 +1769,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 152,
-     "updated_at": "2026-10-01T08:44:55.863Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-03"
     },
     {
@@ -1788,11 +1788,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 153,
-     "updated_at": "2026-10-01T08:44:55.863Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-04"
     },
     {
@@ -1807,11 +1807,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 154,
-     "updated_at": "2026-10-01T08:44:55.864Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-05"
     },
     {
@@ -1826,11 +1826,11 @@
      "start": 96,
      "len": 21,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 20,
      "internal": 0,
      "sort": 155,
-     "updated_at": "2026-10-01T08:44:55.864Z",
+     "updated_at": "2026-10-02T08:32:31.722Z",
      "code": "MCB-21-06"
     },
     {
@@ -2264,8 +2264,68 @@
    ]
   }
  ],
- "published_at": "2026-10-02T01:59:31.689Z",
+ "published_at": "2026-10-02T08:32:35.066Z",
  "changelog": [
+  {
+   "id": 449,
+   "item_id": "mcb_auth_device_management",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
+  {
+   "id": 448,
+   "item_id": "mcb_auth_trust_device",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
+  {
+   "id": 447,
+   "item_id": "mcb_auth_recovery_codes",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
+  {
+   "id": 446,
+   "item_id": "mcb_auth_2fa_otp",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
+  {
+   "id": 445,
+   "item_id": "mcb_auth_google_link",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
+  {
+   "id": 444,
+   "item_id": "mcb_auth_google_login",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:32:31.722Z"
+  },
   {
    "id": 443,
    "item_id": "mcb_social_schedule_track",
@@ -2705,66 +2765,6 @@
    "reason": "Bắt đầu thứ 2 tuần sau, kéo dài 6 tuần",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-01T08:52:09.666Z"
-  },
-  {
-   "id": 390,
-   "item_id": "mcb_pay_failure_refund",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":42}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:45:11.685Z"
-  },
-  {
-   "id": 389,
-   "item_id": "mcb_pay_invoice",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":42}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:45:11.684Z"
-  },
-  {
-   "id": 388,
-   "item_id": "mcb_pay_subscription",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":42}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:45:11.684Z"
-  },
-  {
-   "id": 387,
-   "item_id": "mcb_pay_methods",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":42}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:45:11.684Z"
-  },
-  {
-   "id": 386,
-   "item_id": "mcb_pay_gateway",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":42}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 6 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:45:11.679Z"
-  },
-  {
-   "id": 385,
-   "item_id": "mcb_auth_device_management",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.864Z"
   }
  ]
 }

@@ -78,7 +78,7 @@ const PRODUCT_NOTES: {
   text_ja: string;
   kind?: NoteKind;
 }[] = [
-  // ── Mosa: đầu việc lớn đã làm ──
+  // ── M-Agent: đầu việc lớn đã làm ──
   {
     product_id: "mosa",
     kind: "done",
@@ -95,7 +95,7 @@ const PRODUCT_NOTES: {
     text: "Các tính năng nâng cao đang ở mức cao: Sandbox chạy code an toàn (50%), Skills (48%), Document Canvas – sửa Google Sheet/Docs (45%), Memories – cá nhân hoá (35%).",
     text_ja: "高度機能が高進捗：安全なコード実行Sandbox（50%）、Skills（48%）、Document Canvas（Google Sheet/Docs編集・45%）、Memories（パーソナライズ・35%）。",
   },
-  // ── Mosa: dự định ──
+  // ── M-Agent: dự định ──
   {
     product_id: "mosa",
     kind: "plan",

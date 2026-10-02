@@ -27,7 +27,7 @@ Sinh secret: `openssl rand -base64 32`
 npm run dev                  # sửa ở http://localhost:3100, login email admin
                              # → bấm Publish trong app (bắt buộc, khách chỉ thấy bản published)
 npm run db:pack              # gộp WAL vào roadmap.db, chặn nếu còn dirty
-git add data/roadmap.db && git commit -m "roadmap: cập nhật Mosa"
+git add data/roadmap.db && git commit -m "roadmap: cập nhật M-Agent"
 git push                     # host tự build & deploy
 ```
 

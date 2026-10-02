@@ -1,6 +1,6 @@
 # Đề xuất tính năng — Trang Roadmap theo dõi tiến độ cho khách hàng
 
-**Mục đích trang:** cho khách hàng tự theo dõi tiến độ phát triển (Mrag, Mosa, MultiContentBuilder, SmartBI) mà không cần hỏi lại đội ngũ; cho admin (bạn) toàn quyền cập nhật nội dung mà không cần sửa code mỗi lần.
+**Mục đích trang:** cho khách hàng tự theo dõi tiến độ phát triển (Mrag, M-Agent, MultiContentBuilder, SmartBI) mà không cần hỏi lại đội ngũ; cho admin (bạn) toàn quyền cập nhật nội dung mà không cần sửa code mỗi lần.
 
 **Cập nhật:** đăng nhập bằng Google đã được cài vào trang (mục 1.1-#1) — 2 email `vunm07@hdc-flowtech.com` và `hungnv01@hdc-flowtech.com` là admin, còn lại là khách hàng chỉ xem. Chi tiết và giới hạn của cách làm này ở phần *Ghi chú kỹ thuật* cuối tài liệu.
 

@@ -391,11 +391,11 @@
      "start": 9,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 75,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 4,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-02-02"
     },
     {
@@ -410,11 +410,11 @@
      "start": 16,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 55,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 5,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-02-03"
     },
     {
@@ -448,11 +448,11 @@
      "start": 9,
      "len": 14,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 72,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 7,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-03-02"
     },
     {
@@ -467,11 +467,11 @@
      "start": 16,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 48,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 8,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-03-03"
     },
     {
@@ -505,11 +505,11 @@
      "start": 16,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 55,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 10,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-04-02"
     },
     {
@@ -524,11 +524,11 @@
      "start": 16,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 60,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 11,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-04-03"
     },
     {
@@ -543,11 +543,11 @@
      "start": 19,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 60,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 12,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-05-01"
     },
     {
@@ -562,11 +562,11 @@
      "start": 26,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 13,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-05-02"
     },
     {
@@ -581,11 +581,11 @@
      "start": 33,
      "len": 12,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 14,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-05-03"
     },
     {
@@ -600,11 +600,11 @@
      "start": 40,
      "len": 11,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 15,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-05-04"
     },
     {
@@ -619,11 +619,11 @@
      "start": 19,
      "len": 7,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 45,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 16,
-     "updated_at": "2026-07-22T11:00:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-06-01"
     },
     {
@@ -638,11 +638,11 @@
      "start": 30,
      "len": 14,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 17,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-06-02"
     },
     {
@@ -657,11 +657,11 @@
      "start": 40,
      "len": 11,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 18,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-06-03"
     },
     {
@@ -676,11 +676,11 @@
      "start": 44,
      "len": 7,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 19,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-06-04"
     },
     {
@@ -695,11 +695,11 @@
      "start": 51,
      "len": 0,
      "milestone": 1,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 20,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-06-05"
     },
     {
@@ -714,11 +714,11 @@
      "start": 2,
      "len": 28,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 35,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 21,
-     "updated_at": "2026-07-22T10:30:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-07-01"
     },
     {
@@ -733,11 +733,11 @@
      "start": 2,
      "len": 28,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 45,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 22,
-     "updated_at": "2026-07-22T10:30:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-07-02"
     },
     {
@@ -752,11 +752,11 @@
      "start": 5,
      "len": 25,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 48,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 23,
-     "updated_at": "2026-07-22T10:30:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-07-03"
     },
     {
@@ -771,11 +771,11 @@
      "start": 19,
      "len": 21,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 12,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 24,
-     "updated_at": "2026-07-22T10:30:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-07-04"
     },
     {
@@ -790,11 +790,11 @@
      "start": 0,
      "len": 21,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 50,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 25,
-     "updated_at": "2026-07-22T10:30:00.000Z",
+     "updated_at": "2026-10-02T08:46:23.884Z",
      "code": "MOSA-08-01"
     },
     {
@@ -2834,8 +2834,208 @@
    ]
   }
  ],
- "published_at": "2026-10-02T08:40:18.853Z",
+ "published_at": "2026-10-02T08:46:23.884Z",
  "changelog": [
+  {
+   "id": 499,
+   "item_id": "mo_sandbox",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":50,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 498,
+   "item_id": "mo_plugin",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":12,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 497,
+   "item_id": "mo_skill",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":48,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 496,
+   "item_id": "mo_doc",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":45,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 495,
+   "item_id": "mo_mem",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":35,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 494,
+   "item_id": "mo_sa_mvp",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 493,
+   "item_id": "mo_sa_qa",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 492,
+   "item_id": "mo_sa_monitor",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 491,
+   "item_id": "mo_sa_tenant",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 490,
+   "item_id": "mo_sa_spec",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":45,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 489,
+   "item_id": "mo_ad_user",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 488,
+   "item_id": "mo_ad_agent",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 487,
+   "item_id": "mo_ad_auth",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 486,
+   "item_id": "mo_ad_spec",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":60,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 485,
+   "item_id": "mo_cn_fw",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":60,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 484,
+   "item_id": "mo_cn_mail",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":55,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 483,
+   "item_id": "mo_ch_state",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":48,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 482,
+   "item_id": "mo_ch_prompt",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":72,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 481,
+   "item_id": "mo_wf_retry",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":55,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
+  {
+   "id": 480,
+   "item_id": "mo_wf_node",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":75,\"to\":100}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:46:23.884Z"
+  },
   {
    "id": 479,
    "item_id": "mo_voice_tts",
@@ -3135,206 +3335,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 449,
-   "item_id": "mcb_auth_device_management",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 448,
-   "item_id": "mcb_auth_trust_device",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 447,
-   "item_id": "mcb_auth_recovery_codes",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 446,
-   "item_id": "mcb_auth_2fa_otp",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 445,
-   "item_id": "mcb_auth_google_link",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 444,
-   "item_id": "mcb_auth_google_login",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":20}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:32:31.722Z"
-  },
-  {
-   "id": 443,
-   "item_id": "mcb_social_schedule_track",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
-   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:59:28.442Z"
-  },
-  {
-   "id": 442,
-   "item_id": "mcb_social_adapt_format",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
-   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:59:28.442Z"
-  },
-  {
-   "id": 441,
-   "item_id": "mcb_social_connect_post",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
-   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:59:28.442Z"
-  },
-  {
-   "id": 440,
-   "item_id": "mcb_social_schedule_track",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Hẹn giờ đăng và theo dõi kết quả bài đăng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:58:15.385Z"
-  },
-  {
-   "id": 439,
-   "item_id": "mcb_social_adapt_format",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tự động chỉnh nội dung cho đúng chuẩn từng nền tảng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:58:15.385Z"
-  },
-  {
-   "id": 438,
-   "item_id": "mcb_social_connect_post",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Kết nối tài khoản mạng xã hội và đăng bài trực tiếp\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:58:15.385Z"
-  },
-  {
-   "id": 437,
-   "item_id": "mcb_story_consistency",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:55:36.410Z"
-  },
-  {
-   "id": 436,
-   "item_id": "mcb_story_editor",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:55:36.410Z"
-  },
-  {
-   "id": 435,
-   "item_id": "mcb_story_series",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:55:36.410Z"
-  },
-  {
-   "id": 434,
-   "item_id": "mcb_story_bible",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:55:36.410Z"
-  },
-  {
-   "id": 433,
-   "item_id": "mcb_story_chapters",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T01:55:36.410Z"
-  },
-  {
-   "id": 432,
-   "item_id": "mcb_credit_superadmin_logs",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho super admin và nhật ký sử dụng\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T09:41:16.483Z"
-  },
-  {
-   "id": 431,
-   "item_id": "mcb_credit_request_approval",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Xử lý luồng yêu cầu cấp thêm credit và phê duyệt của super admin\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T09:41:16.483Z"
-  },
-  {
-   "id": 430,
-   "item_id": "mcb_credit_admin_screens",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Xây dựng nhóm màn Credit Management cho quản trị viên công ty\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T09:41:16.483Z"
   }
  ]
 }

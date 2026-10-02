@@ -1937,14 +1937,14 @@
      "name_ja": "章立て長編執筆：章の作成・並び替え・次章の生成",
      "note": "Chia truyện thành nhiều chương, thêm và sắp xếp lại thứ tự chương, và sinh chương tiếp theo dựa trên nội dung các chương trước.",
      "note_ja": "作品を複数の章に分け、章の追加や並び替えを行い、前章までの内容を踏まえて次章を生成します。",
-     "start": 96,
+     "start": 145,
      "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 161,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-01"
     },
     {
@@ -1956,14 +1956,14 @@
      "name_ja": "ストーリーバイブル：キャラクター・世界観・設定ルールの共通管理",
      "note": "Lưu tập trung hồ sơ nhân vật, bối cảnh và các quy tắc của thế giới truyện để mọi chương, mọi phần đều dùng chung một nguồn thông tin.",
      "note_ja": "キャラクター設定、世界観、作中ルールを一元管理し、すべての章・作品が同じ設定を参照できるようにします。",
-     "start": 96,
+     "start": 145,
      "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 162,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-02"
     },
     {
@@ -1975,14 +1975,14 @@
      "name_ja": "複数作品のシリーズ管理と共通タイムライン",
      "note": "Gom nhiều truyện vào một series, theo dõi dòng thời gian và mối liên hệ giữa các truyện trong cùng thế giới.",
      "note_ja": "複数の作品を1つのシリーズにまとめ、同じ世界観の中での時系列や作品同士の関係を管理します。",
-     "start": 96,
+     "start": 145,
      "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 163,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-03"
     },
     {
@@ -1994,14 +1994,14 @@
      "name_ja": "執筆者向けエディタ（編集・メモ・版管理）",
      "note": "Màn soạn thảo dành riêng cho người viết: viết và sửa trực tiếp, ghi chú bên lề, so sánh và quay lại phiên bản trước.",
      "note_ja": "執筆者専用の編集画面で、本文の執筆・修正、メモの追加、版の比較と巻き戻しが行えます。",
-     "start": 96,
+     "start": 145,
      "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 164,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-04"
     },
     {
@@ -2013,14 +2013,14 @@
      "name_ja": "ストーリーバイブルに基づく整合性チェックと続きの提案",
      "note": "Hệ thống đối chiếu nội dung mới với story bible, cảnh báo chỗ mâu thuẫn và gợi ý hướng phát triển tiếp theo.",
      "note_ja": "新しい内容をストーリーバイブルと照合して矛盾を警告し、次の展開案を提案します。",
-     "start": 96,
+     "start": 145,
      "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 165,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-05"
     }
    ]
@@ -2207,8 +2207,58 @@
    ]
   }
  ],
- "published_at": "2026-10-01T09:41:21.213Z",
+ "published_at": "2026-10-02T01:55:49.008Z",
  "changelog": [
+  {
+   "id": 437,
+   "item_id": "mcb_story_consistency",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
+   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:55:36.410Z"
+  },
+  {
+   "id": 436,
+   "item_id": "mcb_story_editor",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
+   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:55:36.410Z"
+  },
+  {
+   "id": 435,
+   "item_id": "mcb_story_series",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
+   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:55:36.410Z"
+  },
+  {
+   "id": 434,
+   "item_id": "mcb_story_bible",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
+   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:55:36.410Z"
+  },
+  {
+   "id": 433,
+   "item_id": "mcb_story_chapters",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":28},\"to\":{\"start\":145,\"len\":28}}",
+   "reason": "MCB-23 bắt đầu 23/11/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:55:36.410Z"
+  },
   {
    "id": 432,
    "item_id": "mcb_credit_superadmin_logs",
@@ -2658,56 +2708,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-01T08:43:16.972Z"
-  },
-  {
-   "id": 378,
-   "item_id": "mcb_pay_invoice",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Hoá đơn, biên lai và lịch sử giao dịch\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:43:16.972Z"
-  },
-  {
-   "id": 377,
-   "item_id": "mcb_pay_subscription",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Thanh toán gói trả phí và gia hạn tự động theo chu kỳ\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:43:16.971Z"
-  },
-  {
-   "id": 376,
-   "item_id": "mcb_pay_methods",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Lưu thẻ và quản lý phương thức thanh toán\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:43:16.971Z"
-  },
-  {
-   "id": 375,
-   "item_id": "mcb_pay_gateway",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tích hợp cổng thanh toán và luồng nhập thẻ an toàn\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:43:16.967Z"
-  },
-  {
-   "id": 374,
-   "item_id": "mcb_auth_device_management",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Màn quản lý thiết bị đã đăng nhập và thu hồi quyền truy cập\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:42:50.752Z"
   }
  ]
 }

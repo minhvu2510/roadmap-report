@@ -2022,6 +2022,63 @@
      "sort": 165,
      "updated_at": "2026-10-02T01:55:36.410Z",
      "code": "MCB-23-05"
+    },
+    {
+     "id": "mcb_social_connect_post",
+     "product_id": "mcb",
+     "phase": "Chia sẻ lên các nền tảng mạng xã hội",
+     "phase_ja": "SNSプラットフォームへの共有",
+     "name": "Kết nối tài khoản mạng xã hội và đăng bài trực tiếp",
+     "name_ja": "SNSアカウント連携と直接投稿",
+     "note": "Liên kết tài khoản Facebook, Instagram, LinkedIn và X một lần, sau đó đăng nội dung đã tạo thẳng lên trang của bạn mà không cần tải file về.",
+     "note_ja": "Facebook・Instagram・LinkedIn・X のアカウントを一度連携すれば、作成したコンテンツをファイル保存なしでそのまま投稿できます。",
+     "start": 153,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 166,
+     "updated_at": "2026-10-02T01:59:28.442Z",
+     "code": "MCB-24-01"
+    },
+    {
+     "id": "mcb_social_adapt_format",
+     "product_id": "mcb",
+     "phase": "Chia sẻ lên các nền tảng mạng xã hội",
+     "phase_ja": "SNSプラットフォームへの共有",
+     "name": "Tự động chỉnh nội dung cho đúng chuẩn từng nền tảng",
+     "name_ja": "各プラットフォーム向けの自動最適化",
+     "note": "Cùng một nội dung được tự cắt đúng tỉ lệ ảnh, rút gọn caption và gợi ý hashtag theo yêu cầu riêng của từng mạng xã hội.",
+     "note_ja": "同じコンテンツを、各SNSの仕様に合わせて画像比率の調整、キャプションの短縮、ハッシュタグの提案まで自動で整えます。",
+     "start": 153,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 167,
+     "updated_at": "2026-10-02T01:59:28.442Z",
+     "code": "MCB-24-02"
+    },
+    {
+     "id": "mcb_social_schedule_track",
+     "product_id": "mcb",
+     "phase": "Chia sẻ lên các nền tảng mạng xã hội",
+     "phase_ja": "SNSプラットフォームへの共有",
+     "name": "Hẹn giờ đăng và theo dõi kết quả bài đăng",
+     "name_ja": "予約投稿と投稿結果の確認",
+     "note": "Chọn thời điểm đăng cho từng nền tảng, xem lịch đăng sắp tới và theo dõi lượt tiếp cận, tương tác sau khi bài lên.",
+     "note_ja": "プラットフォームごとに投稿日時を指定し、予約一覧を確認しながら、投稿後のリーチやエンゲージメントを追跡できます。",
+     "start": 153,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 168,
+     "updated_at": "2026-10-02T01:59:28.442Z",
+     "code": "MCB-24-03"
     }
    ]
   },
@@ -2207,8 +2264,68 @@
    ]
   }
  ],
- "published_at": "2026-10-02T01:55:49.008Z",
+ "published_at": "2026-10-02T01:59:31.689Z",
  "changelog": [
+  {
+   "id": 443,
+   "item_id": "mcb_social_schedule_track",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:59:28.442Z"
+  },
+  {
+   "id": 442,
+   "item_id": "mcb_social_adapt_format",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:59:28.442Z"
+  },
+  {
+   "id": 441,
+   "item_id": "mcb_social_connect_post",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":173,\"len\":28},\"to\":{\"start\":153,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 01/12/2026, kéo dài 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:59:28.442Z"
+  },
+  {
+   "id": 440,
+   "item_id": "mcb_social_schedule_track",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Hẹn giờ đăng và theo dõi kết quả bài đăng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:58:15.385Z"
+  },
+  {
+   "id": 439,
+   "item_id": "mcb_social_adapt_format",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Tự động chỉnh nội dung cho đúng chuẩn từng nền tảng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:58:15.385Z"
+  },
+  {
+   "id": 438,
+   "item_id": "mcb_social_connect_post",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Kết nối tài khoản mạng xã hội và đăng bài trực tiếp\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T01:58:15.385Z"
+  },
   {
    "id": 437,
    "item_id": "mcb_story_consistency",
@@ -2648,66 +2765,6 @@
    "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-01T08:44:55.864Z"
-  },
-  {
-   "id": 384,
-   "item_id": "mcb_auth_trust_device",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.864Z"
-  },
-  {
-   "id": 383,
-   "item_id": "mcb_auth_recovery_codes",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.864Z"
-  },
-  {
-   "id": 382,
-   "item_id": "mcb_auth_2fa_otp",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.863Z"
-  },
-  {
-   "id": 381,
-   "item_id": "mcb_auth_google_link",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.863Z"
-  },
-  {
-   "id": 380,
-   "item_id": "mcb_auth_google_login",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":28},\"to\":{\"start\":96,\"len\":21}}",
-   "reason": "Bắt đầu tuần sau, kéo dài 3 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:44:55.861Z"
-  },
-  {
-   "id": 379,
-   "item_id": "mcb_pay_failure_refund",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Xử lý thanh toán thất bại, hoàn tiền và huỷ gói\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-01T08:43:16.972Z"
   }
  ]
 }

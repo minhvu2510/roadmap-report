@@ -392,7 +392,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
     function phName(it: Item) {
       return lang === "ja" ? it.phase_ja || it.phase : it.phase;
     }
-    // "MOSA-01-02" -> "MOSA-01" (the phase it belongs to). Flat codes have no parent.
+    // "M-AGENT-01-02" -> "M-AGENT-01" (the phase it belongs to). Flat codes have no parent.
     function parentCode(it: Item): string | null {
       const parts = (it.code || "").split("-");
       return parts.length >= 3 ? parts.slice(0, -1).join("-") : null;
@@ -1010,7 +1010,7 @@ export default function Roadmap({ role, email }: { role: "admin" | "customer"; e
     const mm = String(d.getMonth() + 1).padStart(2, "0");
     return lang === "ja" ? `${d.getFullYear()}/${mm}/${dd}` : `${dd}/${mm}/${d.getFullYear()}`;
   };
-  // "MOSA-01-02" -> "MOSA-01"; flat codes have no parent
+  // "M-AGENT-01-02" -> "M-AGENT-01"; flat codes have no parent
   const parentOf = (code: string | null) => {
     const parts = (code || "").split("-");
     return parts.length >= 3 ? parts.slice(0, -1).join("-") : null;

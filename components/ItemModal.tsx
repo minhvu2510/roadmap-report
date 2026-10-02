@@ -144,7 +144,7 @@ export default function ItemModal({
           <input
             value={f.code}
             onChange={(e) => set("code", e.target.value)}
-            placeholder={L ? "例: MOSA-01" : "vd: MOSA-01"}
+            placeholder={L ? "例: M-AGENT-01" : "vd: M-AGENT-01"}
           />
         </div>
 

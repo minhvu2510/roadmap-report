@@ -91,7 +91,7 @@ function migrate(d: Database.Database) {
       value TEXT
     );
   `);
-  // short human-readable code shown on the chart + detail table (e.g. MOSA-01)
+  // short human-readable code shown on the chart + detail table (e.g. M-AGENT-01)
   const cols = d.prepare("PRAGMA table_info(items)").all() as { name: string }[];
   if (!cols.some((c) => c.name === "code")) {
     d.exec("ALTER TABLE items ADD COLUMN code TEXT");

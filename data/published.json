@@ -320,7 +320,7 @@
      "internal": 0,
      "sort": 0,
      "updated_at": "2026-08-06T03:58:28.000Z",
-     "code": "MOSA-01-01"
+     "code": "M-AGENT-01-01"
     },
     {
      "id": "mo_ag_schema",
@@ -339,7 +339,7 @@
      "internal": 0,
      "sort": 1,
      "updated_at": "2026-08-06T03:58:28.000Z",
-     "code": "MOSA-01-02"
+     "code": "M-AGENT-01-02"
     },
     {
      "id": "mo_ag_demo",
@@ -358,7 +358,7 @@
      "internal": 0,
      "sort": 2,
      "updated_at": "2026-08-06T03:58:28.000Z",
-     "code": "MOSA-01-03"
+     "code": "M-AGENT-01-03"
     },
     {
      "id": "mo_wf_engine",
@@ -377,7 +377,7 @@
      "internal": 0,
      "sort": 3,
      "updated_at": "2026-07-22T11:00:00.000Z",
-     "code": "MOSA-02-01"
+     "code": "M-AGENT-02-01"
     },
     {
      "id": "mo_wf_node",
@@ -396,7 +396,7 @@
      "internal": 0,
      "sort": 4,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-02-02"
+     "code": "M-AGENT-02-02"
     },
     {
      "id": "mo_wf_retry",
@@ -415,7 +415,7 @@
      "internal": 0,
      "sort": 5,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-02-03"
+     "code": "M-AGENT-02-03"
     },
     {
      "id": "mo_ch_stream",
@@ -434,7 +434,7 @@
      "internal": 0,
      "sort": 6,
      "updated_at": "2026-07-22T11:00:00.000Z",
-     "code": "MOSA-03-01"
+     "code": "M-AGENT-03-01"
     },
     {
      "id": "mo_ch_prompt",
@@ -453,7 +453,7 @@
      "internal": 0,
      "sort": 7,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-03-02"
+     "code": "M-AGENT-03-02"
     },
     {
      "id": "mo_ch_state",
@@ -472,7 +472,7 @@
      "internal": 0,
      "sort": 8,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-03-03"
+     "code": "M-AGENT-03-03"
     },
     {
      "id": "mo_cn_zoho",
@@ -491,7 +491,7 @@
      "internal": 0,
      "sort": 9,
      "updated_at": "2026-07-22T11:00:00.000Z",
-     "code": "MOSA-04-01"
+     "code": "M-AGENT-04-01"
     },
     {
      "id": "mo_cn_mail",
@@ -510,7 +510,7 @@
      "internal": 0,
      "sort": 10,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-04-02"
+     "code": "M-AGENT-04-02"
     },
     {
      "id": "mo_cn_fw",
@@ -529,7 +529,7 @@
      "internal": 0,
      "sort": 11,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-04-03"
+     "code": "M-AGENT-04-03"
     },
     {
      "id": "mo_ad_spec",
@@ -548,7 +548,7 @@
      "internal": 0,
      "sort": 12,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-05-01"
+     "code": "M-AGENT-05-01"
     },
     {
      "id": "mo_ad_auth",
@@ -567,7 +567,7 @@
      "internal": 0,
      "sort": 13,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-05-02"
+     "code": "M-AGENT-05-02"
     },
     {
      "id": "mo_ad_agent",
@@ -586,7 +586,7 @@
      "internal": 0,
      "sort": 14,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-05-03"
+     "code": "M-AGENT-05-03"
     },
     {
      "id": "mo_ad_user",
@@ -605,7 +605,7 @@
      "internal": 0,
      "sort": 15,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-05-04"
+     "code": "M-AGENT-05-04"
     },
     {
      "id": "mo_sa_spec",
@@ -624,7 +624,7 @@
      "internal": 0,
      "sort": 16,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-06-01"
+     "code": "M-AGENT-06-01"
     },
     {
      "id": "mo_sa_tenant",
@@ -643,7 +643,7 @@
      "internal": 0,
      "sort": 17,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-06-02"
+     "code": "M-AGENT-06-02"
     },
     {
      "id": "mo_sa_monitor",
@@ -662,7 +662,7 @@
      "internal": 0,
      "sort": 18,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-06-03"
+     "code": "M-AGENT-06-03"
     },
     {
      "id": "mo_sa_qa",
@@ -681,7 +681,7 @@
      "internal": 0,
      "sort": 19,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-06-04"
+     "code": "M-AGENT-06-04"
     },
     {
      "id": "mo_sa_mvp",
@@ -700,7 +700,7 @@
      "internal": 0,
      "sort": 20,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-06-05"
+     "code": "M-AGENT-06-05"
     },
     {
      "id": "mo_mem",
@@ -719,7 +719,7 @@
      "internal": 0,
      "sort": 21,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-07-01"
+     "code": "M-AGENT-07-01"
     },
     {
      "id": "mo_doc",
@@ -738,7 +738,7 @@
      "internal": 0,
      "sort": 22,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-07-02"
+     "code": "M-AGENT-07-02"
     },
     {
      "id": "mo_skill",
@@ -757,7 +757,7 @@
      "internal": 0,
      "sort": 23,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-07-03"
+     "code": "M-AGENT-07-03"
     },
     {
      "id": "mo_plugin",
@@ -776,7 +776,7 @@
      "internal": 0,
      "sort": 24,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-07-04"
+     "code": "M-AGENT-07-04"
     },
     {
      "id": "mo_sandbox",
@@ -795,7 +795,7 @@
      "internal": 0,
      "sort": 25,
      "updated_at": "2026-10-02T08:46:23.884Z",
-     "code": "MOSA-08-01"
+     "code": "M-AGENT-08-01"
     },
     {
      "id": "mo_credit_rule",
@@ -814,7 +814,7 @@
      "internal": 0,
      "sort": 26,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-09-01"
+     "code": "M-AGENT-09-01"
     },
     {
      "id": "mo_credit_history",
@@ -833,7 +833,7 @@
      "internal": 0,
      "sort": 27,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-09-02"
+     "code": "M-AGENT-09-02"
     },
     {
      "id": "mo_credit_limit",
@@ -852,7 +852,7 @@
      "internal": 0,
      "sort": 28,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-09-03"
+     "code": "M-AGENT-09-03"
     },
     {
      "id": "mo_mrag_connect",
@@ -871,7 +871,7 @@
      "internal": 0,
      "sort": 29,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-10-01"
+     "code": "M-AGENT-10-01"
     },
     {
      "id": "mo_mrag_perm",
@@ -890,7 +890,7 @@
      "internal": 0,
      "sort": 30,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-10-02"
+     "code": "M-AGENT-10-02"
     },
     {
      "id": "mo_mrag_poc",
@@ -909,7 +909,7 @@
      "internal": 0,
      "sort": 31,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-10-03"
+     "code": "M-AGENT-10-03"
     },
     {
      "id": "mo_gws_write",
@@ -928,7 +928,7 @@
      "internal": 0,
      "sort": 32,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-11-01"
+     "code": "M-AGENT-11-01"
     },
     {
      "id": "mo_gws_confirm",
@@ -947,7 +947,7 @@
      "internal": 0,
      "sort": 33,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-11-02"
+     "code": "M-AGENT-11-02"
     },
     {
      "id": "mo_gws_audit",
@@ -966,7 +966,7 @@
      "internal": 0,
      "sort": 34,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-11-03"
+     "code": "M-AGENT-11-03"
     },
     {
      "id": "mo_noti_realtime",
@@ -985,7 +985,7 @@
      "internal": 0,
      "sort": 35,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-12-01"
+     "code": "M-AGENT-12-01"
     },
     {
      "id": "mo_noti_center",
@@ -1004,7 +1004,7 @@
      "internal": 0,
      "sort": 36,
      "updated_at": "2026-10-02T08:55:11.298Z",
-     "code": "MOSA-12-02"
+     "code": "M-AGENT-12-02"
     },
     {
      "id": "mo_mini_scope",
@@ -1023,7 +1023,7 @@
      "internal": 0,
      "sort": 37,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-13-01"
+     "code": "M-AGENT-13-01"
     },
     {
      "id": "mo_mini_api",
@@ -1042,7 +1042,7 @@
      "internal": 0,
      "sort": 38,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-13-02"
+     "code": "M-AGENT-13-02"
     },
     {
      "id": "mo_mini_mvp",
@@ -1061,7 +1061,7 @@
      "internal": 0,
      "sort": 39,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-13-03"
+     "code": "M-AGENT-13-03"
     },
     {
      "id": "mo_img_read",
@@ -1080,7 +1080,7 @@
      "internal": 0,
      "sort": 40,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-14-01"
+     "code": "M-AGENT-14-01"
     },
     {
      "id": "mo_img_gen",
@@ -1099,7 +1099,7 @@
      "internal": 0,
      "sort": 41,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-14-02"
+     "code": "M-AGENT-14-02"
     },
     {
      "id": "mo_wf2_measure",
@@ -1118,7 +1118,7 @@
      "internal": 0,
      "sort": 42,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-15-01"
+     "code": "M-AGENT-15-01"
     },
     {
      "id": "mo_wf2_improve",
@@ -1137,7 +1137,7 @@
      "internal": 0,
      "sort": 43,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-15-02"
+     "code": "M-AGENT-15-02"
     },
     {
      "id": "mo_opt_measure",
@@ -1156,7 +1156,7 @@
      "internal": 0,
      "sort": 44,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-16-01"
+     "code": "M-AGENT-16-01"
     },
     {
      "id": "mo_opt_routing",
@@ -1175,7 +1175,7 @@
      "internal": 0,
      "sort": 45,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-16-02"
+     "code": "M-AGENT-16-02"
     },
     {
      "id": "mo_opt_compare",
@@ -1194,7 +1194,7 @@
      "internal": 0,
      "sort": 46,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-16-03"
+     "code": "M-AGENT-16-03"
     },
     {
      "id": "mo_ms_survey",
@@ -1213,7 +1213,7 @@
      "internal": 0,
      "sort": 47,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-17-01"
+     "code": "M-AGENT-17-01"
     },
     {
      "id": "mo_ms_poc",
@@ -1232,7 +1232,7 @@
      "internal": 0,
      "sort": 48,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-17-02"
+     "code": "M-AGENT-17-02"
     },
     {
      "id": "mo_tpl_model",
@@ -1251,7 +1251,7 @@
      "internal": 0,
      "sort": 49,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-18-01"
+     "code": "M-AGENT-18-01"
     },
     {
      "id": "mo_tpl_set",
@@ -1270,7 +1270,7 @@
      "internal": 0,
      "sort": 50,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-18-02"
+     "code": "M-AGENT-18-02"
     },
     {
      "id": "mo_zoho2_survey",
@@ -1289,7 +1289,7 @@
      "internal": 0,
      "sort": 51,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-19-01"
+     "code": "M-AGENT-19-01"
     },
     {
      "id": "mo_zoho2_design",
@@ -1308,7 +1308,7 @@
      "internal": 0,
      "sort": 52,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-19-02"
+     "code": "M-AGENT-19-02"
     },
     {
      "id": "mo_voice_stt",
@@ -1327,7 +1327,7 @@
      "internal": 0,
      "sort": 53,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-20-01"
+     "code": "M-AGENT-20-01"
     },
     {
      "id": "mo_voice_minutes",
@@ -1346,7 +1346,7 @@
      "internal": 0,
      "sort": 54,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-20-02"
+     "code": "M-AGENT-20-02"
     },
     {
      "id": "mo_voice_tts",
@@ -1365,7 +1365,7 @@
      "internal": 0,
      "sort": 55,
      "updated_at": "2026-10-02T08:34:11.736Z",
-     "code": "MOSA-20-03"
+     "code": "M-AGENT-20-03"
     }
    ]
   },
@@ -2834,7 +2834,7 @@
    ]
   }
  ],
- "published_at": "2026-10-02T08:55:11.298Z",
+ "published_at": "2026-10-02T08:57:06.383Z",
  "changelog": [
   {
    "id": 510,

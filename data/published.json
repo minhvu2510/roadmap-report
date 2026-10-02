@@ -809,11 +809,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 26,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-09-01"
     },
     {
@@ -828,11 +828,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 27,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-09-02"
     },
     {
@@ -847,11 +847,11 @@
      "start": 112,
      "len": 11,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 28,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-09-03"
     },
     {
@@ -866,11 +866,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 29,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-10-01"
     },
     {
@@ -885,11 +885,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 30,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-10-02"
     },
     {
@@ -904,11 +904,11 @@
      "start": 112,
      "len": 11,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 31,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-10-03"
     },
     {
@@ -923,11 +923,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 32,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-11-01"
     },
     {
@@ -942,11 +942,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 33,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-11-02"
     },
     {
@@ -961,11 +961,11 @@
      "start": 112,
      "len": 11,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 34,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-11-03"
     },
     {
@@ -980,11 +980,11 @@
      "start": 92,
      "len": 15,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 35,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-12-01"
     },
     {
@@ -999,11 +999,11 @@
      "start": 107,
      "len": 16,
      "milestone": 0,
-     "status": "not_started",
+     "status": "in_progress",
      "percent": 0,
      "internal": 0,
      "sort": 36,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-02T08:55:11.298Z",
      "code": "MOSA-12-02"
     },
     {
@@ -2834,8 +2834,118 @@
    ]
   }
  ],
- "published_at": "2026-10-02T08:46:23.884Z",
+ "published_at": "2026-10-02T08:55:11.298Z",
  "changelog": [
+  {
+   "id": 510,
+   "item_id": "mo_noti_center",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 509,
+   "item_id": "mo_noti_realtime",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 508,
+   "item_id": "mo_gws_audit",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 507,
+   "item_id": "mo_gws_confirm",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 506,
+   "item_id": "mo_gws_write",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 505,
+   "item_id": "mo_mrag_poc",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 504,
+   "item_id": "mo_mrag_perm",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 503,
+   "item_id": "mo_mrag_connect",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 502,
+   "item_id": "mo_credit_limit",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 501,
+   "item_id": "mo_credit_history",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
+  {
+   "id": 500,
+   "item_id": "mo_credit_rule",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T08:55:11.298Z"
+  },
   {
    "id": 499,
    "item_id": "mo_sandbox",
@@ -3222,116 +3332,6 @@
    "product_id": "mosa",
    "kind": "create",
    "detail": "{\"name\":\"Kiến trúc, phạm vi & khảo sát use case Mini App\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 460,
-   "item_id": "mo_noti_center",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Notification Center & tự tạm dừng Workflow lỗi liên tiếp\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 459,
-   "item_id": "mo_noti_realtime",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Thông báo realtime cho Workflow & Connector\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 458,
-   "item_id": "mo_gws_audit",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Lịch sử thao tác (Audit) & xử lý conflict\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 457,
-   "item_id": "mo_gws_confirm",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Xác định đúng tài liệu & Preview/Confirm trước khi sửa\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 456,
-   "item_id": "mo_gws_write",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Mở rộng Google Connector từ đọc sang ghi\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 455,
-   "item_id": "mo_mrag_poc",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"PoC trên dữ liệu thực tế & theo dõi chi phí\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 454,
-   "item_id": "mo_mrag_perm",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Hiển thị nguồn trích dẫn & đồng bộ quyền truy cập\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 453,
-   "item_id": "mo_mrag_connect",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Thiết kế kết nối & gọi Search/RAG của MRAG từ M-Agent\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 452,
-   "item_id": "mo_credit_limit",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Giới hạn khi hết Credit & cấu hình Credit theo công ty\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 451,
-   "item_id": "mo_credit_history",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Lưu lịch sử & hiển thị Credit đã dùng / còn lại\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 450,
-   "item_id": "mo_credit_rule",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Quy tắc quy đổi & tính Credit cho Chat và Workflow\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:34:11.736Z"

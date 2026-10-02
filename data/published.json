@@ -292,6 +292,44 @@
      "sort": 14,
      "updated_at": "2026-07-14T05:02:52.537Z",
      "code": "MRAG-03-01"
+    },
+    {
+     "id": "mr_v2_agentic",
+     "product_id": "mrag",
+     "phase": "Mrag V2 – Agentic RAG suy luận chuyên sâu",
+     "phase_ja": "Mrag V2 – 深い推論を行うエージェント型RAG",
+     "name": "Agentic RAG – Suy luận chuyên sâu cho câu hỏi phức tạp",
+     "name_ja": "エージェント型RAG – 複雑な質問に対する深い推論",
+     "note": "Nâng cấp Mrag lên V2 theo hướng Agent RAG: tự phân tích câu hỏi, chia thành nhiều bước, tìm kiếm và đối chiếu nhiều nguồn tài liệu rồi suy luận để trả lời chính xác các câu hỏi phức tạp.",
+     "note_ja": "MragをエージェントRAGとしてV2へ刷新します。質問を自ら分析して複数のステップに分解し、複数のドキュメントを検索・照合したうえで推論し、複雑な質問にも正確に回答します。",
+     "start": 62,
+     "len": 38,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 80,
+     "internal": 0,
+     "sort": 15,
+     "updated_at": "2026-10-02T09:01:18.705Z",
+     "code": "MRAG-09-01"
+    },
+    {
+     "id": "mr_v2_release",
+     "product_id": "mrag",
+     "phase": "Mrag V2 – Agentic RAG suy luận chuyên sâu",
+     "phase_ja": "Mrag V2 – 深い推論を行うエージェント型RAG",
+     "name": "Release Mrag V2",
+     "name_ja": "Mrag V2 リリース",
+     "note": null,
+     "note_ja": null,
+     "start": 100,
+     "len": 0,
+     "milestone": 1,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 16,
+     "updated_at": "2026-10-02T09:01:18.705Z",
+     "code": "MRAG-09-02"
     }
    ]
   },
@@ -2834,8 +2872,28 @@
    ]
   }
  ],
- "published_at": "2026-10-02T08:57:06.383Z",
+ "published_at": "2026-10-02T09:01:18.705Z",
  "changelog": [
+  {
+   "id": 512,
+   "item_id": "mr_v2_release",
+   "product_id": "mrag",
+   "kind": "create",
+   "detail": "{\"name\":\"Release Mrag V2\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T09:01:18.705Z"
+  },
+  {
+   "id": 511,
+   "item_id": "mr_v2_agentic",
+   "product_id": "mrag",
+   "kind": "create",
+   "detail": "{\"name\":\"Agentic RAG – Suy luận chuyên sâu cho câu hỏi phức tạp\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-02T09:01:18.705Z"
+  },
   {
    "id": 510,
    "item_id": "mo_noti_center",
@@ -3312,26 +3370,6 @@
    "product_id": "mosa",
    "kind": "create",
    "detail": "{\"name\":\"MVP Mini App đầu tiên\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 462,
-   "item_id": "mo_mini_api",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Thiết kế Agent ↔ Mini App: dữ liệu, API & phân quyền\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 461,
-   "item_id": "mo_mini_scope",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Kiến trúc, phạm vi & khảo sát use case Mini App\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:34:11.736Z"

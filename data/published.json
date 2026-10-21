@@ -2754,14 +2754,14 @@
      "name_ja": "テンプレートストアの検索・カテゴリ分類",
      "note": "Duyệt kho mẫu landing page theo ngành nghề, mục đích và phong cách; tìm nhanh bằng từ khoá và lọc theo bộ sưu tập.",
      "note_ja": "業種・目的・スタイル別にランディングページのテンプレートを閲覧でき、キーワード検索やコレクション絞り込みで素早く探せます。",
-     "start": 123,
-     "len": 35,
+     "start": 153,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 172,
-     "updated_at": "2026-10-21T02:36:54.259Z",
+     "updated_at": "2026-10-21T03:03:45.205Z",
      "code": "MCB-26-01"
     },
     {
@@ -2773,14 +2773,14 @@
      "name_ja": "選択前のテンプレートプレビュー",
      "note": "Xem toàn trang mẫu ở cả máy tính và điện thoại, đọc mô tả từng phần nội dung, so sánh vài mẫu trước khi quyết định.",
      "note_ja": "PC・スマートフォン両方の表示で全体を確認し、各セクションの説明を読み、複数のテンプレートを比較してから選べます。",
-     "start": 123,
-     "len": 35,
+     "start": 153,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 173,
-     "updated_at": "2026-10-21T02:36:54.259Z",
+     "updated_at": "2026-10-21T03:03:45.205Z",
      "code": "MCB-26-02"
     },
     {
@@ -2792,14 +2792,14 @@
      "name_ja": "テンプレート適用と自社情報の自動反映",
      "note": "Chọn mẫu rồi hệ thống tự thay thông tin công ty, sản phẩm và hình ảnh vào đúng vị trí, áp màu và font theo Brand Kit.",
      "note_ja": "テンプレートを選ぶと、会社情報・製品・画像が適切な位置に自動で差し込まれ、Brand Kit の色とフォントが適用されます。",
-     "start": 123,
-     "len": 35,
+     "start": 153,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 174,
-     "updated_at": "2026-10-21T02:36:54.259Z",
+     "updated_at": "2026-10-21T03:03:45.205Z",
      "code": "MCB-26-03"
     },
     {
@@ -2811,14 +2811,14 @@
      "name_ja": "作成済みページの自社テンプレート化",
      "note": "Biến một landing page đã hoàn thiện thành mẫu dùng lại cho các chiến dịch sau, đặt tên và chia sẻ trong nội bộ công ty.",
      "note_ja": "完成したランディングページを次のキャンペーンで再利用できるテンプレートとして保存し、名前を付けて社内で共有できます。",
-     "start": 123,
-     "len": 35,
+     "start": 153,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 175,
-     "updated_at": "2026-10-21T02:36:54.259Z",
+     "updated_at": "2026-10-21T03:03:45.205Z",
      "code": "MCB-26-04"
     },
     {
@@ -2830,14 +2830,14 @@
      "name_ja": "自社テンプレートの管理画面",
      "note": "Màn quản trị để duyệt, ẩn, sắp xếp và gỡ các mẫu nội bộ; theo dõi mẫu nào được dùng nhiều nhất.",
      "note_ja": "社内テンプレートの承認・非表示・並び替え・削除を行う管理画面で、利用の多いテンプレートも確認できます。",
-     "start": 123,
-     "len": 35,
+     "start": 153,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 176,
-     "updated_at": "2026-10-21T02:36:54.259Z",
+     "updated_at": "2026-10-21T03:03:45.205Z",
      "code": "MCB-26-05"
     },
     {
@@ -3328,8 +3328,58 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:02:18.230Z",
+ "published_at": "2026-10-21T03:03:45.258Z",
  "changelog": [
+  {
+   "id": 583,
+   "item_id": "mcb_tpl_manage",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":35},\"to\":{\"start\":153,\"len\":28}}",
+   "reason": "MCB-26 bắt đầu đầu tháng 12/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:03:45.205Z"
+  },
+  {
+   "id": 582,
+   "item_id": "mcb_tpl_save_own",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":35},\"to\":{\"start\":153,\"len\":28}}",
+   "reason": "MCB-26 bắt đầu đầu tháng 12/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:03:45.205Z"
+  },
+  {
+   "id": 581,
+   "item_id": "mcb_tpl_apply",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":35},\"to\":{\"start\":153,\"len\":28}}",
+   "reason": "MCB-26 bắt đầu đầu tháng 12/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:03:45.205Z"
+  },
+  {
+   "id": 580,
+   "item_id": "mcb_tpl_preview",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":35},\"to\":{\"start\":153,\"len\":28}}",
+   "reason": "MCB-26 bắt đầu đầu tháng 12/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:03:45.205Z"
+  },
+  {
+   "id": 579,
+   "item_id": "mcb_tpl_store_browse",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":35},\"to\":{\"start\":153,\"len\":28}}",
+   "reason": "MCB-26 bắt đầu đầu tháng 12/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:03:45.205Z"
+  },
   {
    "id": 578,
    "item_id": "mcb_sa_user_filter_form",
@@ -3777,56 +3827,6 @@
    "kind": "reschedule",
    "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
    "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 533,
-   "item_id": "mcb_vm_script_outline",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 532,
-   "item_id": "mcb_vm_media_setup",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
-   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 531,
-   "item_id": "mcb_vm_media_setup",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 530,
-   "item_id": "mcb_vm_config",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
-   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 529,
-   "item_id": "mcb_vm_config",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
-   "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:33:18.737Z"
   }

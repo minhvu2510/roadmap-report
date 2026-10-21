@@ -2744,6 +2744,101 @@
      "sort": 171,
      "updated_at": "2026-10-21T02:35:53.960Z",
      "code": "MCB-25-03"
+    },
+    {
+     "id": "mcb_tpl_store_browse",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Template Store dành cho Landing page",
+     "phase_ja": "ランディングページ テンプレートストア",
+     "name": "Kho template với tìm kiếm và phân loại",
+     "name_ja": "テンプレートストアの検索・カテゴリ分類",
+     "note": "Duyệt kho mẫu landing page theo ngành nghề, mục đích và phong cách; tìm nhanh bằng từ khoá và lọc theo bộ sưu tập.",
+     "note_ja": "業種・目的・スタイル別にランディングページのテンプレートを閲覧でき、キーワード検索やコレクション絞り込みで素早く探せます。",
+     "start": 123,
+     "len": 35,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 172,
+     "updated_at": "2026-10-21T02:36:54.259Z",
+     "code": "MCB-26-01"
+    },
+    {
+     "id": "mcb_tpl_preview",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Template Store dành cho Landing page",
+     "phase_ja": "ランディングページ テンプレートストア",
+     "name": "Xem trước template trước khi chọn",
+     "name_ja": "選択前のテンプレートプレビュー",
+     "note": "Xem toàn trang mẫu ở cả máy tính và điện thoại, đọc mô tả từng phần nội dung, so sánh vài mẫu trước khi quyết định.",
+     "note_ja": "PC・スマートフォン両方の表示で全体を確認し、各セクションの説明を読み、複数のテンプレートを比較してから選べます。",
+     "start": 123,
+     "len": 35,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 173,
+     "updated_at": "2026-10-21T02:36:54.259Z",
+     "code": "MCB-26-02"
+    },
+    {
+     "id": "mcb_tpl_apply",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Template Store dành cho Landing page",
+     "phase_ja": "ランディングページ テンプレートストア",
+     "name": "Dùng template và tự điền nội dung của công ty",
+     "name_ja": "テンプレート適用と自社情報の自動反映",
+     "note": "Chọn mẫu rồi hệ thống tự thay thông tin công ty, sản phẩm và hình ảnh vào đúng vị trí, áp màu và font theo Brand Kit.",
+     "note_ja": "テンプレートを選ぶと、会社情報・製品・画像が適切な位置に自動で差し込まれ、Brand Kit の色とフォントが適用されます。",
+     "start": 123,
+     "len": 35,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 174,
+     "updated_at": "2026-10-21T02:36:54.259Z",
+     "code": "MCB-26-03"
+    },
+    {
+     "id": "mcb_tpl_save_own",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Template Store dành cho Landing page",
+     "phase_ja": "ランディングページ テンプレートストア",
+     "name": "Lưu trang đã làm thành template riêng",
+     "name_ja": "作成済みページの自社テンプレート化",
+     "note": "Biến một landing page đã hoàn thiện thành mẫu dùng lại cho các chiến dịch sau, đặt tên và chia sẻ trong nội bộ công ty.",
+     "note_ja": "完成したランディングページを次のキャンペーンで再利用できるテンプレートとして保存し、名前を付けて社内で共有できます。",
+     "start": 123,
+     "len": 35,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 175,
+     "updated_at": "2026-10-21T02:36:54.259Z",
+     "code": "MCB-26-04"
+    },
+    {
+     "id": "mcb_tpl_manage",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Template Store dành cho Landing page",
+     "phase_ja": "ランディングページ テンプレートストア",
+     "name": "Quản lý kho template của công ty",
+     "name_ja": "自社テンプレートの管理画面",
+     "note": "Màn quản trị để duyệt, ẩn, sắp xếp và gỡ các mẫu nội bộ; theo dõi mẫu nào được dùng nhiều nhất.",
+     "note_ja": "社内テンプレートの承認・非表示・並び替え・削除を行う管理画面で、利用の多いテンプレートも確認できます。",
+     "start": 123,
+     "len": 35,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 176,
+     "updated_at": "2026-10-21T02:36:54.259Z",
+     "code": "MCB-26-05"
     }
    ]
   },
@@ -2929,8 +3024,58 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:35:57.388Z",
+ "published_at": "2026-10-21T02:36:58.024Z",
  "changelog": [
+  {
+   "id": 549,
+   "item_id": "mcb_tpl_manage",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Quản lý kho template của công ty\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:36:54.259Z"
+  },
+  {
+   "id": 548,
+   "item_id": "mcb_tpl_save_own",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Lưu trang đã làm thành template riêng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:36:54.259Z"
+  },
+  {
+   "id": 547,
+   "item_id": "mcb_tpl_apply",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Dùng template và tự điền nội dung của công ty\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:36:54.259Z"
+  },
+  {
+   "id": 546,
+   "item_id": "mcb_tpl_preview",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xem trước template trước khi chọn\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:36:54.259Z"
+  },
+  {
+   "id": 545,
+   "item_id": "mcb_tpl_store_browse",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Kho template với tìm kiếm và phân loại\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:36:54.259Z"
+  },
   {
    "id": 544,
    "item_id": "mcb_2fa_method_switch",
@@ -3380,56 +3525,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:55:11.298Z"
-  },
-  {
-   "id": 499,
-   "item_id": "mo_sandbox",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":50,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 498,
-   "item_id": "mo_plugin",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":12,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 497,
-   "item_id": "mo_skill",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":48,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 496,
-   "item_id": "mo_doc",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":45,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 495,
-   "item_id": "mo_mem",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":35,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
   }
  ]
 }

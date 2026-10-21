@@ -2934,6 +2934,63 @@
      "sort": 181,
      "updated_at": "2026-10-21T02:38:58.639Z",
      "code": "MCB-27-05"
+    },
+    {
+     "id": "mcb_slide_speaker_notes",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Speaker notes, Transitions và Present cho editor slide",
+     "phase_ja": "スライドエディタの発表者ノート・画面切り替え・プレゼンテーション機能",
+     "name": "Ghi chú người trình bày cho từng slide",
+     "name_ja": "スライドごとの発表者ノート",
+     "note": "Vùng ghi chú ngay dưới slide, bật tắt bằng nút Notes và kéo đổi chiều cao; slide chưa có ghi chú thì nhờ AI viết sẵn một bản để sửa lại.",
+     "note_ja": "スライド下部のノート領域を Notes ボタンで開閉し、高さをドラッグで調整できます。ノートが空のスライドは AI が下書きを生成します。",
+     "start": 103,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 70,
+     "internal": 0,
+     "sort": 182,
+     "updated_at": "2026-10-21T02:48:09.430Z",
+     "code": "MCB-29-01"
+    },
+    {
+     "id": "mcb_slide_transitions",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Speaker notes, Transitions và Present cho editor slide",
+     "phase_ja": "スライドエディタの発表者ノート・画面切り替え・プレゼンテーション機能",
+     "name": "Hiệu ứng chuyển slide và chuyển động trong slide",
+     "name_ja": "画面切り替えとアニメーション効果",
+     "note": "Chọn hiệu ứng chuyển giữa các slide và chuyển động cho từng thành phần, tuỳ chỉnh kiểu và thời lượng, xem trước ngay; thumbnail đánh dấu slide đã có hiệu ứng.",
+     "note_ja": "スライド間の切り替えと要素ごとのアニメーションを選び、種類と長さを調整してその場でプレビューできます。効果のあるスライドはサムネイルに印が付きます。",
+     "start": 103,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 70,
+     "internal": 0,
+     "sort": 183,
+     "updated_at": "2026-10-21T02:48:09.430Z",
+     "code": "MCB-29-02"
+    },
+    {
+     "id": "mcb_slide_present",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng Speaker notes, Transitions và Present cho editor slide",
+     "phase_ja": "スライドエディタの発表者ノート・画面切り替え・プレゼンテーション機能",
+     "name": "Chế độ trình chiếu và màn hình người trình bày",
+     "name_ja": "プレゼンテーションモードと発表者ビュー",
+     "note": "Trình chiếu toàn màn hình, điều khiển bằng bàn phím; màn hình người trình bày hiện ghi chú, slide kế tiếp và đồng hồ, còn khán giả chỉ thấy slide.",
+     "note_ja": "全画面でのスライドショーをキーボードで操作でき、発表者ビューにはノート・次のスライド・タイマーを表示し、聴衆にはスライドのみを映します。",
+     "start": 103,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 70,
+     "internal": 0,
+     "sort": 184,
+     "updated_at": "2026-10-21T02:48:09.430Z",
+     "code": "MCB-29-03"
     }
    ]
   },
@@ -3119,8 +3176,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:41:31.705Z",
+ "published_at": "2026-10-21T02:48:09.493Z",
  "changelog": [
+  {
+   "id": 570,
+   "item_id": "mcb_slide_present",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Chế độ trình chiếu và màn hình người trình bày\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:48:09.430Z"
+  },
+  {
+   "id": 569,
+   "item_id": "mcb_slide_transitions",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Hiệu ứng chuyển slide và chuyển động trong slide\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:48:09.430Z"
+  },
+  {
+   "id": 568,
+   "item_id": "mcb_slide_speaker_notes",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Ghi chú người trình bày cho từng slide\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:48:09.430Z"
+  },
   {
    "id": 567,
    "item_id": "mcb_social_schedule_track",
@@ -3590,36 +3677,6 @@
    "reason": "Hoàn thành sớm 5 ngày",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:32:28.521Z"
-  },
-  {
-   "id": 520,
-   "item_id": "mcb_credit_superadmin_logs",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
-   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:31:39.808Z"
-  },
-  {
-   "id": 519,
-   "item_id": "mcb_credit_request_approval",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
-   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:31:39.808Z"
-  },
-  {
-   "id": 518,
-   "item_id": "mcb_credit_admin_screens",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
-   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:31:39.808Z"
   }
  ]
 }

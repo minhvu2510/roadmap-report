@@ -2242,13 +2242,13 @@
      "note": "Cho phép chọn nguồn nội dung đầu vào và nhập nội dung cần đưa vào video.",
      "note_ja": "動画に使う入力ソースを選び、内容を入力できるようにします。",
      "start": 96,
-     "len": 42,
+     "len": 25,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 145,
-     "updated_at": "2026-10-01T08:52:09.666Z",
+     "updated_at": "2026-10-21T02:33:18.737Z",
      "code": "MCB-20-01"
     },
     {
@@ -2261,13 +2261,13 @@
      "note": "Thiết lập các thông số của video trước khi tạo: mục tiêu, thời lượng, tỉ lệ khung hình, văn phong và ngôn ngữ.",
      "note_ja": "生成前に、目的・尺・アスペクト比・トーン・言語などの設定を行います。",
      "start": 96,
-     "len": 42,
+     "len": 25,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 146,
-     "updated_at": "2026-10-01T08:52:09.667Z",
+     "updated_at": "2026-10-21T02:33:18.737Z",
      "code": "MCB-20-02"
     },
     {
@@ -2280,13 +2280,13 @@
      "note": "Thiết lập phần media cho video: ảnh nền, giọng đọc, nhạc nền, caption và watermark.",
      "note_ja": "背景画像、ナレーション音声、BGM、字幕、ウォーターマークなどのメディア設定を行います。",
      "start": 96,
-     "len": 42,
+     "len": 25,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 147,
-     "updated_at": "2026-10-01T08:52:09.668Z",
+     "updated_at": "2026-10-21T02:33:18.737Z",
      "code": "MCB-20-03"
     },
     {
@@ -2299,13 +2299,13 @@
      "note": "Hệ thống sinh script outline cho video; người dùng xem, sửa và duyệt trước khi render.",
      "note_ja": "動画のスクリプトアウトラインを生成し、確認・修正・承認してからレンダリングに進みます。",
      "start": 96,
-     "len": 42,
+     "len": 25,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 148,
-     "updated_at": "2026-10-01T08:52:09.668Z",
+     "updated_at": "2026-10-21T02:33:18.737Z",
      "code": "MCB-20-04"
     },
     {
@@ -2318,13 +2318,13 @@
      "note": "Render video từ nội dung đã duyệt, theo dõi tiến trình và xử lý kết quả: xem trước, tải về, làm lại khi lỗi.",
      "note_ja": "承認済みの内容から動画をレンダリングし、進行状況の確認、プレビュー・ダウンロード・失敗時の再実行に対応します。",
      "start": 96,
-     "len": 42,
+     "len": 25,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 149,
-     "updated_at": "2026-10-01T08:52:09.668Z",
+     "updated_at": "2026-10-21T02:33:18.737Z",
      "code": "MCB-20-05"
     },
     {
@@ -2450,14 +2450,14 @@
      "name_ja": "決済ゲートウェイ連携と安全なカード入力フロー",
      "note": "Kết nối cổng thanh toán và dựng luồng nhập thẻ đạt chuẩn bảo mật, thông tin thẻ không lưu trên hệ thống.",
      "note_ja": "決済ゲートウェイと連携し、カード情報を自社に保持しないセキュリティ基準準拠の入力フローを構築します。",
-     "start": 103,
-     "len": 42,
+     "start": 110,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 156,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-21T02:33:45.746Z",
      "code": "MCB-22-01"
     },
     {
@@ -2469,14 +2469,14 @@
      "name_ja": "カード保存と支払い方法の管理",
      "note": "Lưu thẻ để dùng lại, thêm/xoá thẻ và chọn thẻ mặc định cho các lần thanh toán sau.",
      "note_ja": "カードを保存して再利用でき、追加・削除や既定カードの設定が行えます。",
-     "start": 103,
-     "len": 42,
+     "start": 110,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 157,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-21T02:33:45.746Z",
      "code": "MCB-22-02"
     },
     {
@@ -2488,14 +2488,14 @@
      "name_ja": "有料プランの決済と定期自動更新",
      "note": "Thanh toán khi đăng ký gói và tự động gia hạn theo chu kỳ, kèm thông báo trước mỗi lần trừ tiền.",
      "note_ja": "プラン申込時の決済と周期ごとの自動更新に対応し、請求前に事前通知を行います。",
-     "start": 103,
-     "len": 42,
+     "start": 110,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 158,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-21T02:33:45.746Z",
      "code": "MCB-22-03"
     },
     {
@@ -2507,14 +2507,14 @@
      "name_ja": "請求書・領収書と取引履歴",
      "note": "Xuất hoá đơn và biên lai cho từng lần thanh toán, xem lại toàn bộ lịch sử giao dịch của công ty.",
      "note_ja": "決済ごとに請求書・領収書を発行し、会社の取引履歴をいつでも確認できます。",
-     "start": 103,
-     "len": 42,
+     "start": 110,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 159,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-21T02:33:45.746Z",
      "code": "MCB-22-04"
     },
     {
@@ -2526,14 +2526,14 @@
      "name_ja": "決済失敗・返金・解約の処理",
      "note": "Xử lý khi thẻ bị từ chối (thử lại, nhắc cập nhật thẻ), hoàn tiền và huỷ gói theo yêu cầu.",
      "note_ja": "カードが拒否された場合の再試行・カード更新の案内、返金、プラン解約に対応します。",
-     "start": 103,
-     "len": 42,
+     "start": 110,
+     "len": 28,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 160,
-     "updated_at": "2026-10-01T09:00:37.867Z",
+     "updated_at": "2026-10-21T02:33:45.746Z",
      "code": "MCB-22-05"
     },
     {
@@ -2872,8 +2872,158 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:32:31.827Z",
+ "published_at": "2026-10-21T02:33:49.338Z",
  "changelog": [
+  {
+   "id": 541,
+   "item_id": "mcb_pay_failure_refund",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
+   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:45.746Z"
+  },
+  {
+   "id": 540,
+   "item_id": "mcb_pay_invoice",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
+   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:45.746Z"
+  },
+  {
+   "id": 539,
+   "item_id": "mcb_pay_subscription",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
+   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:45.746Z"
+  },
+  {
+   "id": 538,
+   "item_id": "mcb_pay_methods",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
+   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:45.746Z"
+  },
+  {
+   "id": 537,
+   "item_id": "mcb_pay_gateway",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
+   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:45.746Z"
+  },
+  {
+   "id": 536,
+   "item_id": "mcb_vm_render_output",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
+   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 535,
+   "item_id": "mcb_vm_render_output",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 534,
+   "item_id": "mcb_vm_script_outline",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
+   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 533,
+   "item_id": "mcb_vm_script_outline",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 532,
+   "item_id": "mcb_vm_media_setup",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
+   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 531,
+   "item_id": "mcb_vm_media_setup",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 530,
+   "item_id": "mcb_vm_config",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
+   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 529,
+   "item_id": "mcb_vm_config",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 528,
+   "item_id": "mcb_vm_source_input",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
+   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
+  {
+   "id": 527,
+   "item_id": "mcb_vm_source_input",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:33:18.737Z"
+  },
   {
    "id": 526,
    "item_id": "mcb_auth_device_management",
@@ -3223,156 +3373,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 491,
-   "item_id": "mo_sa_tenant",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 490,
-   "item_id": "mo_sa_spec",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":45,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 489,
-   "item_id": "mo_ad_user",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 488,
-   "item_id": "mo_ad_agent",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 487,
-   "item_id": "mo_ad_auth",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 486,
-   "item_id": "mo_ad_spec",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":60,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 485,
-   "item_id": "mo_cn_fw",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":60,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 484,
-   "item_id": "mo_cn_mail",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":55,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 483,
-   "item_id": "mo_ch_state",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":48,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 482,
-   "item_id": "mo_ch_prompt",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":72,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 481,
-   "item_id": "mo_wf_retry",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":55,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 480,
-   "item_id": "mo_wf_node",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":75,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 479,
-   "item_id": "mo_voice_tts",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Đọc câu trả lời bằng giọng nói (TTS)\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 478,
-   "item_id": "mo_voice_minutes",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo 議事録 & trích xuất Action Items từ audio cuộc họp\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 477,
-   "item_id": "mo_voice_stt",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Nhập câu hỏi bằng giọng nói & chuyển audio thành text\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
   }
  ]
 }

@@ -3086,6 +3086,63 @@
      "sort": 189,
      "updated_at": "2026-10-21T02:51:08.776Z",
      "code": "MCB-28-05"
+    },
+    {
+     "id": "mcb_sa_companies_merge",
+     "product_id": "mcb",
+     "phase": "Tách quản lý user cá nhân và công ty trên SuperAdmin",
+     "phase_ja": "スーパー管理者：個人ユーザーと企業の管理分離",
+     "name": "Gom công ty về menu Companies, bỏ Company List khỏi nhóm MCBuilder",
+     "name_ja": "企業管理を Companies メニューへ集約",
+     "note": "Mọi công ty, kể cả công ty dùng MCBuilder, được xem và tạo sửa ở một chỗ duy nhất là menu Companies; nhóm menu MCBuilder không còn Company List và Create Company.",
+     "note_ja": "MCBuilder を利用する企業も含め、すべての企業を Companies メニュー一か所で閲覧・作成・編集できるようにし、MCBuilder グループから Company List と Create Company を削除します。",
+     "start": 117,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 190,
+     "updated_at": "2026-10-21T03:02:18.168Z",
+     "code": "MCB-30-01"
+    },
+    {
+     "id": "mcb_sa_user_list",
+     "product_id": "mcb",
+     "phase": "Tách quản lý user cá nhân và công ty trên SuperAdmin",
+     "phase_ja": "スーパー管理者：個人ユーザーと企業の管理分離",
+     "name": "Danh sách user cá nhân: cột Plan, Used this month, phân trang",
+     "name_ja": "個人ユーザー一覧：プラン・今月の利用状況・ページング",
+     "note": "Màn MCBuilder › Users chỉ còn user tự đăng ký, không thuộc công ty; bảng hiện gói đang dùng và mức sử dụng trong tháng, chia trang 10 dòng kèm ghi chú giải thích phạm vi danh sách.",
+     "note_ja": "MCBuilder › Users には自分で登録した個人ユーザーのみを表示し、利用プランと今月の利用量を一覧に追加、10件ごとのページングと一覧の対象範囲を説明する注記を設けます。",
+     "start": 117,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 191,
+     "updated_at": "2026-10-21T03:02:18.168Z",
+     "code": "MCB-30-02"
+    },
+    {
+     "id": "mcb_sa_user_filter_form",
+     "product_id": "mcb",
+     "phase": "Tách quản lý user cá nhân và công ty trên SuperAdmin",
+     "phase_ja": "スーパー管理者：個人ユーザーと企業の管理分離",
+     "name": "Bộ lọc Filter Data và form tạo / sửa user cá nhân",
+     "name_ja": "Filter Data と個人ユーザーの作成・編集フォーム",
+     "note": "Lọc theo trạng thái bằng nút Filter Data và popup dùng chung kiểu với màn Dashboard, bộ lọc đang áp hiện thành chip; form tạo và sửa chỉ còn thông tin cơ bản và bảo mật, bỏ phần gán công ty.",
+     "note_ja": "Dashboard と同じ Filter Data ボタンとポップアップでステータス絞り込みを行い、適用中の条件をチップで表示します。作成・編集フォームは基本情報とセキュリティのみとし、企業の割り当て項目を削除します。",
+     "start": 117,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 192,
+     "updated_at": "2026-10-21T03:02:18.168Z",
+     "code": "MCB-30-03"
     }
    ]
   },
@@ -3271,8 +3328,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:51:08.839Z",
+ "published_at": "2026-10-21T03:02:18.230Z",
  "changelog": [
+  {
+   "id": 578,
+   "item_id": "mcb_sa_user_filter_form",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Bộ lọc Filter Data và form tạo / sửa user cá nhân\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:02:18.168Z"
+  },
+  {
+   "id": 577,
+   "item_id": "mcb_sa_user_list",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Danh sách user cá nhân: cột Plan, Used this month, phân trang\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:02:18.168Z"
+  },
+  {
+   "id": 576,
+   "item_id": "mcb_sa_companies_merge",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Gom công ty về menu Companies, bỏ Company List khỏi nhóm MCBuilder\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:02:18.168Z"
+  },
   {
    "id": 575,
    "item_id": "mcb_bk2_editor",
@@ -3742,36 +3829,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 528,
-   "item_id": "mcb_vm_source_input",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":96,\"len\":42},\"to\":{\"start\":96,\"len\":25}}",
-   "reason": "MCB-20 chốt hạn kết thúc 30/10/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 527,
-   "item_id": "mcb_vm_source_input",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":70}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:18.737Z"
-  },
-  {
-   "id": 526,
-   "item_id": "mcb_auth_device_management",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
-   "reason": "Hoàn thành sớm 5 ngày",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:32:28.521Z"
   }
  ]
 }

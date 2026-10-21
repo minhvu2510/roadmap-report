@@ -2337,13 +2337,13 @@
      "note": "Người dùng đăng nhập hoặc tạo tài khoản mới chỉ bằng một lần bấm với tài khoản Google, không cần đặt mật khẩu riêng.",
      "note_ja": "Googleアカウントでワンクリックでログイン、または新規登録でき、個別のパスワード設定は不要です。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 150,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-01"
     },
     {
@@ -2356,13 +2356,13 @@
      "note": "Tài khoản đang dùng email/mật khẩu có thể gắn thêm tài khoản Google và đăng nhập bằng cả hai cách.",
      "note_ja": "メール・パスワードで利用中のアカウントにGoogleアカウントを紐付け、どちらの方法でもログインできるようにします。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 151,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-02"
     },
     {
@@ -2375,13 +2375,13 @@
      "note": "Người dùng tự bật hoặc tắt xác thực hai lớp; khi bật, mỗi lần đăng nhập cần thêm mã OTP từ ứng dụng xác thực.",
      "note_ja": "利用者自身で二要素認証を有効・無効にでき、有効時は認証アプリのワンタイムコードの入力を求めます。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 152,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-03"
     },
     {
@@ -2394,13 +2394,13 @@
      "note": "Cấp mã khôi phục khi bật 2FA và có luồng lấy lại quyền truy cập nếu người dùng mất thiết bị nhận mã.",
      "note_ja": "2FA有効化時にリカバリーコードを発行し、コード受信用端末を紛失した場合の復旧手順を用意します。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 153,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-04"
     },
     {
@@ -2413,13 +2413,13 @@
      "note": "Đánh dấu thiết bị quen thuộc là tin cậy để không phải nhập mã 2FA mỗi lần đăng nhập, trong một thời hạn nhất định.",
      "note_ja": "よく使う端末を信頼済みとして登録し、一定期間はログインのたびの2FA入力を省略できます。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 154,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-05"
     },
     {
@@ -2432,13 +2432,13 @@
      "note": "Xem danh sách thiết bị đang đăng nhập kèm thời gian, vị trí và đăng xuất từ xa thiết bị không còn dùng hoặc đáng ngờ.",
      "note_ja": "ログイン中の端末を日時・場所とともに一覧表示し、不要または不審な端末を遠隔でログアウトできます。",
      "start": 96,
-     "len": 21,
+     "len": 16,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 20,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 155,
-     "updated_at": "2026-10-02T08:32:31.722Z",
+     "updated_at": "2026-10-21T02:32:28.521Z",
      "code": "MCB-21-06"
     },
     {
@@ -2872,8 +2872,68 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:31:42.917Z",
+ "published_at": "2026-10-21T02:32:31.827Z",
  "changelog": [
+  {
+   "id": 526,
+   "item_id": "mcb_auth_device_management",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
+  {
+   "id": 525,
+   "item_id": "mcb_auth_trust_device",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
+  {
+   "id": 524,
+   "item_id": "mcb_auth_recovery_codes",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
+  {
+   "id": 523,
+   "item_id": "mcb_auth_2fa_otp",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
+  {
+   "id": 522,
+   "item_id": "mcb_auth_google_link",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
+  {
+   "id": 521,
+   "item_id": "mcb_auth_google_login",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":5}",
+   "reason": "Hoàn thành sớm 5 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:32:28.521Z"
+  },
   {
    "id": 520,
    "item_id": "mcb_credit_superadmin_logs",
@@ -3310,66 +3370,6 @@
    "product_id": "mosa",
    "kind": "create",
    "detail": "{\"name\":\"Nhập câu hỏi bằng giọng nói & chuyển audio thành text\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 476,
-   "item_id": "mo_zoho2_design",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Thiết kế quyền truy cập, đánh giá bảo mật & ước lượng effort\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 475,
-   "item_id": "mo_zoho2_survey",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Xác định use case & khảo sát API / Authentication / Permission\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 474,
-   "item_id": "mo_tpl_set",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Bộ Agent mẫu & kiểm soát Prompt / Tool / Permission\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 473,
-   "item_id": "mo_tpl_model",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Mô hình SuperAdmin → Company Admin → User & phát hành Global Agent\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 472,
-   "item_id": "mo_ms_poc",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Chọn Connector ưu tiên & xây dựng PoC\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 471,
-   "item_id": "mo_ms_survey",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Khảo sát API, OAuth, Permission & quy trình xét duyệt App\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:34:11.736Z"

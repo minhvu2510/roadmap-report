@@ -2687,6 +2687,63 @@
      "sort": 168,
      "updated_at": "2026-10-02T01:59:28.442Z",
      "code": "MCB-24-03"
+    },
+    {
+     "id": "mcb_2fa_email_enable",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng 2FA xác thực qua Email",
+     "phase_ja": "メール認証による2段階認証",
+     "name": "Bật xác thực hai lớp qua email",
+     "name_ja": "メールによる2段階認証の有効化",
+     "note": "Chọn email làm lớp bảo vệ thứ hai ngay trong cài đặt tài khoản, xác nhận quyền sở hữu hòm thư một lần trước khi bật.",
+     "note_ja": "アカウント設定からメールを2段階目の認証手段として選択し、有効化前にメールアドレスの所有確認を一度行います。",
+     "start": 110,
+     "len": 4,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 169,
+     "updated_at": "2026-10-21T02:35:53.960Z",
+     "code": "MCB-25-01"
+    },
+    {
+     "id": "mcb_2fa_email_code",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng 2FA xác thực qua Email",
+     "phase_ja": "メール認証による2段階認証",
+     "name": "Nhận mã qua email khi đăng nhập",
+     "name_ja": "ログイン時のメール認証コード受信",
+     "note": "Mỗi lần đăng nhập từ thiết bị lạ, hệ thống gửi mã vào hòm thư; người dùng gửi lại mã khi chưa nhận được và mã tự hết hạn sau thời gian ngắn.",
+     "note_ja": "未登録の端末からログインするたびに認証コードをメールで送信します。届かない場合は再送でき、コードは短時間で失効します。",
+     "start": 110,
+     "len": 4,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 170,
+     "updated_at": "2026-10-21T02:35:53.960Z",
+     "code": "MCB-25-02"
+    },
+    {
+     "id": "mcb_2fa_method_switch",
+     "product_id": "mcb",
+     "phase": "Xây dựng tính năng 2FA xác thực qua Email",
+     "phase_ja": "メール認証による2段階認証",
+     "name": "Chọn và chuyển đổi phương thức xác thực",
+     "name_ja": "認証方法の選択と切り替え",
+     "note": "Xem phương thức đang bật, đặt email hoặc ứng dụng OTP làm mặc định, chuyển qua lại khi không vào được một trong hai.",
+     "note_ja": "有効な認証方法を確認し、メールまたはOTPアプリを既定に設定でき、一方が使えないときに切り替えられます。",
+     "start": 110,
+     "len": 4,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 171,
+     "updated_at": "2026-10-21T02:35:53.960Z",
+     "code": "MCB-25-03"
     }
    ]
   },
@@ -2872,8 +2929,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:33:49.338Z",
+ "published_at": "2026-10-21T02:35:57.388Z",
  "changelog": [
+  {
+   "id": 544,
+   "item_id": "mcb_2fa_method_switch",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Chọn và chuyển đổi phương thức xác thực\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:35:53.960Z"
+  },
+  {
+   "id": 543,
+   "item_id": "mcb_2fa_email_code",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Nhận mã qua email khi đăng nhập\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:35:53.960Z"
+  },
+  {
+   "id": 542,
+   "item_id": "mcb_2fa_email_enable",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Bật xác thực hai lớp qua email\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:35:53.960Z"
+  },
   {
    "id": 541,
    "item_id": "mcb_pay_failure_refund",
@@ -3340,36 +3427,6 @@
    "product_id": "mosa",
    "kind": "status",
    "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"percent\":{\"from\":35,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 494,
-   "item_id": "mo_sa_mvp",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 493,
-   "item_id": "mo_sa_qa",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:46:23.884Z"
-  },
-  {
-   "id": 492,
-   "item_id": "mo_sa_monitor",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"percent\":{\"from\":0,\"to\":100}}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:46:23.884Z"

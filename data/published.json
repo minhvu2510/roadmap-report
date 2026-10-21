@@ -2147,13 +2147,13 @@
      "note": "Thiết lập nguồn credit gốc (Base Credits) cho từng công ty ngay tại màn Company: cấp phát, điều chỉnh và theo dõi hạn mức.",
      "note_ja": "会社ごとのベースクレジットをCompany画面で設定し、付与・調整・残量の管理を行えるようにします。",
      "start": 82,
-     "len": 28,
+     "len": 53,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-10-01T09:41:16.483Z",
+     "updated_at": "2026-10-21T02:31:39.808Z",
      "code": "MCB-19-01"
     },
     {
@@ -2166,13 +2166,13 @@
      "note": "Mỗi thao tác AI trong luồng Create trừ credit tương ứng; khi hết hạn mức, hệ thống chặn thao tác và báo rõ cho người dùng.",
      "note_ja": "CreateフローのAI操作ごとにクレジットを消費し、残量がなくなった場合は操作をブロックして利用者に明示します。",
      "start": 82,
-     "len": 28,
+     "len": 53,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-10-01T09:41:16.483Z",
+     "updated_at": "2026-10-21T02:31:39.808Z",
      "code": "MCB-19-02"
     },
     {
@@ -2185,13 +2185,13 @@
      "note": "Nhóm màn quản lý credit dành cho quản trị viên công ty: xem hạn mức, phân bổ cho thành viên và theo dõi mức tiêu hao.",
      "note_ja": "会社管理者向けに、クレジット残量の確認、メンバーへの配分、消費状況の把握を行う画面群を用意します。",
      "start": 82,
-     "len": 28,
+     "len": 53,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-10-01T09:41:16.483Z",
+     "updated_at": "2026-10-21T02:31:39.808Z",
      "code": "MCB-19-03"
     },
     {
@@ -2204,13 +2204,13 @@
      "note": "Công ty gửi yêu cầu cấp thêm credit; super admin xem xét, phê duyệt hoặc từ chối, hạn mức được cập nhật theo kết quả.",
      "note_ja": "会社側が追加クレジットを申請し、スーパー管理者が承認・却下を行い、結果に応じて上限を更新します。",
      "start": 82,
-     "len": 28,
+     "len": 53,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 143,
-     "updated_at": "2026-10-01T09:41:16.483Z",
+     "updated_at": "2026-10-21T02:31:39.808Z",
      "code": "MCB-19-04"
     },
     {
@@ -2223,13 +2223,13 @@
      "note": "Nhóm màn quản lý credit toàn hệ thống cho super admin, kèm nhật ký sử dụng chi tiết theo từng công ty và từng thao tác.",
      "note_ja": "全社横断でクレジットを管理するスーパー管理者向け画面群と、会社別・操作別の詳細な利用ログを提供します。",
      "start": 82,
-     "len": 28,
+     "len": 53,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 144,
-     "updated_at": "2026-10-01T09:41:16.483Z",
+     "updated_at": "2026-10-21T02:31:39.808Z",
      "code": "MCB-19-05"
     },
     {
@@ -2872,8 +2872,58 @@
    ]
   }
  ],
- "published_at": "2026-10-21T02:30:23.874Z",
+ "published_at": "2026-10-21T02:31:42.917Z",
  "changelog": [
+  {
+   "id": 520,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
+   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:31:39.808Z"
+  },
+  {
+   "id": 519,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
+   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:31:39.808Z"
+  },
+  {
+   "id": 518,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
+   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:31:39.808Z"
+  },
+  {
+   "id": 517,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
+   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:31:39.808Z"
+  },
+  {
+   "id": 516,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":28},\"to\":{\"start\":82,\"len\":53}}",
+   "reason": "MCB-19 kéo hạn kết thúc tới 13/11/2026",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T02:31:39.808Z"
+  },
   {
    "id": 515,
    "item_id": "mcb_story_visual_consistency",
@@ -3320,56 +3370,6 @@
    "product_id": "mosa",
    "kind": "create",
    "detail": "{\"name\":\"Khảo sát API, OAuth, Permission & quy trình xét duyệt App\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 470,
-   "item_id": "mo_opt_compare",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"So sánh chất lượng & chi phí trước / sau tối ưu\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 469,
-   "item_id": "mo_opt_routing",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Cải thiện Tool Selection / Routing & tối ưu Context\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 468,
-   "item_id": "mo_opt_measure",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Đo lường & phân tích Search, Tool Call, Connector\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 467,
-   "item_id": "mo_wf2_improve",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Cải thiện tạo Workflow, Error Handling & Retry\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-02T08:34:11.736Z"
-  },
-  {
-   "id": 466,
-   "item_id": "mo_wf2_measure",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Đo lường thời gian, chi phí, tỷ lệ lỗi & tìm bottleneck\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-02T08:34:11.736Z"

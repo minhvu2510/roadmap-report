@@ -2995,8 +2995,8 @@
     {
      "id": "mcb_bk2_logo",
      "product_id": "mcb",
-     "phase": "Nâng cấp tính năng Brand Kit",
-     "phase_ja": "ブランドキットの機能強化",
+     "phase": "Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty",
+     "phase_ja": "ブランドキットの強化：ロゴ・AI作成・全社共有",
      "name": "Quản lý logo trong brand kit",
      "name_ja": "ブランドキットのロゴ管理",
      "note": "Mỗi kit có logo chính, bản cho nền tối, icon vuông và favicon; tải lên hoặc chọn từ Assets, lấy màu thương hiệu ngay từ logo, đặt sẵn vị trí và kích cỡ khi logo xuất hiện trên slide, poster và catalog.",
@@ -3008,14 +3008,14 @@
      "percent": 0,
      "internal": 0,
      "sort": 185,
-     "updated_at": "2026-10-21T02:51:08.776Z",
+     "updated_at": "2026-10-21T03:25:05.229Z",
      "code": "MCB-28-01"
     },
     {
      "id": "mcb_bk2_scope",
      "product_id": "mcb",
-     "phase": "Nâng cấp tính năng Brand Kit",
-     "phase_ja": "ブランドキットの機能強化",
+     "phase": "Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty",
+     "phase_ja": "ブランドキットの強化：ロゴ・AI作成・全社共有",
      "name": "Phạm vi Company / Personal và chính sách công ty",
      "name_ja": "公開範囲（会社／個人）と会社ポリシー",
      "note": "Đặt brand kit dùng chung cho cả công ty hay riêng cá nhân; quản trị viên chọn kit mặc định của công ty, bắt buộc hiện logo và quyết định có cho phép kit cá nhân hay không.",
@@ -3027,14 +3027,14 @@
      "percent": 0,
      "internal": 0,
      "sort": 186,
-     "updated_at": "2026-10-21T02:51:08.776Z",
+     "updated_at": "2026-10-21T03:25:05.229Z",
      "code": "MCB-28-02"
     },
     {
      "id": "mcb_bk2_studio",
      "product_id": "mcb",
-     "phase": "Nâng cấp tính năng Brand Kit",
-     "phase_ja": "ブランドキットの機能強化",
+     "phase": "Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty",
+     "phase_ja": "ブランドキットの強化：ロゴ・AI作成・全社共有",
      "name": "Tạo brand kit bằng AI (Brand Studio)",
      "name_ja": "AIによるブランドキット作成（Brand Studio）",
      "note": "Chưa có nhận diện thương hiệu thì trả lời vài câu hỏi về ngành nghề và thị trường, AI gợi ý logo, bảng màu, cặp font kèm font tiếng Nhật, tagline và giọng điệu; xem trước rồi mới lưu.",
@@ -3046,14 +3046,14 @@
      "percent": 0,
      "internal": 0,
      "sort": 187,
-     "updated_at": "2026-10-21T02:51:08.776Z",
+     "updated_at": "2026-10-21T03:25:05.229Z",
      "code": "MCB-28-03"
     },
     {
      "id": "mcb_bk2_import",
      "product_id": "mcb",
-     "phase": "Nâng cấp tính năng Brand Kit",
-     "phase_ja": "ブランドキットの機能強化",
+     "phase": "Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty",
+     "phase_ja": "ブランドキットの強化：ロゴ・AI作成・全社共有",
      "name": "Tạo brand kit từ nguồn sẵn có (Import)",
      "name_ja": "既存素材からのブランドキット取り込み",
      "note": "Đưa file logo, địa chỉ website hoặc tài liệu brand guidelines dạng PDF, hệ thống tự đọc ra logo, màu, font và giọng điệu rồi điền sẵn vào kit để kiểm tra lại.",
@@ -3065,14 +3065,14 @@
      "percent": 0,
      "internal": 0,
      "sort": 188,
-     "updated_at": "2026-10-21T02:51:08.776Z",
+     "updated_at": "2026-10-21T03:25:05.229Z",
      "code": "MCB-28-04"
     },
     {
      "id": "mcb_bk2_editor",
      "product_id": "mcb",
-     "phase": "Nâng cấp tính năng Brand Kit",
-     "phase_ja": "ブランドキットの機能強化",
+     "phase": "Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty",
+     "phase_ja": "ブランドキットの強化：ロゴ・AI作成・全社共有",
      "name": "Áp brand kit và lớp logo trong editor",
      "name_ja": "エディタでのブランドキット適用とロゴレイヤー",
      "note": "Đổi brand kit đang áp ngay trong trình sửa slide và catalog, bật tắt hiện logo trên mọi trang, chọn vị trí và kích cỡ logo mà không phải sinh lại nội dung.",
@@ -3084,7 +3084,7 @@
      "percent": 0,
      "internal": 0,
      "sort": 189,
-     "updated_at": "2026-10-21T02:51:08.776Z",
+     "updated_at": "2026-10-21T03:25:05.229Z",
      "code": "MCB-28-05"
     },
     {
@@ -3328,8 +3328,58 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:18:32.502Z",
+ "published_at": "2026-10-21T03:25:29.286Z",
  "changelog": [
+  {
+   "id": 604,
+   "item_id": "mcb_bk2_editor",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Áp brand kit và lớp logo trong editor\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:25:05.229Z"
+  },
+  {
+   "id": 603,
+   "item_id": "mcb_bk2_import",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Tạo brand kit từ nguồn sẵn có (Import)\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:25:05.229Z"
+  },
+  {
+   "id": 602,
+   "item_id": "mcb_bk2_studio",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Tạo brand kit bằng AI (Brand Studio)\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:25:05.229Z"
+  },
+  {
+   "id": 601,
+   "item_id": "mcb_bk2_scope",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Phạm vi Company / Personal và chính sách công ty\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:25:05.229Z"
+  },
+  {
+   "id": 600,
+   "item_id": "mcb_bk2_logo",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Quản lý logo trong brand kit\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:25:05.229Z"
+  },
   {
    "id": 599,
    "item_id": "mcM1",
@@ -3779,56 +3829,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:38:58.639Z"
-  },
-  {
-   "id": 554,
-   "item_id": "mcb_pay_failure_refund",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":110,\"len\":28},\"to\":{\"start\":110,\"len\":42}}",
-   "reason": "MCB-22 kéo tới hết tháng 11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:21.406Z"
-  },
-  {
-   "id": 553,
-   "item_id": "mcb_pay_invoice",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":110,\"len\":28},\"to\":{\"start\":110,\"len\":42}}",
-   "reason": "MCB-22 kéo tới hết tháng 11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:21.406Z"
-  },
-  {
-   "id": 552,
-   "item_id": "mcb_pay_subscription",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":110,\"len\":28},\"to\":{\"start\":110,\"len\":42}}",
-   "reason": "MCB-22 kéo tới hết tháng 11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:21.406Z"
-  },
-  {
-   "id": 551,
-   "item_id": "mcb_pay_methods",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":110,\"len\":28},\"to\":{\"start\":110,\"len\":42}}",
-   "reason": "MCB-22 kéo tới hết tháng 11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:21.406Z"
-  },
-  {
-   "id": 550,
-   "item_id": "mcb_pay_gateway",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":110,\"len\":28},\"to\":{\"start\":110,\"len\":42}}",
-   "reason": "MCB-22 kéo tới hết tháng 11/2026",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:21.406Z"
   }
  ]
 }

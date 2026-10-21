@@ -2640,14 +2640,14 @@
      "name_ja": "SNSアカウント連携と直接投稿",
      "note": "Liên kết tài khoản Facebook, Instagram, LinkedIn và X một lần, sau đó đăng nội dung đã tạo thẳng lên trang của bạn mà không cần tải file về.",
      "note_ja": "Facebook・Instagram・LinkedIn・X のアカウントを一度連携すれば、作成したコンテンツをファイル保存なしでそのまま投稿できます。",
-     "start": 153,
+     "start": 103,
      "len": 21,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 166,
-     "updated_at": "2026-10-21T02:41:31.640Z",
+     "updated_at": "2026-10-21T03:15:51.617Z",
      "code": "MCB-24-01"
     },
     {
@@ -2659,14 +2659,14 @@
      "name_ja": "各プラットフォーム向けの自動最適化",
      "note": "Cùng một nội dung được tự cắt đúng tỉ lệ ảnh, rút gọn caption và gợi ý hashtag theo yêu cầu riêng của từng mạng xã hội.",
      "note_ja": "同じコンテンツを、各SNSの仕様に合わせて画像比率の調整、キャプションの短縮、ハッシュタグの提案まで自動で整えます。",
-     "start": 153,
+     "start": 103,
      "len": 21,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 167,
-     "updated_at": "2026-10-21T02:41:31.640Z",
+     "updated_at": "2026-10-21T03:15:51.617Z",
      "code": "MCB-24-02"
     },
     {
@@ -2678,14 +2678,14 @@
      "name_ja": "予約投稿と投稿結果の確認",
      "note": "Chọn thời điểm đăng cho từng nền tảng, xem lịch đăng sắp tới và theo dõi lượt tiếp cận, tương tác sau khi bài lên.",
      "note_ja": "プラットフォームごとに投稿日時を指定し、予約一覧を確認しながら、投稿後のリーチやエンゲージメントを追跡できます。",
-     "start": 153,
+     "start": 103,
      "len": 21,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 168,
-     "updated_at": "2026-10-21T02:41:31.640Z",
+     "updated_at": "2026-10-21T03:15:51.617Z",
      "code": "MCB-24-03"
     },
     {
@@ -3328,8 +3328,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:05:04.794Z",
+ "published_at": "2026-10-21T03:15:51.663Z",
  "changelog": [
+  {
+   "id": 591,
+   "item_id": "mcb_social_schedule_track",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":21},\"to\":{\"start\":103,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 12/10/2026, giữ 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:15:51.617Z"
+  },
+  {
+   "id": 590,
+   "item_id": "mcb_social_adapt_format",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":21},\"to\":{\"start\":103,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 12/10/2026, giữ 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:15:51.617Z"
+  },
+  {
+   "id": 589,
+   "item_id": "mcb_social_connect_post",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":21},\"to\":{\"start\":103,\"len\":21}}",
+   "reason": "MCB-24 bắt đầu 12/10/2026, giữ 3 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:15:51.617Z"
+  },
   {
    "id": 588,
    "item_id": "mcb_lp_publish_domain",
@@ -3799,36 +3829,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:35:53.960Z"
-  },
-  {
-   "id": 541,
-   "item_id": "mcb_pay_failure_refund",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
-   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:45.746Z"
-  },
-  {
-   "id": 540,
-   "item_id": "mcb_pay_invoice",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
-   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:45.746Z"
-  },
-  {
-   "id": 539,
-   "item_id": "mcb_pay_subscription",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":103,\"len\":42},\"to\":{\"start\":110,\"len\":28}}",
-   "reason": "MCB-22 bắt đầu 19/10/2026, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:33:45.746Z"
   }
  ]
 }

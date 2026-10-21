@@ -1788,11 +1788,11 @@
      "start": 11,
      "len": 14,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 90,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 102,
-     "updated_at": "2026-08-13T10:36:45.824Z",
+     "updated_at": "2026-10-21T03:18:32.439Z",
      "code": "MCB-05-01"
     },
     {
@@ -1826,11 +1826,11 @@
      "start": 175,
      "len": 35,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 105,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-21T03:18:32.439Z",
      "code": "MCB-05-03"
     },
     {
@@ -1864,11 +1864,11 @@
      "start": 294,
      "len": 0,
      "milestone": 1,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 108,
-     "updated_at": "2026-07-14T05:02:52.537Z",
+     "updated_at": "2026-10-21T03:18:32.439Z",
      "code": "MCB-05-06"
     },
     {
@@ -3328,8 +3328,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:16:28.352Z",
+ "published_at": "2026-10-21T03:18:32.502Z",
  "changelog": [
+  {
+   "id": 599,
+   "item_id": "mcM1",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:18:32.439Z"
+  },
+  {
+   "id": 598,
+   "item_id": "mc_analytics",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:18:32.439Z"
+  },
+  {
+   "id": 597,
+   "item_id": "mcb_slide_quality",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:18:32.439Z"
+  },
   {
    "id": 596,
    "item_id": "mcb_story_consistency",
@@ -3799,36 +3829,6 @@
    "reason": "MCB-22 kéo tới hết tháng 11/2026",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:38:21.406Z"
-  },
-  {
-   "id": 549,
-   "item_id": "mcb_tpl_manage",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Quản lý kho template của công ty\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:36:54.259Z"
-  },
-  {
-   "id": 548,
-   "item_id": "mcb_tpl_save_own",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Lưu trang đã làm thành template riêng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:36:54.259Z"
-  },
-  {
-   "id": 547,
-   "item_id": "mcb_tpl_apply",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Dùng template và tự điền nội dung của công ty\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:36:54.259Z"
   }
  ]
 }

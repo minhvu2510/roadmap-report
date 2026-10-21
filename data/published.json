@@ -3143,6 +3143,63 @@
      "sort": 192,
      "updated_at": "2026-10-21T03:02:18.168Z",
      "code": "MCB-30-03"
+    },
+    {
+     "id": "mcb_edit_layers",
+     "product_id": "mcb",
+     "phase": "Cải thiện khả năng chỉnh sửa slide, poster, catalog và story",
+     "phase_ja": "スライド・ポスター・カタログ・ストーリーの編集機能改善",
+     "name": "Sinh nội dung thành các lớp tách rời thay vì một ảnh phẳng",
+     "name_ja": "画像ではなくレイヤー構造でのコンテンツ生成",
+     "note": "Thay vì vẽ cả slide thành một ảnh kín, hệ thống dựng riêng phần chữ, khối màu, đường kẻ và ảnh minh hoạ, giữ đúng vị trí, cỡ chữ và màu như bản thiết kế.",
+     "note_ja": "スライド全体を一枚の画像として描くのではなく、テキスト・図形・区切り線・イラストをそれぞれ独立した要素として生成し、位置・文字サイズ・色をデザインどおりに保ちます。",
+     "start": 110,
+     "len": 28,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 20,
+     "internal": 0,
+     "sort": 193,
+     "updated_at": "2026-10-21T03:33:43.512Z",
+     "code": "MCB-31-01"
+    },
+    {
+     "id": "mcb_edit_inline",
+     "product_id": "mcb",
+     "phase": "Cải thiện khả năng chỉnh sửa slide, poster, catalog và story",
+     "phase_ja": "スライド・ポスター・カタログ・ストーリーの編集機能改善",
+     "name": "Sửa trực tiếp từng thành phần trong editor",
+     "name_ja": "エディタ上での要素単位の編集",
+     "note": "Sửa chữ, đổi màu khối, di chuyển và thay ảnh minh hoạ ngay trên nội dung đang xem, không phải nhờ AI vẽ lại cả trang.",
+     "note_ja": "表示中のコンテンツ上で、テキストの修正、図形の色変更、要素の移動、イラストの差し替えを直接行えます。AI にページ全体を描き直させる必要はありません。",
+     "start": 110,
+     "len": 28,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 20,
+     "internal": 0,
+     "sort": 194,
+     "updated_at": "2026-10-21T03:33:43.512Z",
+     "code": "MCB-31-02"
+    },
+    {
+     "id": "mcb_edit_export_pptx",
+     "product_id": "mcb",
+     "phase": "Cải thiện khả năng chỉnh sửa slide, poster, catalog và story",
+     "phase_ja": "スライド・ポスター・カタログ・ストーリーの編集機能改善",
+     "name": "Xuất file PowerPoint chỉnh sửa được",
+     "name_ja": "編集可能な PowerPoint ファイルの書き出し",
+     "note": "Tải về file PowerPoint mà mỗi dòng chữ, khối màu và hình ảnh là một đối tượng riêng, chọn và sửa được; mở đúng trên PowerPoint, Google Slides và Keynote.",
+     "note_ja": "テキスト・図形・画像がそれぞれ独立したオブジェクトとして選択・編集できる PowerPoint ファイルを書き出せます。PowerPoint・Google スライド・Keynote で正しく開けます。",
+     "start": 110,
+     "len": 28,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 20,
+     "internal": 0,
+     "sort": 195,
+     "updated_at": "2026-10-21T03:33:43.512Z",
+     "code": "MCB-31-03"
     }
    ]
   },
@@ -3328,8 +3385,38 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:25:29.286Z",
+ "published_at": "2026-10-21T03:33:43.577Z",
  "changelog": [
+  {
+   "id": 607,
+   "item_id": "mcb_edit_export_pptx",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xuất file PowerPoint chỉnh sửa được\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:33:43.512Z"
+  },
+  {
+   "id": 606,
+   "item_id": "mcb_edit_inline",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Sửa trực tiếp từng thành phần trong editor\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:33:43.512Z"
+  },
+  {
+   "id": 605,
+   "item_id": "mcb_edit_layers",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Sinh nội dung thành các lớp tách rời thay vì một ảnh phẳng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-21T03:33:43.512Z"
+  },
   {
    "id": 604,
    "item_id": "mcb_bk2_editor",
@@ -3796,36 +3883,6 @@
    "product_id": "mcb",
    "kind": "create",
    "detail": "{\"name\":\"Hiển thị đẹp trên máy tính, máy tính bảng và điện thoại\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:58.639Z"
-  },
-  {
-   "id": 557,
-   "item_id": "mcb_lp_form_cta",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Gắn form đăng ký và nút kêu gọi hành động\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:58.639Z"
-  },
-  {
-   "id": 556,
-   "item_id": "mcb_lp_edit_sections",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Chỉnh sửa từng phần nội dung trên trang\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:58.639Z"
-  },
-  {
-   "id": 555,
-   "item_id": "mcb_lp_create",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo landing page từ mô tả hoặc tài liệu sẵn có\"}",
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:38:58.639Z"

@@ -1051,16 +1051,16 @@
      "phase_ja": "ミニアプリ",
      "name": "Kiến trúc, phạm vi & khảo sát use case Mini App",
      "name_ja": "ミニアプリのアーキテクチャ・範囲定義とユースケース調査",
-     "note": "Tạo và dùng các ứng dụng nghiệp vụ nhỏ ngay trong M-Agent (Form, Checklist, Dashboard, CRM Tool, HR Tool, công cụ nhập liệu & tra cứu nội bộ...). Xác định kiến trúc, phạm vi và khảo sát use case thực tế.",
-     "note_ja": "フォーム、チェックリスト、ダッシュボード、CRM・人事ツール、社内の入力・検索ツールなど、小さな業務アプリをM-Agent内で作成・利用できます。アーキテクチャと範囲を定義し、実際のユースケースを調査します。",
+     "note": "Tạo và dùng các ứng dụng nghiệp vụ nhỏ ngay trong M-Agent (Form, Checklist, Dashboard, CRM Tool, HR Tool, công cụ nhập liệu & tra cứu nội bộ...). Xác định kiến trúc, phạm vi và khảo sát use case thực tế. Cập nhật 30/10: Tháng 11 tập trung nghiên cứu; thiết kế và MVP dời sang tháng 12.",
+     "note_ja": "フォーム、チェックリスト、ダッシュボード、CRM・人事ツール、社内の入力・検索ツールなど、小さな業務アプリをM-Agent内で作成・利用できます。アーキテクチャと範囲を定義し、実際のユースケースを調査します。 10/30更新：11月は調査に集中し、設計とMVPは12月に延期。",
      "start": 123,
-     "len": 10,
+     "len": 30,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 37,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-30T07:07:09.670Z",
      "code": "M-AGENT-13-01"
     },
     {
@@ -1072,14 +1072,14 @@
      "name_ja": "エージェント↔ミニアプリ間のデータ・API・権限設計",
      "note": "Thiết kế cách Agent gọi Mini App, dữ liệu và API giữa Agent ↔ Mini App, cùng phân quyền và bảo mật.",
      "note_ja": "エージェントからミニアプリを呼び出す方法、両者間のデータとAPI、権限とセキュリティを設計します。",
-     "start": 133,
+     "start": 153,
      "len": 10,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 38,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-30T07:07:09.671Z",
      "code": "M-AGENT-13-02"
     },
     {
@@ -1091,14 +1091,14 @@
      "name_ja": "最初のミニアプリMVP",
      "note": "Xây dựng MVP Mini App đầu tiên chạy được bên trong M-Agent.",
      "note_ja": "M-Agent内で動作する最初のミニアプリMVPを構築します。",
-     "start": 143,
+     "start": 163,
      "len": 10,
      "milestone": 0,
      "status": "not_started",
      "percent": 0,
      "internal": 0,
      "sort": 39,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-30T07:07:09.671Z",
      "code": "M-AGENT-13-03"
     },
     {
@@ -1108,16 +1108,16 @@
      "phase_ja": "画像の読み取りと生成（マルチモーダル）",
      "name": "Đọc hiểu ảnh: bảng, hoá đơn, biểu đồ, screenshot, chữ viết tay",
      "name_ja": "画像理解：表・請求書・グラフ・スクリーンショット・手書き文字",
-     "note": "Người dùng làm việc trực tiếp với hình ảnh: M-Agent hiểu bảng, hoá đơn, biểu đồ, screenshot và chữ viết tay. Đánh giá Vision Model trên dữ liệu thực tế.",
-     "note_ja": "画像を直接扱えるようになります。M-Agentが表・請求書・グラフ・スクリーンショット・手書き文字を理解します。実データでVisionモデルを評価します。",
-     "start": 123,
-     "len": 15,
+     "note": "Người dùng làm việc trực tiếp với hình ảnh: M-Agent hiểu bảng, hoá đơn, biểu đồ, screenshot và chữ viết tay. Đánh giá Vision Model trên dữ liệu thực tế. Cập nhật 30/10: Đã lên môi trường dev, đang chờ test và đánh giá.",
+     "note_ja": "画像を直接扱えるようになります。M-Agentが表・請求書・グラフ・スクリーンショット・手書き文字を理解します。実データでVisionモデルを評価します。 10/30更新：開発環境に反映済み、テストと評価待ち。",
+     "start": 92,
+     "len": 46,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "in_progress",
+     "percent": 70,
      "internal": 0,
      "sort": 40,
-     "updated_at": "2026-10-02T08:34:11.736Z",
+     "updated_at": "2026-10-30T07:07:09.672Z",
      "code": "M-AGENT-14-01"
     },
     {
@@ -3442,8 +3442,58 @@
    ]
   }
  ],
- "published_at": "2026-10-30T07:03:53.211Z",
+ "published_at": "2026-10-30T07:07:09.674Z",
  "changelog": [
+  {
+   "id": 654,
+   "item_id": "mo_img_read",
+   "product_id": "mosa",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":15},\"to\":{\"start\":92,\"len\":46}}",
+   "reason": "Đã bắt đầu làm từ tháng 10",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T07:07:09.672Z"
+  },
+  {
+   "id": 653,
+   "item_id": "mo_img_read",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
+   "reason": "Đã bắt đầu làm từ tháng 10",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T07:07:09.672Z"
+  },
+  {
+   "id": 652,
+   "item_id": "mo_mini_mvp",
+   "product_id": "mosa",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":143,\"len\":10},\"to\":{\"start\":163,\"len\":10}}",
+   "reason": "Dời sang tháng 12 để tháng 11 tập trung nghiên cứu Mini App",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T07:07:09.671Z"
+  },
+  {
+   "id": 651,
+   "item_id": "mo_mini_api",
+   "product_id": "mosa",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":133,\"len\":10},\"to\":{\"start\":153,\"len\":10}}",
+   "reason": "Dời sang tháng 12 để tháng 11 tập trung nghiên cứu Mini App",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T07:07:09.671Z"
+  },
+  {
+   "id": 650,
+   "item_id": "mo_mini_scope",
+   "product_id": "mosa",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":123,\"len\":10},\"to\":{\"start\":123,\"len\":30}}",
+   "reason": "Tháng 11 tập trung nghiên cứu Mini App",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T07:07:09.670Z"
+  },
   {
    "id": 649,
    "item_id": "mo_tpl_more",
@@ -3893,56 +3943,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T03:33:43.512Z"
-  },
-  {
-   "id": 604,
-   "item_id": "mcb_bk2_editor",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Áp brand kit và lớp logo trong editor\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:25:05.229Z"
-  },
-  {
-   "id": 603,
-   "item_id": "mcb_bk2_import",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tạo brand kit từ nguồn sẵn có (Import)\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:25:05.229Z"
-  },
-  {
-   "id": 602,
-   "item_id": "mcb_bk2_studio",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Tạo brand kit bằng AI (Brand Studio)\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:25:05.229Z"
-  },
-  {
-   "id": 601,
-   "item_id": "mcb_bk2_scope",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Phạm vi Company / Personal và chính sách công ty\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:25:05.229Z"
-  },
-  {
-   "id": 600,
-   "item_id": "mcb_bk2_logo",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Quản lý logo trong brand kit\",\"phase\":{\"from\":\"Nâng cấp tính năng Brand Kit\",\"to\":\"Nâng cấp Brand Kit: logo, tạo bằng AI và dùng chung toàn công ty\"}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:25:05.229Z"
   }
  ]
 }

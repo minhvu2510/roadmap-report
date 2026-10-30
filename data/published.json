@@ -847,11 +847,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 26,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.673Z",
      "code": "M-AGENT-09-01"
     },
     {
@@ -866,11 +866,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 27,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.674Z",
      "code": "M-AGENT-09-02"
     },
     {
@@ -883,13 +883,13 @@
      "note": "Cơ chế cảnh báo và giới hạn khi Credit sắp hết hoặc đã hết; chuẩn bị nền tảng để SuperAdmin cấu hình Credit cho từng công ty.",
      "note_ja": "クレジット残量が少ない・不足した場合の通知と利用制限の仕組みを設計し、SuperAdminが会社ごとにクレジットを設定できる基盤を準備します。",
      "start": 112,
-     "len": 11,
+     "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 28,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-09-03"
     },
     {
@@ -904,11 +904,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 29,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-10-01"
     },
     {
@@ -923,11 +923,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 30,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-10-02"
     },
     {
@@ -940,13 +940,13 @@
      "note": "Theo dõi token, latency và chi phí khi M-Agent gọi MRAG; xây dựng PoC và kiểm thử trên dữ liệu thực tế.",
      "note_ja": "M-AgentがMRAGを呼び出す際のトークン・レイテンシ・コストを計測し、実データでPoCを構築・検証します。",
      "start": 112,
-     "len": 11,
+     "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 31,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-10-03"
     },
     {
@@ -961,11 +961,11 @@
      "start": 92,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 32,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-11-01"
     },
     {
@@ -980,11 +980,11 @@
      "start": 102,
      "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 33,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-11-02"
     },
     {
@@ -997,13 +997,13 @@
      "note": "Lưu lịch sử thao tác của Agent để Audit; xử lý lỗi và conflict khi tài liệu bị thay đổi đồng thời.",
      "note_ja": "エージェントの操作履歴を監査用に保存し、ドキュメントが同時に変更された場合のエラーや競合を処理します。",
      "start": 112,
-     "len": 11,
+     "len": 10,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 34,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-11-03"
     },
     {
@@ -1018,11 +1018,11 @@
      "start": 92,
      "len": 15,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 35,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-12-01"
     },
     {
@@ -1035,13 +1035,13 @@
      "note": "Notification Center tập trung mọi thông báo; tự động tạm dừng Workflow khi lỗi liên tiếp. Notification Service được thiết kế dùng chung cho Chat, Workflow, Connector và Mini App.",
      "note_ja": "すべての通知をまとめる通知センターを提供し、連続してエラーが発生したワークフローは自動停止します。通知サービスはチャット・ワークフロー・コネクタ・ミニアプリで共通利用できるよう設計します。",
      "start": 107,
-     "len": 16,
+     "len": 15,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 36,
-     "updated_at": "2026-10-02T08:55:11.298Z",
+     "updated_at": "2026-10-30T06:44:40.675Z",
      "code": "M-AGENT-12-02"
     },
     {
@@ -3385,8 +3385,118 @@
    ]
   }
  ],
- "published_at": "2026-10-21T03:33:43.577Z",
+ "published_at": "2026-10-30T06:44:40.677Z",
  "changelog": [
+  {
+   "id": 618,
+   "item_id": "mo_noti_center",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
+   "reason": "Hoàn thành sớm 1 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 617,
+   "item_id": "mo_noti_realtime",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 616,
+   "item_id": "mo_gws_audit",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
+   "reason": "Hoàn thành sớm 1 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 615,
+   "item_id": "mo_gws_confirm",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 614,
+   "item_id": "mo_gws_write",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 613,
+   "item_id": "mo_mrag_poc",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
+   "reason": "Hoàn thành sớm 1 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 612,
+   "item_id": "mo_mrag_perm",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 611,
+   "item_id": "mo_mrag_connect",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 610,
+   "item_id": "mo_credit_limit",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
+   "reason": "Hoàn thành sớm 1 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.675Z"
+  },
+  {
+   "id": 609,
+   "item_id": "mo_credit_history",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.674Z"
+  },
+  {
+   "id": 608,
+   "item_id": "mo_credit_rule",
+   "product_id": "mosa",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-10-30T06:44:40.673Z"
+  },
   {
    "id": 607,
    "item_id": "mcb_edit_export_pptx",
@@ -3776,116 +3886,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-21T02:48:09.430Z"
-  },
-  {
-   "id": 568,
-   "item_id": "mcb_slide_speaker_notes",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Ghi chú người trình bày cho từng slide\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:48:09.430Z"
-  },
-  {
-   "id": 567,
-   "item_id": "mcb_social_schedule_track",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:41:31.640Z"
-  },
-  {
-   "id": 566,
-   "item_id": "mcb_social_adapt_format",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:41:31.640Z"
-  },
-  {
-   "id": 565,
-   "item_id": "mcb_social_connect_post",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\",\"percent\":{\"from\":0,\"to\":5}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:41:31.640Z"
-  },
-  {
-   "id": 564,
-   "item_id": "mcb_story_consistency",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":145,\"len\":28},\"to\":{\"start\":187,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu tháng 1/2027, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:39:29.541Z"
-  },
-  {
-   "id": 563,
-   "item_id": "mcb_story_editor",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":145,\"len\":28},\"to\":{\"start\":187,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu tháng 1/2027, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:39:29.541Z"
-  },
-  {
-   "id": 562,
-   "item_id": "mcb_story_series",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":145,\"len\":28},\"to\":{\"start\":187,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu tháng 1/2027, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:39:29.541Z"
-  },
-  {
-   "id": 561,
-   "item_id": "mcb_story_bible",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":145,\"len\":28},\"to\":{\"start\":187,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu tháng 1/2027, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:39:29.541Z"
-  },
-  {
-   "id": 560,
-   "item_id": "mcb_story_chapters",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":145,\"len\":28},\"to\":{\"start\":187,\"len\":28}}",
-   "reason": "MCB-23 bắt đầu tháng 1/2027, kéo dài 4 tuần",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:39:29.541Z"
-  },
-  {
-   "id": 559,
-   "item_id": "mcb_lp_publish_domain",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Đăng tải trang và gắn tên miền riêng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:58.639Z"
-  },
-  {
-   "id": 558,
-   "item_id": "mcb_lp_responsive",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Hiển thị đẹp trên máy tính, máy tính bảng và điện thoại\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T02:38:58.639Z"
   }
  ]
 }

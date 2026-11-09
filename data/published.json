@@ -2204,13 +2204,13 @@
      "note": "Thiết lập nguồn credit gốc (Base Credits) cho từng công ty ngay tại màn Company: cấp phát, điều chỉnh và theo dõi hạn mức.",
      "note_ja": "会社ごとのベースクレジットをCompany画面で設定し、付与・調整・残量の管理を行えるようにします。",
      "start": 82,
-     "len": 53,
+     "len": 132,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 140,
-     "updated_at": "2026-10-21T02:31:39.808Z",
+     "updated_at": "2026-11-09T04:28:36.651Z",
      "code": "MCB-19-01"
     },
     {
@@ -2223,13 +2223,13 @@
      "note": "Mỗi thao tác AI trong luồng Create trừ credit tương ứng; khi hết hạn mức, hệ thống chặn thao tác và báo rõ cho người dùng.",
      "note_ja": "CreateフローのAI操作ごとにクレジットを消費し、残量がなくなった場合は操作をブロックして利用者に明示します。",
      "start": 82,
-     "len": 53,
+     "len": 132,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 141,
-     "updated_at": "2026-10-21T02:31:39.808Z",
+     "updated_at": "2026-11-09T04:28:36.651Z",
      "code": "MCB-19-02"
     },
     {
@@ -2242,13 +2242,13 @@
      "note": "Nhóm màn quản lý credit dành cho quản trị viên công ty: xem hạn mức, phân bổ cho thành viên và theo dõi mức tiêu hao.",
      "note_ja": "会社管理者向けに、クレジット残量の確認、メンバーへの配分、消費状況の把握を行う画面群を用意します。",
      "start": 82,
-     "len": 53,
+     "len": 132,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 142,
-     "updated_at": "2026-10-21T02:31:39.808Z",
+     "updated_at": "2026-11-09T04:28:36.651Z",
      "code": "MCB-19-03"
     },
     {
@@ -2261,13 +2261,13 @@
      "note": "Công ty gửi yêu cầu cấp thêm credit; super admin xem xét, phê duyệt hoặc từ chối, hạn mức được cập nhật theo kết quả.",
      "note_ja": "会社側が追加クレジットを申請し、スーパー管理者が承認・却下を行い、結果に応じて上限を更新します。",
      "start": 82,
-     "len": 53,
+     "len": 132,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 143,
-     "updated_at": "2026-10-21T02:31:39.808Z",
+     "updated_at": "2026-11-09T04:28:36.651Z",
      "code": "MCB-19-04"
     },
     {
@@ -2280,13 +2280,13 @@
      "note": "Nhóm màn quản lý credit toàn hệ thống cho super admin, kèm nhật ký sử dụng chi tiết theo từng công ty và từng thao tác.",
      "note_ja": "全社横断でクレジットを管理するスーパー管理者向け画面群と、会社別・操作別の詳細な利用ログを提供します。",
      "start": 82,
-     "len": 53,
+     "len": 132,
      "milestone": 0,
      "status": "in_progress",
      "percent": 5,
      "internal": 0,
      "sort": 144,
-     "updated_at": "2026-10-21T02:31:39.808Z",
+     "updated_at": "2026-11-09T04:28:36.651Z",
      "code": "MCB-19-05"
     },
     {
@@ -3428,6 +3428,63 @@
      "sort": 204,
      "updated_at": "2026-11-09T04:27:16.843Z",
      "code": "MCB-34-03"
+    },
+    {
+     "id": "mcb_dislike_collect",
+     "product_id": "mcb",
+     "phase": "Xử lý lỗi nội dung AI tạo ra theo phản hồi Dislike của khách hàng (Slide Graphic / Editable / Poster / Catalog)",
+     "phase_ja": "Dislike フィードバックに基づく AI 生成コンテンツの品質改善（スライド Graphic / Editable・ポスター・カタログ）",
+     "name": "Thu thập và phân loại phản hồi Dislike theo từng loại nội dung",
+     "name_ja": "コンテンツ種別ごとの Dislike フィードバックの収集と分類",
+     "note": "Gom lý do người dùng bấm Dislike (nội dung sai, quá nhiều chữ, bố cục xấu, lệch nhận diện thương hiệu) cho từng loại nội dung, thống kê lỗi nào hay gặp nhất để ưu tiên xử lý.",
+     "note_ja": "Dislike の理由（内容の誤り、文字が多すぎる、レイアウト崩れ、ブランド不一致など）をコンテンツ種別ごとに集計し、発生の多い問題から優先的に対処できるようにします。",
+     "start": 131,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 205,
+     "updated_at": "2026-11-09T04:28:36.573Z",
+     "code": "MCB-35-01"
+    },
+    {
+     "id": "mcb_dislike_fix_quality",
+     "product_id": "mcb",
+     "phase": "Xử lý lỗi nội dung AI tạo ra theo phản hồi Dislike của khách hàng (Slide Graphic / Editable / Poster / Catalog)",
+     "phase_ja": "Dislike フィードバックに基づく AI 生成コンテンツの品質改善（スライド Graphic / Editable・ポスター・カタログ）",
+     "name": "Khắc phục các lỗi nội dung bị phàn nàn nhiều nhất",
+     "name_ja": "指摘の多いコンテンツ品質問題の改善",
+     "note": "Cải thiện cách AI dựng nội dung ở những điểm bị chê nhiều: chữ tràn khung, bố cục lệch, thông tin không khớp tài liệu gốc, màu và font không theo nhận diện thương hiệu.",
+     "note_ja": "文字のはみ出し、レイアウトの崩れ、元資料と合わない内容、ブランドの色やフォントとの不一致など、指摘の多い点を中心に生成品質を改善します。",
+     "start": 131,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 206,
+     "updated_at": "2026-11-09T04:28:36.573Z",
+     "code": "MCB-35-02"
+    },
+    {
+     "id": "mcb_dislike_regenerate",
+     "product_id": "mcb",
+     "phase": "Xử lý lỗi nội dung AI tạo ra theo phản hồi Dislike của khách hàng (Slide Graphic / Editable / Poster / Catalog)",
+     "phase_ja": "Dislike フィードバックに基づく AI 生成コンテンツの品質改善（スライド Graphic / Editable・ポスター・カタログ）",
+     "name": "Tạo lại nội dung ngay từ phản hồi của người dùng",
+     "name_ja": "フィードバックからのその場での再生成",
+     "note": "Khi người dùng bấm Dislike kèm lý do, hệ thống sinh lại bản mới sửa đúng điểm đó thay vì bắt làm lại từ đầu; áp cho cả slide dạng ảnh, slide chỉnh sửa được, poster và catalog.",
+     "note_ja": "理由を添えて Dislike した際に、最初からやり直すのではなく、その指摘点を直した版をその場で再生成します。画像スライド・編集可能スライド・ポスター・カタログのすべてに対応します。",
+     "start": 131,
+     "len": 42,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 207,
+     "updated_at": "2026-11-09T04:28:36.573Z",
+     "code": "MCB-35-03"
     }
    ]
   },
@@ -3613,8 +3670,88 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:27:16.924Z",
+ "published_at": "2026-11-09T04:28:40.851Z",
  "changelog": [
+  {
+   "id": 688,
+   "item_id": "mcb_credit_superadmin_logs",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
+   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.651Z"
+  },
+  {
+   "id": 687,
+   "item_id": "mcb_credit_request_approval",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
+   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.651Z"
+  },
+  {
+   "id": 686,
+   "item_id": "mcb_credit_admin_screens",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
+   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.651Z"
+  },
+  {
+   "id": 685,
+   "item_id": "mcb_credit_consume_create",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
+   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.651Z"
+  },
+  {
+   "id": 684,
+   "item_id": "mcb_credit_base_company",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
+   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.651Z"
+  },
+  {
+   "id": 683,
+   "item_id": "mcb_dislike_regenerate",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Tạo lại nội dung ngay từ phản hồi của người dùng\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.573Z"
+  },
+  {
+   "id": 682,
+   "item_id": "mcb_dislike_fix_quality",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Khắc phục các lỗi nội dung bị phàn nàn nhiều nhất\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.573Z"
+  },
+  {
+   "id": 681,
+   "item_id": "mcb_dislike_collect",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Thu thập và phân loại phản hồi Dislike theo từng loại nội dung\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:28:36.573Z"
+  },
   {
    "id": 680,
    "item_id": "mcb_cmt_commenter_role",
@@ -4034,86 +4171,6 @@
    "reason": "Làm sớm hơn kế hoạch",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T07:03:53.207Z"
-  },
-  {
-   "id": 638,
-   "item_id": "mo_wf2_measure",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.207Z"
-  },
-  {
-   "id": 637,
-   "item_id": "mo_voice_tts",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 636,
-   "item_id": "mo_voice_tts",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 635,
-   "item_id": "mo_voice_minutes",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 634,
-   "item_id": "mo_voice_minutes",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 633,
-   "item_id": "mo_voice_stt",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":153,\"len\":7},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 632,
-   "item_id": "mo_voice_stt",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 631,
-   "item_id": "mo_zoho2_design",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":61}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
   }
  ]
 }

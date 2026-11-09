@@ -3154,13 +3154,13 @@
      "note": "Mọi công ty, kể cả công ty dùng MCBuilder, được xem và tạo sửa ở một chỗ duy nhất là menu Companies; nhóm menu MCBuilder không còn Company List và Create Company.",
      "note_ja": "MCBuilder を利用する企業も含め、すべての企業を Companies メニュー一か所で閲覧・作成・編集できるようにし、MCBuilder グループから Company List と Create Company を削除します。",
      "start": 117,
-     "len": 28,
+     "len": 14,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 190,
-     "updated_at": "2026-10-21T03:02:18.168Z",
+     "updated_at": "2026-11-09T04:36:00.447Z",
      "code": "MCB-30-01"
     },
     {
@@ -3173,13 +3173,13 @@
      "note": "Màn MCBuilder › Users chỉ còn user tự đăng ký, không thuộc công ty; bảng hiện gói đang dùng và mức sử dụng trong tháng, chia trang 10 dòng kèm ghi chú giải thích phạm vi danh sách.",
      "note_ja": "MCBuilder › Users には自分で登録した個人ユーザーのみを表示し、利用プランと今月の利用量を一覧に追加、10件ごとのページングと一覧の対象範囲を説明する注記を設けます。",
      "start": 117,
-     "len": 28,
+     "len": 14,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 191,
-     "updated_at": "2026-10-21T03:02:18.168Z",
+     "updated_at": "2026-11-09T04:36:00.447Z",
      "code": "MCB-30-02"
     },
     {
@@ -3192,13 +3192,13 @@
      "note": "Lọc theo trạng thái bằng nút Filter Data và popup dùng chung kiểu với màn Dashboard, bộ lọc đang áp hiện thành chip; form tạo và sửa chỉ còn thông tin cơ bản và bảo mật, bỏ phần gán công ty.",
      "note_ja": "Dashboard と同じ Filter Data ボタンとポップアップでステータス絞り込みを行い、適用中の条件をチップで表示します。作成・編集フォームは基本情報とセキュリティのみとし、企業の割り当て項目を削除します。",
      "start": 117,
-     "len": 28,
+     "len": 14,
      "milestone": 0,
-     "status": "not_started",
-     "percent": 0,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 192,
-     "updated_at": "2026-10-21T03:02:18.168Z",
+     "updated_at": "2026-11-09T04:36:00.447Z",
      "code": "MCB-30-03"
     },
     {
@@ -3841,8 +3841,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:35:36.665Z",
+ "published_at": "2026-11-09T04:36:08.236Z",
  "changelog": [
+  {
+   "id": 715,
+   "item_id": "mcb_sa_user_filter_form",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"early_days\":14}",
+   "reason": "Hoàn thành sớm 14 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:36:00.447Z"
+  },
+  {
+   "id": 714,
+   "item_id": "mcb_sa_user_list",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"early_days\":14}",
+   "reason": "Hoàn thành sớm 14 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:36:00.447Z"
+  },
+  {
+   "id": 713,
+   "item_id": "mcb_sa_companies_merge",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"done\",\"early_days\":14}",
+   "reason": "Hoàn thành sớm 14 ngày",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:36:00.447Z"
+  },
   {
    "id": 712,
    "item_id": "mcb_lp_publish_domain",
@@ -4312,36 +4342,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-11-09T04:22:31.370Z"
-  },
-  {
-   "id": 665,
-   "item_id": "mcb_social_schedule_track",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.290Z"
-  },
-  {
-   "id": 664,
-   "item_id": "mcb_social_adapt_format",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.290Z"
-  },
-  {
-   "id": 663,
-   "item_id": "mcb_social_connect_post",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.290Z"
   }
  ]
 }

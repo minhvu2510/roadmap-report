@@ -3314,6 +3314,63 @@
      "sort": 198,
      "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-32-03"
+    },
+    {
+     "id": "mcb_analytics_views",
+     "product_id": "mcb",
+     "phase": "Analytics — thống kê người xem cho Slide, Poster, Catalog, Story và Video",
+     "phase_ja": "アナリティクス — スライド・ポスター・カタログ・ストーリー・動画の閲覧状況",
+     "name": "Theo dõi lượt xem cho nội dung đã chia sẻ",
+     "name_ja": "共有コンテンツの閲覧計測",
+     "note": "Mỗi lần người nhận mở link chia sẻ đều được ghi nhận: số người xem, số lượt xem, thiết bị và nguồn truy cập, áp cho cả slide, poster, catalog, story và video.",
+     "note_ja": "共有リンクが開かれるたびに、閲覧者数・閲覧回数・デバイス・流入元を記録します。スライド・ポスター・カタログ・ストーリー・動画のすべてが対象です。",
+     "start": 138,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 199,
+     "updated_at": "2026-11-09T04:26:05.664Z",
+     "code": "MCB-33-01"
+    },
+    {
+     "id": "mcb_analytics_engagement",
+     "product_id": "mcb",
+     "phase": "Analytics — thống kê người xem cho Slide, Poster, Catalog, Story và Video",
+     "phase_ja": "アナリティクス — スライド・ポスター・カタログ・ストーリー・動画の閲覧状況",
+     "name": "Báo cáo chi tiết mức độ quan tâm",
+     "name_ja": "閲覧の深さ・離脱の詳細レポート",
+     "note": "Biết người xem dừng lại lâu nhất ở trang nào, xem hết hay bỏ giữa chừng, trang nào bị lướt qua — để biết phần nội dung nào cần sửa.",
+     "note_ja": "どのページで最も長く留まったか、最後まで見たか途中で離脱したか、読み飛ばされたページはどれかが分かり、改善すべき箇所を把握できます。",
+     "start": 138,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 200,
+     "updated_at": "2026-11-09T04:26:05.664Z",
+     "code": "MCB-33-02"
+    },
+    {
+     "id": "mcb_analytics_dashboard",
+     "product_id": "mcb",
+     "phase": "Analytics — thống kê người xem cho Slide, Poster, Catalog, Story và Video",
+     "phase_ja": "アナリティクス — スライド・ポスター・カタログ・ストーリー・動画の閲覧状況",
+     "name": "Màn tổng quan và xuất báo cáo",
+     "name_ja": "統計ダッシュボードとレポート出力",
+     "note": "Màn thống kê gom toàn bộ nội dung đã chia sẻ, lọc theo loại nội dung và khoảng thời gian, so sánh hiệu quả giữa các nội dung và tải báo cáo về.",
+     "note_ja": "共有したコンテンツを一覧で確認できる画面で、種類や期間で絞り込み、コンテンツ同士の効果を比較し、レポートをダウンロードできます。",
+     "start": 138,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 201,
+     "updated_at": "2026-11-09T04:26:05.664Z",
+     "code": "MCB-33-03"
     }
    ]
   },
@@ -3499,8 +3556,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:22:59.560Z",
+ "published_at": "2026-11-09T04:26:05.757Z",
  "changelog": [
+  {
+   "id": 677,
+   "item_id": "mcb_analytics_dashboard",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Màn tổng quan và xuất báo cáo\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:26:05.664Z"
+  },
+  {
+   "id": 676,
+   "item_id": "mcb_analytics_engagement",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Báo cáo chi tiết mức độ quan tâm\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:26:05.664Z"
+  },
+  {
+   "id": 675,
+   "item_id": "mcb_analytics_views",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Theo dõi lượt xem cho nội dung đã chia sẻ\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:26:05.664Z"
+  },
   {
    "id": 674,
    "item_id": "mcb_edit_export_pptx",
@@ -3970,36 +4057,6 @@
    "reason": "Làm sớm hơn kế hoạch",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 627,
-   "item_id": "mo_tpl_set",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":61}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 626,
-   "item_id": "mo_tpl_set",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 625,
-   "item_id": "mo_tpl_model",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":153,\"len\":7},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
   }
  ]
 }

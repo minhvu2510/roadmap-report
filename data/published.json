@@ -2811,14 +2811,14 @@
      "name_ja": "テンプレートストアの検索・カテゴリ分類",
      "note": "Duyệt kho mẫu landing page theo ngành nghề, mục đích và phong cách; tìm nhanh bằng từ khoá và lọc theo bộ sưu tập.",
      "note_ja": "業種・目的・スタイル別にランディングページのテンプレートを閲覧でき、キーワード検索やコレクション絞り込みで素早く探せます。",
-     "start": 153,
-     "len": 28,
+     "start": 117,
+     "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 172,
-     "updated_at": "2026-11-09T04:35:32.701Z",
+     "updated_at": "2026-11-09T04:39:39.518Z",
      "code": "MCB-26-01"
     },
     {
@@ -2830,14 +2830,14 @@
      "name_ja": "選択前のテンプレートプレビュー",
      "note": "Xem toàn trang mẫu ở cả máy tính và điện thoại, đọc mô tả từng phần nội dung, so sánh vài mẫu trước khi quyết định.",
      "note_ja": "PC・スマートフォン両方の表示で全体を確認し、各セクションの説明を読み、複数のテンプレートを比較してから選べます。",
-     "start": 153,
-     "len": 28,
+     "start": 117,
+     "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 173,
-     "updated_at": "2026-11-09T04:35:32.701Z",
+     "updated_at": "2026-11-09T04:39:39.518Z",
      "code": "MCB-26-02"
     },
     {
@@ -2849,14 +2849,14 @@
      "name_ja": "テンプレート適用と自社情報の自動反映",
      "note": "Chọn mẫu rồi hệ thống tự thay thông tin công ty, sản phẩm và hình ảnh vào đúng vị trí, áp màu và font theo Brand Kit.",
      "note_ja": "テンプレートを選ぶと、会社情報・製品・画像が適切な位置に自動で差し込まれ、Brand Kit の色とフォントが適用されます。",
-     "start": 153,
-     "len": 28,
+     "start": 117,
+     "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 174,
-     "updated_at": "2026-11-09T04:35:32.701Z",
+     "updated_at": "2026-11-09T04:39:39.518Z",
      "code": "MCB-26-03"
     },
     {
@@ -2868,14 +2868,14 @@
      "name_ja": "作成済みページの自社テンプレート化",
      "note": "Biến một landing page đã hoàn thiện thành mẫu dùng lại cho các chiến dịch sau, đặt tên và chia sẻ trong nội bộ công ty.",
      "note_ja": "完成したランディングページを次のキャンペーンで再利用できるテンプレートとして保存し、名前を付けて社内で共有できます。",
-     "start": 153,
-     "len": 28,
+     "start": 117,
+     "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 175,
-     "updated_at": "2026-11-09T04:35:32.701Z",
+     "updated_at": "2026-11-09T04:39:39.518Z",
      "code": "MCB-26-04"
     },
     {
@@ -2887,14 +2887,14 @@
      "name_ja": "自社テンプレートの管理画面",
      "note": "Màn quản trị để duyệt, ẩn, sắp xếp và gỡ các mẫu nội bộ; theo dõi mẫu nào được dùng nhiều nhất.",
      "note_ja": "社内テンプレートの承認・非表示・並び替え・削除を行う管理画面で、利用の多いテンプレートも確認できます。",
-     "start": 153,
-     "len": 28,
+     "start": 117,
+     "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 176,
-     "updated_at": "2026-11-09T04:35:32.701Z",
+     "updated_at": "2026-11-09T04:39:39.518Z",
      "code": "MCB-26-05"
     },
     {
@@ -2906,14 +2906,14 @@
      "name_ja": "説明文・既存資料からのランディングページ生成",
      "note": "Nhập mô tả sản phẩm, hoặc đưa slide và catalog đã có, hệ thống tự dựng trang với đầy đủ các phần nội dung.",
      "note_ja": "製品の説明を入力するか、既存のスライドやカタログを読み込ませると、必要なセクションを備えたページが自動生成されます。",
-     "start": 166,
+     "start": 117,
      "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 177,
-     "updated_at": "2026-11-09T04:35:32.779Z",
+     "updated_at": "2026-11-09T04:39:39.593Z",
      "code": "MCB-27-01"
     },
     {
@@ -2925,14 +2925,14 @@
      "name_ja": "ページ内の各セクション編集",
      "note": "Sửa chữ, đổi ảnh, thêm bớt và sắp xếp lại các khối nội dung ngay trên trang, không cần biết kỹ thuật.",
      "note_ja": "ページ上で直接、テキストの修正、画像の差し替え、セクションの追加・削除・並び替えが専門知識なしで行えます。",
-     "start": 166,
+     "start": 117,
      "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 178,
-     "updated_at": "2026-11-09T04:35:32.779Z",
+     "updated_at": "2026-11-09T04:39:39.593Z",
      "code": "MCB-27-02"
     },
     {
@@ -2944,14 +2944,14 @@
      "name_ja": "申込フォームとCTAボタンの設置",
      "note": "Chèn form thu thập thông tin khách hàng tiềm năng và nút kêu gọi hành động, xem danh sách người đã để lại thông tin.",
      "note_ja": "見込み客の情報を集めるフォームとCTAボタンを設置し、登録された情報の一覧を確認できます。",
-     "start": 166,
+     "start": 117,
      "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 179,
-     "updated_at": "2026-11-09T04:35:32.779Z",
+     "updated_at": "2026-11-09T04:39:39.593Z",
      "code": "MCB-27-03"
     },
     {
@@ -2963,14 +2963,14 @@
      "name_ja": "PC・タブレット・スマートフォンでの最適表示",
      "note": "Trang tự co giãn theo từng loại màn hình, xem trước ở cả ba kích thước trước khi đăng.",
      "note_ja": "画面サイズに合わせてページが自動調整され、公開前に3つの画面幅でプレビューできます。",
-     "start": 166,
+     "start": 117,
      "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 180,
-     "updated_at": "2026-11-09T04:35:32.779Z",
+     "updated_at": "2026-11-09T04:39:39.593Z",
      "code": "MCB-27-04"
     },
     {
@@ -2982,14 +2982,14 @@
      "name_ja": "ページ公開と独自ドメイン接続",
      "note": "Đăng trang chỉ với một thao tác, trỏ về tên miền riêng của công ty và theo dõi lượt truy cập.",
      "note_ja": "ワンクリックでページを公開し、自社の独自ドメインに接続して、アクセス数を確認できます。",
-     "start": 166,
+     "start": 117,
      "len": 42,
      "milestone": 0,
      "status": "in_progress",
      "percent": 50,
      "internal": 0,
      "sort": 181,
-     "updated_at": "2026-11-09T04:35:32.779Z",
+     "updated_at": "2026-11-09T04:39:39.593Z",
      "code": "MCB-27-05"
     },
     {
@@ -3898,8 +3898,108 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:37:27.482Z",
+ "published_at": "2026-11-09T04:39:39.666Z",
  "changelog": [
+  {
+   "id": 728,
+   "item_id": "mcb_lp_publish_domain",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":166,\"len\":42},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-27 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.593Z"
+  },
+  {
+   "id": 727,
+   "item_id": "mcb_lp_responsive",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":166,\"len\":42},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-27 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.593Z"
+  },
+  {
+   "id": 726,
+   "item_id": "mcb_lp_form_cta",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":166,\"len\":42},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-27 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.593Z"
+  },
+  {
+   "id": 725,
+   "item_id": "mcb_lp_edit_sections",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":166,\"len\":42},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-27 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.593Z"
+  },
+  {
+   "id": 724,
+   "item_id": "mcb_lp_create",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":166,\"len\":42},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-27 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.593Z"
+  },
+  {
+   "id": 723,
+   "item_id": "mcb_tpl_manage",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":28},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-26 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.518Z"
+  },
+  {
+   "id": 722,
+   "item_id": "mcb_tpl_save_own",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":28},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-26 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.518Z"
+  },
+  {
+   "id": 721,
+   "item_id": "mcb_tpl_apply",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":28},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-26 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.518Z"
+  },
+  {
+   "id": 720,
+   "item_id": "mcb_tpl_preview",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":28},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-26 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.518Z"
+  },
+  {
+   "id": 719,
+   "item_id": "mcb_tpl_store_browse",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":153,\"len\":28},\"to\":{\"start\":117,\"len\":42}}",
+   "reason": "MCB-26 bắt đầu 26/10/2026, kéo dài 6 tuần",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:39:39.518Z"
+  },
   {
    "id": 718,
    "item_id": "mcb_share_links_manage",
@@ -4299,106 +4399,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-11-09T04:27:16.843Z"
-  },
-  {
-   "id": 678,
-   "item_id": "mcb_cmt_on_slide",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Góp ý gắn trực tiếp lên slide\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:27:16.843Z"
-  },
-  {
-   "id": 677,
-   "item_id": "mcb_analytics_dashboard",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Màn tổng quan và xuất báo cáo\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:26:05.664Z"
-  },
-  {
-   "id": 676,
-   "item_id": "mcb_analytics_engagement",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Báo cáo chi tiết mức độ quan tâm\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:26:05.664Z"
-  },
-  {
-   "id": 675,
-   "item_id": "mcb_analytics_views",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Theo dõi lượt xem cho nội dung đã chia sẻ\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:26:05.664Z"
-  },
-  {
-   "id": 674,
-   "item_id": "mcb_edit_export_pptx",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Xuất file PowerPoint chỉnh sửa được\",\"percent\":{\"from\":20,\"to\":40}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:59.469Z"
-  },
-  {
-   "id": 673,
-   "item_id": "mcb_edit_inline",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Sửa trực tiếp từng thành phần trong editor\",\"percent\":{\"from\":20,\"to\":40}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:59.469Z"
-  },
-  {
-   "id": 672,
-   "item_id": "mcb_edit_layers",
-   "product_id": "mcb",
-   "kind": "edit",
-   "detail": "{\"name\":\"Sinh nội dung thành các lớp tách rời thay vì một ảnh phẳng\",\"percent\":{\"from\":20,\"to\":40}}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:59.469Z"
-  },
-  {
-   "id": 671,
-   "item_id": "mcb_slide_present",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.457Z"
-  },
-  {
-   "id": 670,
-   "item_id": "mcb_slide_transitions",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.457Z"
-  },
-  {
-   "id": 669,
-   "item_id": "mcb_slide_speaker_notes",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.457Z"
   }
  ]
 }

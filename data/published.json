@@ -3656,6 +3656,63 @@
      "sort": 216,
      "updated_at": "2026-11-09T04:34:13.456Z",
      "code": "MCB-38-03"
+    },
+    {
+     "id": "mcb_share_password",
+     "product_id": "mcb",
+     "phase": "Đặt mật khẩu cho link chia sẻ và file PDF tải về",
+     "phase_ja": "共有リンクと書き出し PDF のパスワード保護",
+     "name": "Đặt mật khẩu cho link chia sẻ",
+     "name_ja": "共有リンクのパスワード設定",
+     "note": "Bật mật khẩu khi chia sẻ nội dung, người nhận phải nhập đúng mới xem được; đổi hoặc gỡ mật khẩu bất cứ lúc nào và thay đổi áp dụng ngay với link đã gửi đi.",
+     "note_ja": "コンテンツ共有時にパスワードを設定でき、受け取った人は正しく入力しないと閲覧できません。パスワードの変更・解除はいつでも可能で、送信済みのリンクにも即時反映されます。",
+     "start": 131,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 217,
+     "updated_at": "2026-11-09T04:37:27.400Z",
+     "code": "MCB-39-01"
+    },
+    {
+     "id": "mcb_pdf_password",
+     "product_id": "mcb",
+     "phase": "Đặt mật khẩu cho link chia sẻ và file PDF tải về",
+     "phase_ja": "共有リンクと書き出し PDF のパスワード保護",
+     "name": "Đặt mật khẩu cho file PDF tải về",
+     "name_ja": "ダウンロード PDF のパスワード保護",
+     "note": "Khi tải nội dung về dạng PDF, chọn khoá file bằng mật khẩu; file mở trên máy người nhận cũng phải nhập mật khẩu, kể cả khi được chuyển tiếp cho người khác.",
+     "note_ja": "PDF として書き出す際にパスワードで保護でき、受け取った人の端末で開くときもパスワードが必要です。第三者に転送された場合も同様に保護されます。",
+     "start": 131,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 218,
+     "updated_at": "2026-11-09T04:37:27.400Z",
+     "code": "MCB-39-02"
+    },
+    {
+     "id": "mcb_share_links_manage",
+     "product_id": "mcb",
+     "phase": "Đặt mật khẩu cho link chia sẻ và file PDF tải về",
+     "phase_ja": "共有リンクと書き出し PDF のパスワード保護",
+     "name": "Quản lý link đã chia sẻ và hạn truy cập",
+     "name_ja": "共有リンクの管理と有効期限",
+     "note": "Xem danh sách link đang mở, đặt ngày hết hạn, thu hồi link khi không cần nữa và biết ngay link nào đang được bảo vệ bằng mật khẩu.",
+     "note_ja": "有効な共有リンクの一覧を確認し、有効期限の設定や不要になったリンクの無効化ができ、どのリンクがパスワードで保護されているかも一目で分かります。",
+     "start": 131,
+     "len": 21,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 219,
+     "updated_at": "2026-11-09T04:37:27.400Z",
+     "code": "MCB-39-03"
     }
    ]
   },
@@ -3841,8 +3898,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:36:08.236Z",
+ "published_at": "2026-11-09T04:37:27.482Z",
  "changelog": [
+  {
+   "id": 718,
+   "item_id": "mcb_share_links_manage",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Quản lý link đã chia sẻ và hạn truy cập\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:37:27.400Z"
+  },
+  {
+   "id": 717,
+   "item_id": "mcb_pdf_password",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Đặt mật khẩu cho file PDF tải về\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:37:27.400Z"
+  },
+  {
+   "id": 716,
+   "item_id": "mcb_share_password",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Đặt mật khẩu cho link chia sẻ\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:37:27.400Z"
+  },
   {
    "id": 715,
    "item_id": "mcb_sa_user_filter_form",
@@ -4312,36 +4399,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-11-09T04:22:31.457Z"
-  },
-  {
-   "id": 668,
-   "item_id": "mcb_2fa_method_switch",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.370Z"
-  },
-  {
-   "id": 667,
-   "item_id": "mcb_2fa_email_code",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.370Z"
-  },
-  {
-   "id": 666,
-   "item_id": "mcb_2fa_email_enable",
-   "product_id": "mcb",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:22:31.370Z"
   }
  ]
 }

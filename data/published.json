@@ -2508,13 +2508,13 @@
      "note": "Kết nối cổng thanh toán và dựng luồng nhập thẻ đạt chuẩn bảo mật, thông tin thẻ không lưu trên hệ thống.",
      "note_ja": "決済ゲートウェイと連携し、カード情報を自社に保持しないセキュリティ基準準拠の入力フローを構築します。",
      "start": 110,
-     "len": 42,
+     "len": 104,
      "milestone": 0,
-     "status": "not_started",
+     "status": "paused",
      "percent": 0,
      "internal": 0,
      "sort": 156,
-     "updated_at": "2026-10-21T02:38:21.406Z",
+     "updated_at": "2026-11-09T04:41:56.536Z",
      "code": "MCB-22-01"
     },
     {
@@ -2527,13 +2527,13 @@
      "note": "Lưu thẻ để dùng lại, thêm/xoá thẻ và chọn thẻ mặc định cho các lần thanh toán sau.",
      "note_ja": "カードを保存して再利用でき、追加・削除や既定カードの設定が行えます。",
      "start": 110,
-     "len": 42,
+     "len": 104,
      "milestone": 0,
-     "status": "not_started",
+     "status": "paused",
      "percent": 0,
      "internal": 0,
      "sort": 157,
-     "updated_at": "2026-10-21T02:38:21.406Z",
+     "updated_at": "2026-11-09T04:41:56.536Z",
      "code": "MCB-22-02"
     },
     {
@@ -2546,13 +2546,13 @@
      "note": "Thanh toán khi đăng ký gói và tự động gia hạn theo chu kỳ, kèm thông báo trước mỗi lần trừ tiền.",
      "note_ja": "プラン申込時の決済と周期ごとの自動更新に対応し、請求前に事前通知を行います。",
      "start": 110,
-     "len": 42,
+     "len": 104,
      "milestone": 0,
-     "status": "not_started",
+     "status": "paused",
      "percent": 0,
      "internal": 0,
      "sort": 158,
-     "updated_at": "2026-10-21T02:38:21.406Z",
+     "updated_at": "2026-11-09T04:41:56.536Z",
      "code": "MCB-22-03"
     },
     {
@@ -2565,13 +2565,13 @@
      "note": "Xuất hoá đơn và biên lai cho từng lần thanh toán, xem lại toàn bộ lịch sử giao dịch của công ty.",
      "note_ja": "決済ごとに請求書・領収書を発行し、会社の取引履歴をいつでも確認できます。",
      "start": 110,
-     "len": 42,
+     "len": 104,
      "milestone": 0,
-     "status": "not_started",
+     "status": "paused",
      "percent": 0,
      "internal": 0,
      "sort": 159,
-     "updated_at": "2026-10-21T02:38:21.406Z",
+     "updated_at": "2026-11-09T04:41:56.536Z",
      "code": "MCB-22-04"
     },
     {
@@ -2584,13 +2584,13 @@
      "note": "Xử lý khi thẻ bị từ chối (thử lại, nhắc cập nhật thẻ), hoàn tiền và huỷ gói theo yêu cầu.",
      "note_ja": "カードが拒否された場合の再試行・カード更新の案内、返金、プラン解約に対応します。",
      "start": 110,
-     "len": 42,
+     "len": 104,
      "milestone": 0,
-     "status": "not_started",
+     "status": "paused",
      "percent": 0,
      "internal": 0,
      "sort": 160,
-     "updated_at": "2026-10-21T02:38:21.406Z",
+     "updated_at": "2026-11-09T04:41:56.536Z",
      "code": "MCB-22-05"
     },
     {
@@ -3898,8 +3898,108 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:39:39.666Z",
+ "published_at": "2026-11-09T04:42:00.464Z",
  "changelog": [
+  {
+   "id": 738,
+   "item_id": "mcb_pay_failure_refund",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"paused\"}",
+   "reason": "Đợi khách hàng phản hồi",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.536Z"
+  },
+  {
+   "id": 737,
+   "item_id": "mcb_pay_invoice",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"paused\"}",
+   "reason": "Đợi khách hàng phản hồi",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.536Z"
+  },
+  {
+   "id": 736,
+   "item_id": "mcb_pay_subscription",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"paused\"}",
+   "reason": "Đợi khách hàng phản hồi",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.536Z"
+  },
+  {
+   "id": 735,
+   "item_id": "mcb_pay_methods",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"paused\"}",
+   "reason": "Đợi khách hàng phản hồi",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.536Z"
+  },
+  {
+   "id": 734,
+   "item_id": "mcb_pay_gateway",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"not_started\",\"to\":\"paused\"}",
+   "reason": "Đợi khách hàng phản hồi",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.536Z"
+  },
+  {
+   "id": 733,
+   "item_id": "mcb_pay_failure_refund",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":110,\"len\":42},\"to\":{\"start\":110,\"len\":104}}",
+   "reason": "MCB-22 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.462Z"
+  },
+  {
+   "id": 732,
+   "item_id": "mcb_pay_invoice",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":110,\"len\":42},\"to\":{\"start\":110,\"len\":104}}",
+   "reason": "MCB-22 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.462Z"
+  },
+  {
+   "id": 731,
+   "item_id": "mcb_pay_subscription",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":110,\"len\":42},\"to\":{\"start\":110,\"len\":104}}",
+   "reason": "MCB-22 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.462Z"
+  },
+  {
+   "id": 730,
+   "item_id": "mcb_pay_methods",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":110,\"len\":42},\"to\":{\"start\":110,\"len\":104}}",
+   "reason": "MCB-22 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.462Z"
+  },
+  {
+   "id": 729,
+   "item_id": "mcb_pay_gateway",
+   "product_id": "mcb",
+   "kind": "reschedule",
+   "detail": "{\"from\":{\"start\":110,\"len\":42},\"to\":{\"start\":110,\"len\":104}}",
+   "reason": "MCB-22 kéo hạn tới cuối tháng 1/2027",
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:41:56.462Z"
+  },
   {
    "id": 728,
    "item_id": "mcb_lp_publish_domain",
@@ -4299,106 +4399,6 @@
    "reason": "Đợi khách hàng phản hồi",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-11-09T04:29:28.648Z"
-  },
-  {
-   "id": 688,
-   "item_id": "mcb_credit_superadmin_logs",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
-   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.651Z"
-  },
-  {
-   "id": 687,
-   "item_id": "mcb_credit_request_approval",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
-   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.651Z"
-  },
-  {
-   "id": 686,
-   "item_id": "mcb_credit_admin_screens",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
-   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.651Z"
-  },
-  {
-   "id": 685,
-   "item_id": "mcb_credit_consume_create",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
-   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.651Z"
-  },
-  {
-   "id": 684,
-   "item_id": "mcb_credit_base_company",
-   "product_id": "mcb",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":82,\"len\":53},\"to\":{\"start\":82,\"len\":132}}",
-   "reason": "MCB-19 kéo hạn tới cuối tháng 1/2027",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.651Z"
-  },
-  {
-   "id": 683,
-   "item_id": "mcb_dislike_regenerate",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Tạo lại nội dung ngay từ phản hồi của người dùng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.573Z"
-  },
-  {
-   "id": 682,
-   "item_id": "mcb_dislike_fix_quality",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Khắc phục các lỗi nội dung bị phàn nàn nhiều nhất\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.573Z"
-  },
-  {
-   "id": 681,
-   "item_id": "mcb_dislike_collect",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Thu thập và phân loại phản hồi Dislike theo từng loại nội dung\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:28:36.573Z"
-  },
-  {
-   "id": 680,
-   "item_id": "mcb_cmt_commenter_role",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Quyền Commenter khi chia sẻ\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:27:16.843Z"
-  },
-  {
-   "id": 679,
-   "item_id": "mcb_cmt_mention_task",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Nhắc tên người và giao việc từ góp ý\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-11-09T04:27:16.843Z"
   }
  ]
 }

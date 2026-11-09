@@ -3542,6 +3542,63 @@
      "sort": 210,
      "updated_at": "2026-11-09T04:30:44.324Z",
      "code": "MCB-36-03"
+    },
+    {
+     "id": "mcb_magent_link",
+     "product_id": "mcb",
+     "phase": "Xây dựng connector kết nối M-Agent với MCBuilder",
+     "phase_ja": "M-Agent と MCBuilder を接続するコネクタの構築",
+     "name": "Kết nối tài khoản giữa M-Agent và MCBuilder",
+     "name_ja": "M-Agent と MCBuilder のアカウント連携",
+     "note": "Liên kết tài khoản một lần để M-Agent được phép thay người dùng làm việc với MCBuilder; xem và thu hồi kết nối khi cần.",
+     "note_ja": "一度アカウントを連携すれば、M-Agent がユーザーに代わって MCBuilder を利用できます。連携状況の確認と解除も行えます。",
+     "start": 117,
+     "len": 18,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 211,
+     "updated_at": "2026-11-09T04:31:37.175Z",
+     "code": "MCB-37-01"
+    },
+    {
+     "id": "mcb_magent_create",
+     "product_id": "mcb",
+     "phase": "Xây dựng connector kết nối M-Agent với MCBuilder",
+     "phase_ja": "M-Agent と MCBuilder を接続するコネクタの構築",
+     "name": "Tạo nội dung MCBuilder ngay trong M-Agent",
+     "name_ja": "M-Agent 内からの MCBuilder コンテンツ生成",
+     "note": "Yêu cầu agent dựng slide, poster hoặc catalog ngay trong khung trò chuyện; kết quả trả về kèm liên kết mở thẳng trong MCBuilder để chỉnh tiếp.",
+     "note_ja": "チャット内でスライド・ポスター・カタログの作成を依頼でき、結果は MCBuilder で直接開いて編集できるリンク付きで返されます。",
+     "start": 117,
+     "len": 18,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 212,
+     "updated_at": "2026-11-09T04:31:37.175Z",
+     "code": "MCB-37-02"
+    },
+    {
+     "id": "mcb_magent_sync",
+     "product_id": "mcb",
+     "phase": "Xây dựng connector kết nối M-Agent với MCBuilder",
+     "phase_ja": "M-Agent と MCBuilder を接続するコネクタの構築",
+     "name": "Đồng bộ nội dung và quyền truy cập giữa hai hệ thống",
+     "name_ja": "両システム間のコンテンツと権限の同期",
+     "note": "Nội dung agent tạo ra nằm đúng trong thư mục và công ty của người dùng, giữ nguyên quyền xem và sửa như khi tạo trực tiếp trên MCBuilder.",
+     "note_ja": "エージェントが作成したコンテンツは利用者の所属企業とフォルダに正しく保存され、MCBuilder で直接作成した場合と同じ閲覧・編集権限が保たれます。",
+     "start": 117,
+     "len": 18,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 213,
+     "updated_at": "2026-11-09T04:31:37.175Z",
+     "code": "MCB-37-03"
     }
    ]
   },
@@ -3727,8 +3784,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:30:44.405Z",
+ "published_at": "2026-11-09T04:31:37.257Z",
  "changelog": [
+  {
+   "id": 699,
+   "item_id": "mcb_magent_sync",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Đồng bộ nội dung và quyền truy cập giữa hai hệ thống\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:31:37.175Z"
+  },
+  {
+   "id": 698,
+   "item_id": "mcb_magent_create",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Tạo nội dung MCBuilder ngay trong M-Agent\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:31:37.175Z"
+  },
+  {
+   "id": 697,
+   "item_id": "mcb_magent_link",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Kết nối tài khoản giữa M-Agent và MCBuilder\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:31:37.175Z"
+  },
   {
    "id": 696,
    "item_id": "mcb_editable_review",
@@ -4198,36 +4285,6 @@
    "reason": "Tháng 11 tập trung nghiên cứu Mini App",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T07:07:09.670Z"
-  },
-  {
-   "id": 649,
-   "item_id": "mo_tpl_more",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Bổ sung bộ Agent mẫu mới\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.209Z"
-  },
-  {
-   "id": 648,
-   "item_id": "mo_opt_monitor",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Theo dõi người dùng sử dụng Search / Tool Call / Connector\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.209Z"
-  },
-  {
-   "id": 647,
-   "item_id": "mo_wf2_monitor",
-   "product_id": "mosa",
-   "kind": "create",
-   "detail": "{\"name\":\"Theo dõi hoạt động Workflow & bổ sung tool phù hợp để tối ưu\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.209Z"
   }
  ]
 }

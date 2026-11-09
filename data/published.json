@@ -2302,10 +2302,10 @@
      "len": 25,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 70,
+     "percent": 80,
      "internal": 0,
      "sort": 145,
-     "updated_at": "2026-10-21T02:33:18.737Z",
+     "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-20-01"
     },
     {
@@ -2321,10 +2321,10 @@
      "len": 25,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 70,
+     "percent": 80,
      "internal": 0,
      "sort": 146,
-     "updated_at": "2026-10-21T02:33:18.737Z",
+     "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-20-02"
     },
     {
@@ -2340,10 +2340,10 @@
      "len": 25,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 70,
+     "percent": 80,
      "internal": 0,
      "sort": 147,
-     "updated_at": "2026-10-21T02:33:18.737Z",
+     "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-20-03"
     },
     {
@@ -2359,10 +2359,10 @@
      "len": 25,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 70,
+     "percent": 80,
      "internal": 0,
      "sort": 148,
-     "updated_at": "2026-10-21T02:33:18.737Z",
+     "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-20-04"
     },
     {
@@ -2378,10 +2378,10 @@
      "len": 25,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 70,
+     "percent": 80,
      "internal": 0,
      "sort": 149,
-     "updated_at": "2026-10-21T02:33:18.737Z",
+     "updated_at": "2026-11-09T04:22:12.603Z",
      "code": "MCB-20-05"
     },
     {
@@ -2700,11 +2700,11 @@
      "start": 103,
      "len": 21,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 5,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 166,
-     "updated_at": "2026-10-21T03:15:51.617Z",
+     "updated_at": "2026-11-09T04:22:31.290Z",
      "code": "MCB-24-01"
     },
     {
@@ -2719,11 +2719,11 @@
      "start": 103,
      "len": 21,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 5,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 167,
-     "updated_at": "2026-10-21T03:15:51.617Z",
+     "updated_at": "2026-11-09T04:22:31.290Z",
      "code": "MCB-24-02"
     },
     {
@@ -2738,11 +2738,11 @@
      "start": 103,
      "len": 21,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 5,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 168,
-     "updated_at": "2026-10-21T03:15:51.617Z",
+     "updated_at": "2026-11-09T04:22:31.290Z",
      "code": "MCB-24-03"
     },
     {
@@ -2757,11 +2757,11 @@
      "start": 110,
      "len": 4,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 50,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 169,
-     "updated_at": "2026-10-21T02:35:53.960Z",
+     "updated_at": "2026-11-09T04:22:31.370Z",
      "code": "MCB-25-01"
     },
     {
@@ -2776,11 +2776,11 @@
      "start": 110,
      "len": 4,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 50,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 170,
-     "updated_at": "2026-10-21T02:35:53.960Z",
+     "updated_at": "2026-11-09T04:22:31.370Z",
      "code": "MCB-25-02"
     },
     {
@@ -2795,11 +2795,11 @@
      "start": 110,
      "len": 4,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 50,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 171,
-     "updated_at": "2026-10-21T02:35:53.960Z",
+     "updated_at": "2026-11-09T04:22:31.370Z",
      "code": "MCB-25-03"
     },
     {
@@ -3004,11 +3004,11 @@
      "start": 103,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 70,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 182,
-     "updated_at": "2026-10-21T02:48:09.430Z",
+     "updated_at": "2026-11-09T04:22:31.457Z",
      "code": "MCB-29-01"
     },
     {
@@ -3023,11 +3023,11 @@
      "start": 103,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 70,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 183,
-     "updated_at": "2026-10-21T02:48:09.430Z",
+     "updated_at": "2026-11-09T04:22:31.457Z",
      "code": "MCB-29-02"
     },
     {
@@ -3042,11 +3042,11 @@
      "start": 103,
      "len": 11,
      "milestone": 0,
-     "status": "in_progress",
-     "percent": 70,
+     "status": "done",
+     "percent": 100,
      "internal": 0,
      "sort": 184,
-     "updated_at": "2026-10-21T02:48:09.430Z",
+     "updated_at": "2026-11-09T04:22:31.457Z",
      "code": "MCB-29-03"
     },
     {
@@ -3214,10 +3214,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 20,
+     "percent": 40,
      "internal": 0,
      "sort": 193,
-     "updated_at": "2026-10-21T03:33:43.512Z",
+     "updated_at": "2026-11-09T04:22:59.469Z",
      "code": "MCB-31-01"
     },
     {
@@ -3233,10 +3233,10 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 20,
+     "percent": 40,
      "internal": 0,
      "sort": 194,
-     "updated_at": "2026-10-21T03:33:43.512Z",
+     "updated_at": "2026-11-09T04:22:59.469Z",
      "code": "MCB-31-02"
     },
     {
@@ -3252,11 +3252,68 @@
      "len": 28,
      "milestone": 0,
      "status": "in_progress",
-     "percent": 20,
+     "percent": 40,
      "internal": 0,
      "sort": 195,
-     "updated_at": "2026-10-21T03:33:43.512Z",
+     "updated_at": "2026-11-09T04:22:59.469Z",
      "code": "MCB-31-03"
+    },
+    {
+     "id": "mcb_ed_motion",
+     "product_id": "mcb",
+     "phase": "Animations, Transitions, Presenter View và Speaker notes cho slide chỉnh sửa được",
+     "phase_ja": "編集可能スライドのアニメーション・画面切り替え・発表者ビュー・ノート",
+     "name": "Hiệu ứng chuyển slide và chuyển động cho từng thành phần",
+     "name_ja": "スライド間の切り替えと要素ごとのアニメーション",
+     "note": "Đặt hiệu ứng chuyển giữa các slide và chuyển động riêng cho từng khối chữ, hình, ảnh; chọn kiểu, thứ tự chạy và thời lượng, xem trước ngay trong trình soạn thảo.",
+     "note_ja": "スライド間の切り替え効果と、テキスト・図形・画像など要素ごとのアニメーションを設定できます。種類・再生順・長さを選び、エディタ上ですぐにプレビューできます。",
+     "start": 125,
+     "len": 10,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 196,
+     "updated_at": "2026-11-09T04:22:12.603Z",
+     "code": "MCB-32-01"
+    },
+    {
+     "id": "mcb_ed_notes",
+     "product_id": "mcb",
+     "phase": "Animations, Transitions, Presenter View và Speaker notes cho slide chỉnh sửa được",
+     "phase_ja": "編集可能スライドのアニメーション・画面切り替え・発表者ビュー・ノート",
+     "name": "Ghi chú người trình bày cho từng slide",
+     "name_ja": "スライドごとの発表者ノート",
+     "note": "Viết ghi chú riêng cho mỗi slide ngay dưới khung soạn thảo, nhờ AI viết sẵn bản nháp để sửa lại, và giữ nguyên ghi chú khi xuất file PowerPoint.",
+     "note_ja": "各スライドの下部で発表者ノートを記入でき、AI による下書き生成にも対応します。PowerPoint へ書き出してもノートはそのまま保持されます。",
+     "start": 125,
+     "len": 10,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 197,
+     "updated_at": "2026-11-09T04:22:12.603Z",
+     "code": "MCB-32-02"
+    },
+    {
+     "id": "mcb_ed_present",
+     "product_id": "mcb",
+     "phase": "Animations, Transitions, Presenter View và Speaker notes cho slide chỉnh sửa được",
+     "phase_ja": "編集可能スライドのアニメーション・画面切り替え・発表者ビュー・ノート",
+     "name": "Trình chiếu và màn hình người trình bày",
+     "name_ja": "スライドショーと発表者ビュー",
+     "note": "Trình chiếu toàn màn hình điều khiển bằng bàn phím; màn hình người trình bày hiện ghi chú, slide kế tiếp và đồng hồ, còn khán giả chỉ thấy slide.",
+     "note_ja": "全画面のスライドショーをキーボードで操作でき、発表者ビューにはノート・次のスライド・タイマーを表示し、聴衆にはスライドのみを映します。",
+     "start": 125,
+     "len": 10,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 50,
+     "internal": 0,
+     "sort": 198,
+     "updated_at": "2026-11-09T04:22:12.603Z",
+     "code": "MCB-32-03"
     }
    ]
   },
@@ -3442,8 +3499,208 @@
    ]
   }
  ],
- "published_at": "2026-10-30T07:07:09.674Z",
+ "published_at": "2026-11-09T04:22:59.560Z",
  "changelog": [
+  {
+   "id": 674,
+   "item_id": "mcb_edit_export_pptx",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xuất file PowerPoint chỉnh sửa được\",\"percent\":{\"from\":20,\"to\":40}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:59.469Z"
+  },
+  {
+   "id": 673,
+   "item_id": "mcb_edit_inline",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Sửa trực tiếp từng thành phần trong editor\",\"percent\":{\"from\":20,\"to\":40}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:59.469Z"
+  },
+  {
+   "id": 672,
+   "item_id": "mcb_edit_layers",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Sinh nội dung thành các lớp tách rời thay vì một ảnh phẳng\",\"percent\":{\"from\":20,\"to\":40}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:59.469Z"
+  },
+  {
+   "id": 671,
+   "item_id": "mcb_slide_present",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.457Z"
+  },
+  {
+   "id": 670,
+   "item_id": "mcb_slide_transitions",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.457Z"
+  },
+  {
+   "id": 669,
+   "item_id": "mcb_slide_speaker_notes",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.457Z"
+  },
+  {
+   "id": 668,
+   "item_id": "mcb_2fa_method_switch",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.370Z"
+  },
+  {
+   "id": 667,
+   "item_id": "mcb_2fa_email_code",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.370Z"
+  },
+  {
+   "id": 666,
+   "item_id": "mcb_2fa_email_enable",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.370Z"
+  },
+  {
+   "id": 665,
+   "item_id": "mcb_social_schedule_track",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.290Z"
+  },
+  {
+   "id": 664,
+   "item_id": "mcb_social_adapt_format",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.290Z"
+  },
+  {
+   "id": 663,
+   "item_id": "mcb_social_connect_post",
+   "product_id": "mcb",
+   "kind": "status",
+   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:31.290Z"
+  },
+  {
+   "id": 662,
+   "item_id": "mcb_vm_render_output",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Phát triển luồng render video và xử lý kết quả\",\"percent\":{\"from\":70,\"to\":80}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 661,
+   "item_id": "mcb_vm_script_outline",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Phát triển luồng sinh và duyệt script outline\",\"percent\":{\"from\":70,\"to\":80}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 660,
+   "item_id": "mcb_vm_media_setup",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng luồng thiết lập media (ảnh nền, giọng đọc, nhạc, caption, watermark)\",\"percent\":{\"from\":70,\"to\":80}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 659,
+   "item_id": "mcb_vm_config",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng luồng cấu hình video trước khi tạo\",\"percent\":{\"from\":70,\"to\":80}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 658,
+   "item_id": "mcb_vm_source_input",
+   "product_id": "mcb",
+   "kind": "edit",
+   "detail": "{\"name\":\"Xây dựng luồng chọn nguồn và nhập nội dung\",\"percent\":{\"from\":70,\"to\":80}}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 657,
+   "item_id": "mcb_ed_present",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Trình chiếu và màn hình người trình bày\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 656,
+   "item_id": "mcb_ed_notes",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Ghi chú người trình bày cho từng slide\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
+  {
+   "id": 655,
+   "item_id": "mcb_ed_motion",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Hiệu ứng chuyển slide và chuyển động cho từng thành phần\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:22:12.603Z"
+  },
   {
    "id": 654,
    "item_id": "mo_img_read",
@@ -3743,206 +4000,6 @@
    "reason": "Làm sớm hơn kế hoạch",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 624,
-   "item_id": "mo_tpl_model",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 623,
-   "item_id": "mo_ms_poc",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 622,
-   "item_id": "mo_ms_poc",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 621,
-   "item_id": "mo_ms_survey",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":153,\"len\":7},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 620,
-   "item_id": "mo_ms_survey",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.446Z"
-  },
-  {
-   "id": 619,
-   "item_id": "mo_opt_measure",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.445Z"
-  },
-  {
-   "id": 618,
-   "item_id": "mo_noti_center",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
-   "reason": "Hoàn thành sớm 1 ngày",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 617,
-   "item_id": "mo_noti_realtime",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 616,
-   "item_id": "mo_gws_audit",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
-   "reason": "Hoàn thành sớm 1 ngày",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 615,
-   "item_id": "mo_gws_confirm",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 614,
-   "item_id": "mo_gws_write",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 613,
-   "item_id": "mo_mrag_poc",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
-   "reason": "Hoàn thành sớm 1 ngày",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 612,
-   "item_id": "mo_mrag_perm",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 611,
-   "item_id": "mo_mrag_connect",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 610,
-   "item_id": "mo_credit_limit",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\",\"early_days\":1}",
-   "reason": "Hoàn thành sớm 1 ngày",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.675Z"
-  },
-  {
-   "id": 609,
-   "item_id": "mo_credit_history",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.674Z"
-  },
-  {
-   "id": 608,
-   "item_id": "mo_credit_rule",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:44:40.673Z"
-  },
-  {
-   "id": 607,
-   "item_id": "mcb_edit_export_pptx",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Xuất file PowerPoint chỉnh sửa được\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:33:43.512Z"
-  },
-  {
-   "id": 606,
-   "item_id": "mcb_edit_inline",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Sửa trực tiếp từng thành phần trong editor\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:33:43.512Z"
-  },
-  {
-   "id": 605,
-   "item_id": "mcb_edit_layers",
-   "product_id": "mcb",
-   "kind": "create",
-   "detail": "{\"name\":\"Sinh nội dung thành các lớp tách rời thay vì một ảnh phẳng\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-21T03:33:43.512Z"
   }
  ]
 }

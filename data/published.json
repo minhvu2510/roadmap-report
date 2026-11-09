@@ -3485,6 +3485,63 @@
      "sort": 207,
      "updated_at": "2026-11-09T04:28:36.573Z",
      "code": "MCB-35-03"
+    },
+    {
+     "id": "mcb_editable_mode_pick",
+     "product_id": "mcb",
+     "phase": "Phát triển nâng cấp luồng tạo slide ở chế độ Editable",
+     "phase_ja": "Editable モードでのスライド作成フローの強化",
+     "name": "Chọn chế độ Editable ngay khi tạo slide",
+     "name_ja": "作成時の Editable モード選択",
+     "note": "Ngay ở bước đầu của luồng tạo, người dùng chọn làm slide chỉnh sửa được thay vì slide dạng ảnh, kèm giải thích ngắn về khác biệt giữa hai chế độ.",
+     "note_ja": "作成フローの最初の段階で、画像スライドではなく編集可能なスライドを選べるようにし、両モードの違いを簡潔に説明します。",
+     "start": 124,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 208,
+     "updated_at": "2026-11-09T04:30:44.324Z",
+     "code": "MCB-36-01"
+    },
+    {
+     "id": "mcb_editable_generate",
+     "product_id": "mcb",
+     "phase": "Phát triển nâng cấp luồng tạo slide ở chế độ Editable",
+     "phase_ja": "Editable モードでのスライド作成フローの強化",
+     "name": "Sinh slide Editable theo nội dung và bố cục đã chọn",
+     "name_ja": "選択した内容とレイアウトに基づく Editable スライド生成",
+     "note": "AI dựng từng slide với chữ, khối màu và hình là các thành phần riêng biệt, bám đúng chủ đề, số trang và phong cách người dùng đã chọn.",
+     "note_ja": "テキスト・図形・画像をそれぞれ独立した要素として各スライドを生成し、選択したテーマ・ページ数・スタイルに沿った内容にします。",
+     "start": 124,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 209,
+     "updated_at": "2026-11-09T04:30:44.324Z",
+     "code": "MCB-36-02"
+    },
+    {
+     "id": "mcb_editable_review",
+     "product_id": "mcb",
+     "phase": "Phát triển nâng cấp luồng tạo slide ở chế độ Editable",
+     "phase_ja": "Editable モードでのスライド作成フローの強化",
+     "name": "Xem trước và chỉnh lại trước khi mở trong editor",
+     "name_ja": "エディタを開く前のプレビューと修正",
+     "note": "Xem trước toàn bộ slide vừa sinh, sinh lại riêng từng trang chưa ưng ý và chỉnh nhanh nội dung trước khi chuyển sang trình soạn thảo.",
+     "note_ja": "生成されたスライド全体をプレビューし、気に入らないページだけを再生成したり、内容を手早く修正してからエディタへ進めます。",
+     "start": 124,
+     "len": 11,
+     "milestone": 0,
+     "status": "in_progress",
+     "percent": 60,
+     "internal": 0,
+     "sort": 210,
+     "updated_at": "2026-11-09T04:30:44.324Z",
+     "code": "MCB-36-03"
     }
    ]
   },
@@ -3670,8 +3727,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:29:28.750Z",
+ "published_at": "2026-11-09T04:30:44.405Z",
  "changelog": [
+  {
+   "id": 696,
+   "item_id": "mcb_editable_review",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Xem trước và chỉnh lại trước khi mở trong editor\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:30:44.324Z"
+  },
+  {
+   "id": 695,
+   "item_id": "mcb_editable_generate",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Sinh slide Editable theo nội dung và bố cục đã chọn\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:30:44.324Z"
+  },
+  {
+   "id": 694,
+   "item_id": "mcb_editable_mode_pick",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Chọn chế độ Editable ngay khi tạo slide\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:30:44.324Z"
+  },
   {
    "id": 693,
    "item_id": "mcb_credit_superadmin_logs",
@@ -4141,36 +4228,6 @@
    "reason": null,
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T07:03:53.209Z"
-  },
-  {
-   "id": 646,
-   "item_id": "mo_tpl_set",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":92,\"len\":61},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.209Z"
-  },
-  {
-   "id": 645,
-   "item_id": "mo_tpl_set",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"in_progress\",\"to\":\"done\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.208Z"
-  },
-  {
-   "id": 644,
-   "item_id": "mo_opt_routing",
-   "product_id": "mosa",
-   "kind": "edit",
-   "detail": "{\"name\":\"Cải thiện Tool Selection / Routing & tối ưu Context\"}",
-   "reason": null,
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T07:03:53.208Z"
   }
  ]
 }

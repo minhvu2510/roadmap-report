@@ -3371,6 +3371,63 @@
      "sort": 201,
      "updated_at": "2026-11-09T04:26:05.664Z",
      "code": "MCB-33-03"
+    },
+    {
+     "id": "mcb_cmt_on_slide",
+     "product_id": "mcb",
+     "phase": "Comments cho Slide — góp ý trên trang, nhắc người, giao việc và quyền Commenter",
+     "phase_ja": "スライドのコメント — ページ上での指摘・メンション・タスク割り当て・コメント権限",
+     "name": "Góp ý gắn trực tiếp lên slide",
+     "name_ja": "スライド上への直接コメント",
+     "note": "Chọn một vùng hoặc một thành phần trên slide rồi để lại góp ý ngay tại chỗ đó; trao đổi qua lại trong cùng một luồng và đánh dấu đã xử lý khi xong.",
+     "note_ja": "スライド上の領域や要素を選んでその場にコメントを残せます。同じスレッドでやり取りし、対応が終わったら解決済みにできます。",
+     "start": 145,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 202,
+     "updated_at": "2026-11-09T04:27:16.843Z",
+     "code": "MCB-34-01"
+    },
+    {
+     "id": "mcb_cmt_mention_task",
+     "product_id": "mcb",
+     "phase": "Comments cho Slide — góp ý trên trang, nhắc người, giao việc và quyền Commenter",
+     "phase_ja": "スライドのコメント — ページ上での指摘・メンション・タスク割り当て・コメント権限",
+     "name": "Nhắc tên người và giao việc từ góp ý",
+     "name_ja": "メンションとタスク割り当て",
+     "note": "Gõ @ để nhắc đồng nghiệp vào đúng góp ý, hoặc giao góp ý đó thành việc cần làm có người phụ trách; người được nhắc nhận thông báo và xem được danh sách việc của mình.",
+     "note_ja": "@ で同僚をコメントに呼び、コメントを担当者付きのタスクとして割り当てられます。メンションされた人には通知が届き、自分の担当分を一覧で確認できます。",
+     "start": 145,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 203,
+     "updated_at": "2026-11-09T04:27:16.843Z",
+     "code": "MCB-34-02"
+    },
+    {
+     "id": "mcb_cmt_commenter_role",
+     "product_id": "mcb",
+     "phase": "Comments cho Slide — góp ý trên trang, nhắc người, giao việc và quyền Commenter",
+     "phase_ja": "スライドのコメント — ページ上での指摘・メンション・タスク割り当て・コメント権限",
+     "name": "Quyền Commenter khi chia sẻ",
+     "name_ja": "コメント専用権限での共有",
+     "note": "Mời người xem ở mức chỉ được góp ý, không sửa được nội dung; xem ai đang có quyền gì và thu hồi khi cần.",
+     "note_ja": "内容は編集できずコメントのみ可能な権限で相手を招待できます。誰にどの権限があるかを確認し、必要に応じて取り消せます。",
+     "start": 145,
+     "len": 28,
+     "milestone": 0,
+     "status": "not_started",
+     "percent": 0,
+     "internal": 0,
+     "sort": 204,
+     "updated_at": "2026-11-09T04:27:16.843Z",
+     "code": "MCB-34-03"
     }
    ]
   },
@@ -3556,8 +3613,38 @@
    ]
   }
  ],
- "published_at": "2026-11-09T04:26:05.757Z",
+ "published_at": "2026-11-09T04:27:16.924Z",
  "changelog": [
+  {
+   "id": 680,
+   "item_id": "mcb_cmt_commenter_role",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Quyền Commenter khi chia sẻ\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:27:16.843Z"
+  },
+  {
+   "id": 679,
+   "item_id": "mcb_cmt_mention_task",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Nhắc tên người và giao việc từ góp ý\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:27:16.843Z"
+  },
+  {
+   "id": 678,
+   "item_id": "mcb_cmt_on_slide",
+   "product_id": "mcb",
+   "kind": "create",
+   "detail": "{\"name\":\"Góp ý gắn trực tiếp lên slide\"}",
+   "reason": null,
+   "editor": "vunm07@hdc-flowtech.com",
+   "created_at": "2026-11-09T04:27:16.843Z"
+  },
   {
    "id": 677,
    "item_id": "mcb_analytics_dashboard",
@@ -4024,36 +4111,6 @@
    "product_id": "mosa",
    "kind": "reschedule",
    "detail": "{\"from\":{\"start\":160,\"len\":8},\"to\":{\"start\":92,\"len\":61}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 630,
-   "item_id": "mo_zoho2_design",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"in_progress\"}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 629,
-   "item_id": "mo_zoho2_survey",
-   "product_id": "mosa",
-   "kind": "reschedule",
-   "detail": "{\"from\":{\"start\":153,\"len\":7},\"to\":{\"start\":92,\"len\":30}}",
-   "reason": "Làm sớm hơn kế hoạch",
-   "editor": "vunm07@hdc-flowtech.com",
-   "created_at": "2026-10-30T06:49:51.447Z"
-  },
-  {
-   "id": 628,
-   "item_id": "mo_zoho2_survey",
-   "product_id": "mosa",
-   "kind": "status",
-   "detail": "{\"from\":\"not_started\",\"to\":\"done\"}",
    "reason": "Làm sớm hơn kế hoạch",
    "editor": "vunm07@hdc-flowtech.com",
    "created_at": "2026-10-30T06:49:51.447Z"
